@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal Brand Brief — Sanjay</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root{
+    --ink:#14181d;
+    --ink-soft:#4a545e;
+    --paper:#fbfaf7;
+    --rule:#d9d5cc;
+    --mark:#1f5f4d;
+    --mark-soft:#e3ede9;
+    --amber:#a8681c;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:'Newsreader',Georgia,serif;font-size:15px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .sheet{max-width:820px;margin:0 auto;padding:44px 48px 56px;}
+
+  .masthead{
+    display:flex;justify-content:space-between;align-items:flex-end;
+    border-bottom:2px solid var(--ink);padding-bottom:12px;margin-bottom:26px;
+  }
+  .masthead h1{font-size:27px;font-weight:600;letter-spacing:-0.015em;margin:0;line-height:1.1;}
+  .masthead .meta{
+    font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:0.06em;
+    text-transform:uppercase;color:var(--ink-soft);text-align:right;line-height:1.7;
+  }
+
+  .sec{margin-bottom:34px;}
+  .sec-head{
+    display:flex;align-items:baseline;gap:10px;
+    border-bottom:1px solid var(--rule);padding-bottom:5px;margin-bottom:16px;
+  }
+  .sec-num{font-family:'IBM Plex Mono',monospace;font-size:10.5px;font-weight:600;color:var(--mark);letter-spacing:0.08em;}
+  .sec-head h2{font-size:15.5px;font-weight:600;margin:0;letter-spacing:-0.005em;}
+  .sec-head .note{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-soft);margin-left:auto;letter-spacing:0.04em;}
+
+  p{margin:0 0 11px;}
+  .lead{font-size:16px;line-height:1.6;}
+  .fmd{
+    color:var(--mark);font-weight:600;font-style:italic;
+    background:var(--mark-soft);padding:0 4px;border-radius:2px;
+  }
+  em{color:var(--mark);font-style:italic;}
+  strong{font-weight:600;}
+
+  /* ---- snake ---- */
+  .snakewrap{margin:6px 0 0;}
+  svg.snake{width:100%;height:auto;display:block;overflow:visible;}
+  .track{fill:none;stroke:var(--rule);stroke-width:2;}
+  .dot{fill:var(--mark);}
+  .dot.open{fill:var(--paper);stroke:var(--amber);stroke-width:2;}
+  .nodebox{
+    font-family:'Newsreader',Georgia,serif;
+  }
+  .nodebox .yr{
+    font-family:'IBM Plex Mono',monospace;font-size:10.5px;font-weight:600;
+    color:#1f5f4d;letter-spacing:0.04em;display:block;line-height:1.4;
+  }
+  .nodebox .ttl{
+    font-size:12.5px;font-weight:600;color:#14181d;display:block;line-height:1.25;margin-bottom:2px;
+  }
+  .nodebox .dsc{
+    font-size:11px;color:#4a545e;display:block;line-height:1.4;
+  }
+  .nodebox.right{text-align:right;}
+
+  .carry{
+    font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;
+    letter-spacing:0.1em;text-transform:uppercase;color:var(--mark);
+    margin:22px 0 11px;padding-bottom:6px;
+    border-bottom:1px solid var(--rule);
+  }
+  .carrylist{list-style:none;margin:0;padding:0;}
+  .carrylist li{
+    font-size:14px;line-height:1.5;padding-left:16px;margin-bottom:8px;position:relative;
+  }
+  .carrylist li.hl{
+    background:#fdf6dd;
+    box-shadow:0 0 0 5px #fdf6dd;
+    border-radius:1px;
+  }
+  .carrylist li::before{
+    content:"";position:absolute;left:0;top:8px;width:5px;height:5px;background:var(--mark);
+  }
+
+  .nat{display:grid;grid-template-columns:1fr 1fr;gap:9px 26px;margin-top:2px;}
+  .nat div{font-size:13px;line-height:1.45;padding-left:15px;position:relative;}
+  .nat div::before{content:"";position:absolute;left:0;top:7px;width:5px;height:5px;background:var(--mark);}
+
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  th{
+    font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:0.09em;
+    text-transform:uppercase;color:var(--ink-soft);text-align:left;font-weight:500;
+    padding:0 8px 5px 0;border-bottom:1px solid var(--rule);
+  }
+  td{padding:7px 8px 7px 0;border-bottom:1px solid #ece9e2;vertical-align:top;}
+  td.n{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--mark);font-weight:600;width:22px;}
+  td.w{font-weight:600;width:36%;}
+  td.w .sub{
+    display:block;font-weight:400;font-size:11.5px;color:var(--ink-soft);
+    line-height:1.35;margin-top:2px;
+  }
+  td.r{color:var(--ink-soft);font-size:12.5px;}
+
+  .mobile-list{display:none;}
+  .mobile-list .m{padding:0 0 13px 16px;border-left:2px solid var(--rule);position:relative;}
+  .mobile-list .m::before{content:"";position:absolute;left:-5px;top:6px;width:8px;height:8px;border-radius:50%;background:var(--mark);}
+  .mobile-list .m .yr{font-family:'IBM Plex Mono',monospace;font-size:10.5px;font-weight:600;color:var(--mark);display:block;}
+  .mobile-list .m .ttl{font-weight:600;font-size:13.5px;display:block;}
+  .mobile-list .m .dsc{font-size:12px;color:var(--ink-soft);display:block;}
+
+  @media print{
+    body{background:#fff;}
+    .sheet{padding:22px 26px;max-width:100%;}
+    .sec{margin-bottom:24px;}
+  }
+  @media (max-width:760px){
+    .sheet{padding:26px 20px;}
+    .snakewrap{display:none;}
+    .mobile-list{display:block;}
+    .nat{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <div class="masthead">
+    <h1>Sanjay &ndash; Personal Brand Draft</h1>
+    <div class="meta">Fastcode AI<br>July 2026</div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-head">
+      <span class="sec-num">01</span>
+      <h2>The thesis</h2>
+          </div>
+    <p class="lead">Writing these down, a few things stood out. A lot had to go right even for the small things to happen. And in almost every scenario the baseline looked like luck, but some of it was engineered. I got into physics because I picked up the wrong book at a bookshop, and that one was pure accident. Most of the rest was me trying to increase the surface area of luck, so that situations landed near me and I was prepared to take advantage of them when they did. I did something interesting and met interesting people every summer of college because I was open to going out of my way, reaching out to people, showing more interest than the situation asked for. The week I decided I wanted to switch fields, I was talking to four professors, had applied for a bunch of internships, and was half a textbook in. So honestly things do happen when we just decide to do it. Same reason I flew west around the planet last year, because it was the only legal way to get east to a client.</p>
+
+    <p class="carry">Four things I want the personal posts to carry</p>
+    <ul class="carrylist">
+      <li class="hl"><strong>Becoming the most <span class="fmd">formidable</span> version of myself</strong> (Paul Graham vocab for the most desirable quality in a founder). That is how I would like to think about myself, and it is what I am working toward.</li>
+      <li><strong>The just-do-it mentality.</strong> You can literally just do things. Switch fields, send the email, get on the flight. Most people wait for permission that is not coming. We all know exactly what to do and still spend the time looking for what to do instead.</li>
+      <li><strong>Luck is not random.</strong> You cannot manufacture it, but you can widen the surface it lands on, and almost everything above is that.</li>
+      <li class="hl"><strong>And above all, do not take yourself too seriously.</strong> Most of these will lean funny and light-hearted rather than serious. Half the stories are me being an idiot who got lucky, and that is the part worth telling. Nobody needs another LinkedIn post about resilience.</li>
+    </ul>
+    <p class="lead" style="margin-top:12px;">All of this is setup. From mid-August I start posting about the SF trip itself, the prep and then the move, and that runs as a series.</p>
+  </div>
+
+  <div class="sec">
+    <div class="sec-head">
+      <span class="sec-num">02</span>
+      <h2>The timeline (stories recalled so far, will keep adding)</h2>
+    </div>
+
+    <div class="snakewrap">
+      <svg class="snake" viewBox="0 0 760 940" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline of personal stories from 2011 to 2026">
+
+        <path class="track" d="
+          M 30 40
+          H 620
+          C 700 40, 700 300, 620 300
+          H 126
+          C 46 300, 46 560, 140 560
+          H 620
+          C 700 560, 700 820, 620 820
+          H 140
+        "/>
+
+        <!-- ROW 1 : left to right -->
+        <circle class="dot" cx="30" cy="40" r="5"/>
+        <foreignObject x="24" y="54" width="168" height="230">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="nodebox">
+            <span class="yr">~2011</span>
+            <span class="ttl">The 12-coin problem</span>
+            <span class="dsc">Dad bet me a prize I could not find the fake coin among twelve in three weighings, not knowing if it was heavy or light. I was ten. Simple to state, and it broke my head for weeks.</span>
+          </div>
+        </foreignObject>
+
+        <circle class="dot" cx="222" cy="40" r="5"/>
+        <foreignObject x="216" y="54" width="168" height="230">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="nodebox">
+            <span class="yr">2015</span>
+            <span class="ttl">A Hawking book</span>
+            <span class="dsc">Went in for a novel, stumbled onto Hawking's Black Holes and Baby Universes. Most of it went over my head and I kept reading anyway. It is how I found out theoretical physics existed, and I decided that was what I wanted to study.</span>
+          </div>
+        </foreignObject>
+
+        <circle class="dot" cx="420" cy="40" r="5"/>
+        <foreignObject x="414" y="54" width="168" height="230">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="nodebox">
+            <span class="yr">2020</span>
+            <span class="ttl">Packing a theatre</span>
+            <span class="dsc">Cold-emailed CS professors as a physics first-year, because no physics or math lab would take me with no experience. Ended up on polygon packing under distancing constraints. NP-hard.</span>
+          </div>
+        </foreignObject>
+
+        <circle class="dot" cx="620" cy="40" r="5"/>
+        <foreignObject x="614" y="54" width="150" height="230">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="nodebox">
+            <span class="yr">2021</span>
+            <span class="ttl">Far side of the Moon</span>
+            <span class="dsc">Raman Research Institute. Wrote the C data pipeline for a radio astronomy instrument looking for signatures of the earliest stars. Also the first time I worked with people who were rocket scientists in the literal sense.</span>
+          </div>
+        </foreignObject>
+
+        <!-- ROW 2 : right to left -->
+        <circle class="dot" cx="620" cy="300" r="5"/>
+        <foreignObject x="452" y="314" width="174" height="230">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="nodebox right">
+            <span class="yr">2022</span>
+            <span class="ttl">Germany, by cold email</span>
+            <span class="dsc">Came up with some genuinely good ideas for reaching professors, all of it pre-AI. Got Harvard, no funding and I could not afford it. Got Berkeley, visa and funding fell through. Germany came last and is the one that happened.</span>
+          </div>
+        </foreignObject>
+
+        <circle class="dot" cx="446" cy="300" r="5"/>
+        <foreignObject x="292" y="314" width="160" height="230">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="nodebox right">
+            <span class="yr">2022</span>
+            <span class="ttl">Physics to ML</span>
+            <span class="dsc">Decided theoretical physics was not it. Met a Swiss research group using ML and statistical models on real science problems, and that was what sold me on applied research.</span>
+          </div>
+        </foreignObject>
+
+        <circle class="dot" cx="286" cy="300" r="5"/>
+        <foreignObject x="132" y="314" width="160" height="230">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="nodebox right">
+            <span class="yr">2022</span>
+            <span class="ttl">Contacting Arjun</span>
+            <span class="dsc">Working out how to get into ML, I went through every professor at IISc doing deep learning and wrote to them. That email started my career. Everything downstream is this.</span>
+          </div>
+        </foreignObject>
+
+        <circle class="dot" cx="126" cy="300" r="5"/>
+        <foreignObject x="-40" y="314" width="172" height="230">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="nodebox right">
+            <span class="yr">2023</span>
+            <span class="ttl">Fastcode, for the summer</span>
+            <span class="dsc">Arjun was running Fastcode with a couple of engineers. He offered an internship, I still had a rough plan to do a PhD, and this looked like a good use of the time plus some money. The summer job did not end.</span>
+          </div>
+        </foreignObject>
+
+        <!-- ROW 3 : left to right -->
+        <circle class="dot" cx="140" cy="560" r="5"/>
+        <foreignObject x="134" y="574" width="168" height="230">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="nodebox">
+            <span class="yr">2023</span>
+            <span class="ttl">No PhD</span>
+            <span class="dsc">Field moving too fast, commitment too long, and I was genuinely unsure. Not a conviction story.</span>
+          </div>
+        </foreignObject>
+
+        <circle class="dot" cx="320" cy="560" r="5"/>
+        <foreignObject x="314" y="574" width="168" height="230">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="nodebox">
+            <span class="yr">2024</span>
+            <span class="ttl">Masterstroke fails</span>
+            <span class="dsc">Cricket app, built with real belief, dead.</span>
+          </div>
+        </foreignObject>
+
+        <circle class="dot" cx="470" cy="560" r="5"/>
+        <foreignObject x="464" y="574" width="150" height="230">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="nodebox">
+            <span class="yr">2025</span>
+            <span class="ttl">Driplabs fails</span>
+            <span class="dsc">Diffusion try-on for brands. Built on someone else's vision, which may be the actual reason.</span>
+          </div>
+        </foreignObject>
+
+        <circle class="dot" cx="620" cy="560" r="5"/>
+        <foreignObject x="614" y="574" width="150" height="230">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="nodebox">
+            <span class="yr">2025</span>
+            <span class="ttl">Around the world</span>
+            <span class="dsc">Saudi client says come now. My only visa was an unused US one. Flew Bangalore to New York to Riyadh.</span>
+          </div>
+        </foreignObject>
+
+        <!-- ROW 4 -->
+        <circle class="dot open" cx="620" cy="820" r="5"/>
+        <foreignObject x="452" y="834" width="174" height="230">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="nodebox right">
+            <span class="yr">2026</span>
+            <span class="ttl">San Francisco</span>
+            <span class="dsc">Not lived yet. Photographing it from day one so it has receipts later.</span>
+          </div>
+        </foreignObject>
+      </svg>
+    </div>
+
+    <div class="mobile-list">
+      <div class="m"><span class="yr">~2011</span><span class="ttl">The 12-coin problem</span><span class="dsc">Dad bet me a prize I could not find the fake coin among twelve in three weighings, not knowing if it was heavy or light. I was ten. Simple to state, and it broke my head for weeks.</span></div>
+      <div class="m"><span class="yr">2015</span><span class="ttl">A Hawking book</span><span class="dsc">Went in for a novel, stumbled onto Hawking's Black Holes and Baby Universes. Most of it went over my head and I kept reading anyway. It is how I found out theoretical physics existed, and I decided that was what I wanted to study.</span></div>
+      <div class="m"><span class="yr">2020</span><span class="ttl">Packing a theatre</span><span class="dsc">Cold-emailed CS professors as a physics first-year, because no physics or math lab would take me with no experience. Ended up on polygon packing under distancing constraints. NP-hard.</span></div>
+      <div class="m"><span class="yr">2021</span><span class="ttl">Far side of the Moon</span><span class="dsc">Raman Research Institute. Wrote the C data pipeline for a radio astronomy instrument looking for signatures of the earliest stars. Also the first time I worked with people who were rocket scientists in the literal sense.</span></div>
+      <div class="m"><span class="yr">2022</span><span class="ttl">Germany, by cold email</span><span class="dsc">Came up with some genuinely good ideas for reaching professors, all of it pre-AI. Got Harvard, no funding and I could not afford it. Got Berkeley, visa and funding fell through. Germany came last and is the one that happened.</span></div>
+      <div class="m"><span class="yr">2022</span><span class="ttl">Physics to ML</span><span class="dsc">Decided theoretical physics was not it. Met a Swiss research group using ML and statistical models on real science problems, and that was what sold me on applied research.</span></div>
+      <div class="m"><span class="yr">2022</span><span class="ttl">Contacting Arjun</span><span class="dsc">Working out how to get into ML, I went through every professor at IISc doing deep learning and wrote to them. That email started my career. Everything downstream is this.</span></div>
+      <div class="m"><span class="yr">2023</span><span class="ttl">Fastcode, for the summer</span><span class="dsc">Arjun was running Fastcode with a couple of engineers. He offered an internship, I still had a rough plan to do a PhD, and this looked like a good use of the time plus some money. The summer job did not end.</span></div>
+      <div class="m"><span class="yr">2023</span><span class="ttl">No PhD</span><span class="dsc">Field moving too fast, commitment too long, and I was genuinely unsure. Not a conviction story.</span></div>
+      <div class="m"><span class="yr">2024</span><span class="ttl">Masterstroke fails</span><span class="dsc">Cricket app, built with real belief, dead.</span></div>
+      <div class="m"><span class="yr">2025</span><span class="ttl">Driplabs fails</span><span class="dsc">Diffusion try-on for brands. Built on someone else's vision, which may be the actual reason.</span></div>
+      <div class="m"><span class="yr">2025</span><span class="ttl">Around the world for a meeting</span><span class="dsc">Saudi client says come now. My only visa was an unused US one. Flew Bangalore to New York to Riyadh.</span></div>
+      <div class="m"><span class="yr">2026</span><span class="ttl">San Francisco</span><span class="dsc">Not lived yet. Photographing it from day one so it has receipts later.</span></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-head">
+      <span class="sec-num">03</span>
+      <h2>How the posts are built</h2>
+          </div>
+    <div class="nat">
+      <div>Real artifacts on screen. Sent-mail folders, the actual reply, boarding passes, manuscripts, bad generated samples, the book itself.</div>
+      <div>Ugly beats flattering. A blurry 2016 photo carries more credibility than anything shot well.</div>
+      <div>One scene, not a narrative arc. The bookshop counter. The Sunday morning the email landed. Detail does the work.</div>
+      <div>Be the idiot in the story, not the hero. Self-deprecation is what buys the seriousness later.</div>
+      <div>Never state the lesson. The post ends when the story ends, no closing aphorism.</div>
+      <div>Nothing staged now to look like then. If a story has no artifact, it runs without one or waits.</div>
+      <div>Crop hard on anything with other people in it. Friends and clients did not sign up for my LinkedIn.</div>
+      <div>Cadence: one or two personal posts a week against three technical. Technical carries credibility, personal carries memory.</div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-head">
+      <span class="sec-num">04</span>
+      <h2>Post order</h2>
+      <span class="note">Next ~8 weeks</span>
+    </div>
+    <table>
+      <tr><th></th><th>Post</th><th>Why here</th></tr>
+      <tr><td class="n">1</td><td class="w">Summer 2022<span class="sub">How I reached out for internships, what I did in Germany, and how I pivoted from physics to ML</span></td><td class="r">Establishing my background</td></tr>
+      <tr><td class="n">2</td><td class="w">Around the world for a meeting</td><td class="r">Best story in the file. Absurd, funny, unbeatable receipts. Runs when the SF move is contextually live.</td></tr>
+      <tr><td class="n">3</td><td class="w">The email to Arjun</td><td class="r">Direct company story, relevant to personal and Fastcode branding</td></tr>
+      <tr><td class="n">4</td><td class="w">The bookshop</td><td class="r">Early incident. Worth spending once there is an audience for personal posts.</td></tr>
+      <tr><td class="n">5</td><td class="w">One failure post</td><td class="r">Masterstroke or Driplabs, whichever is more interesting</td></tr>
+      <tr><td class="n">6</td><td class="w">Why not a PhD</td><td class="r">Why not a PhD, why industry. A personal decision story.</td></tr>
+      <tr><td class="n">7</td><td class="w">The 12-coin problem</td><td class="r">Fond childhood memory</td></tr>
+      <tr><td class="n">8</td><td class="w">A technical one<span class="sub">Geometric approximation algorithms, or the radio astronomy data pipeline</span></td><td class="r">Either one is a real problem with real artifacts, and it is still a personal story rather than a paper summary.</td></tr>
+    </table>
+  </div>
+
+</div>
+</body>
+</html>

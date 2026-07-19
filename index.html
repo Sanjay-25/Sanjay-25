@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Documents</title>
+<style>
+  :root{
+    --ink:#1a1a1a; --soft:#666; --rule:#e2e2e2; --link:#1f5f4d; --bg:#fbfaf7;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --ink:#e8e8e8; --soft:#9aa; --rule:#333; --link:#7fd1b9; --bg:#16181a; }
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .wrap{max-width:640px; margin:0 auto; padding:56px 24px 80px;}
+  h1{font-size:24px; font-weight:600; margin:0 0 4px;}
+  .sub{color:var(--soft); font-size:14px; margin:0 0 28px;}
+  ul{list-style:none; margin:0; padding:0; border-top:1px solid var(--rule);}
+  li{border-bottom:1px solid var(--rule);}
+  li a{
+    display:block; padding:14px 4px; color:var(--link);
+    text-decoration:none; font-size:17px;
+  }
+  li a:hover{text-decoration:underline;}
+  li a .file{display:block; color:var(--soft); font-size:12px; margin-top:2px;}
+  .empty{color:var(--soft); padding:16px 4px;}
+  footer{margin-top:36px; color:var(--soft); font-size:12px;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Documents</h1>
+    <p class="sub">Static HTML files hosted on GitHub Pages.</p>
+
+    <!-- Static fallback: always visible, works without JavaScript. -->
+    <ul id="file-list">
+      <li><a href="Sanjay_Personal_brand_notes.html">Sanjay Personal brand notes<span class="file">Sanjay_Personal_brand_notes.html</span></a></li>
+    </ul>
+
+    <footer>Index auto-updates from the repository. Add a file, commit, push &mdash; it appears here.</footer>
+  </div>
+
+<script>
+// Progressive enhancement: refresh the list from the live repo contents so
+// newly added .html files appear automatically. Falls back silently to the
+// static list above if the API is unreachable. Repo is derived from the URL,
+// so this keeps working if the repository is renamed.
+(function () {
+  var host = location.hostname;                 // e.g. sanjay-25.github.io
+  var owner = host.split('.')[0];
+  var seg = location.pathname.split('/').filter(Boolean)[0];
+  var repo = seg ? seg : owner + '.github.io';  // project page vs user page
+  var api = 'https://api.github.com/repos/' + owner + '/' + repo + '/contents/';
+
+  function label(name){
+    return name.replace(/\.html$/i, '').replace(/[_-]+/g, ' ').trim();
+  }
+
+  fetch(api, { headers: { 'Accept': 'application/vnd.github+json' } })
+    .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+    .then(function (items) {
+      var files = items
+        .filter(function (i) {
+          return i.type === 'file'
+            && /\.html$/i.test(i.name)
+            && i.name.toLowerCase() !== 'index.html';
+        })
+        .sort(function (a, b) { return a.name.localeCompare(b.name); });
+
+      var ul = document.getElementById('file-list');
+      if (!files.length) {
+        ul.innerHTML = '<li class="empty">No documents yet.</li>';
+        return;
+      }
+      ul.innerHTML = files.map(function (f) {
+        return '<li><a href="' + encodeURI(f.name) + '">' +
+               label(f.name) +
+               '<span class="file">' + f.name + '</span></a></li>';
+      }).join('');
+    })
+    .catch(function () { /* keep the static fallback list */ });
+})();
+</script>
+</body>
+</html>
