@@ -9,9 +9,6 @@ ROOT = os.path.dirname(HERE)
 LEAD = "We are Fast Code AI, an applied ML lab, and we are currently working with startups and enterprises on "
 TAIL = ", which is very close to what {company} needs."
 POOLS = [  # pool_id, sheet name, pool_name, proof_points, sentence middle, nameable clients
-    ("VOICE", "P1 Voice AI", "Voice AI agents and products", "P1",
-     "real-time voice AI systems that hold natural, low-latency conversations with people",
-     "None; the voice client must stay anonymous"),
     ("PHYS", "P2 Physical AI", "Perception and physical AI", "P2",
      "perception and vision-language models for vehicles and robots, including systems that run in production cars today",
      "Bosch; Mercedes-Benz (MBUX); CausalDriveBench (NeurIPS)"),
