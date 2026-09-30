@@ -286,7 +286,8 @@ def claim_result(c):
         "source_url": c["url"],
         "source_quote": short_quote(c["text"], c["money_text"]),
         "confidence": "High" if c["tier"] == 2 else "Medium" if c["tier"] in (3, 4) else "Low",
-    }, ([] if usd else [f"Amount stated as {c['money_text']} (not converted to USD)."])
+    }, ([] if usd else [f"Amount stated as {c['money_text']} (not converted to USD)."]) + \
+        ([] if d else ["Round date not stated on the source page; assumed post-YC because it is presented as current news."])
 
 
 # -------------------------------------------------------------------- main
@@ -354,6 +355,41 @@ def build_row(row, ed, ch, web, tracxn):
     return out
 
 
+def apply_review(rows):
+    """Web-search review of Tracxn-only leads (review/*_results.jsonl), applied before manual overrides."""
+    import glob
+    found = {}
+    for p in sorted(glob.glob(os.path.join(HERE, "review", "*_results.jsonl"))):
+        for line in open(p):
+            if line.strip():
+                try:
+                    d = json.loads(line)
+                except ValueError:
+                    continue
+                found[d["company_id"]] = d
+    for r in rows:
+        d = found.get(r["company_id"])
+        if not d or r["source_tier"] not in ("5", ""):
+            continue
+        tier = str(d.get("source_tier") or "")
+        note = "Web search review: " + (d.get("notes") or "")[:400]
+        if d.get("found") and d.get("post_yc") and tier in ("2", "3", "4"):
+            amt = d.get("amount_usd")
+            r.update(raised_post_yc="Yes", post_yc_amount_usd=fmt_money(float(amt)) if amt else "",
+                     round_type=d.get("round_type") or "", round_date=d.get("round_date") or "",
+                     lead_investors=d.get("lead_investors") or "", source_tier=tier,
+                     source_type=d.get("source_type") or "", source_url=d.get("source_url") or "",
+                     source_quote=(d.get("source_quote") or "")[:200],
+                     confidence="High" if tier == "2" and amt else "Medium" if amt else "Low")
+            r["notes"] = (note + " " + r["notes"])[:1500]
+        elif d.get("found") and d.get("post_yc") is False:
+            r["notes"] = ("Only a pre-YC round found in web search: " + (d.get("source_url") or "") + ". "
+                          + note + " " + r["notes"])[:1500]
+        else:
+            r["notes"] = (note + " " + r["notes"])[:1500]
+    return rows
+
+
 def apply_overrides(rows):
     p = os.path.join(HERE, "overrides.csv")
     if not os.path.exists(p):
@@ -395,8 +431,8 @@ def main():
         for cid, row in companies.items():
             if cid in have or cid not in edgar or cid not in web:
                 continue
-            res = apply_overrides([build_row(row, edgar.get(cid), ch.get(cid), web.get(cid),
-                                             num(row["tracxn_total_usd_LEAD_ONLY"]))])[0]
+            res = apply_overrides(apply_review([build_row(row, edgar.get(cid), ch.get(cid), web.get(cid),
+                                             num(row["tracxn_total_usd_LEAD_ONLY"]))]))[0]
             w.writerow(res)
             f.flush()
 
