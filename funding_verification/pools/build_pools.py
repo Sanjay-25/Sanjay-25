@@ -45,11 +45,15 @@ COLS = ["company_id", "company", "batch", "primary_space", "sub_space", "pool_id
 
 space = {r["company_id"]: r for r in csv.DictReader(open(os.path.join(ROOT, "spaces", "space_map.csv")))}
 res = {r["company_id"]: r for r in csv.DictReader(open(os.path.join(ROOT, "results.csv")))}
+# Voice AI companies removed from outreach at the user's request.
+EXCLUDE = set(open(os.path.join(HERE, "excluded_voice.txt")).read().split())
 rows = []
 for line in open(os.path.join(HERE, "assignments.psv")):
     if not line.strip():
         continue
     cid, pool, sec, fit, runner, core, reason, opener = line.rstrip("\n").split("|")
+    if cid in EXCLUDE:
+        continue
     r = res[cid]
     rows.append({"company_id": cid, "company": r["company"], "batch": r["batch"],
                  "primary_space": space[cid]["primary_space"], "sub_space": space[cid]["sub_space"],
