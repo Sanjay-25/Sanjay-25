@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002017605</cik>
+        <entityName>Forge Automation Corp.</entityName>
+        <issuerAddress>
+            <street1>91 FOREST HEIGHTS BLVD.</street1>
+            <city>NORTH YORK</city>
+            <stateOrCountry>A6</stateOrCountry>
+            <stateOrCountryDescription>ONTARIO, CANADA</stateOrCountryDescription>
+            <zipCode>M2L 2K7</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>647-983-3946</issuerPhoneNumber>
+        <jurisdictionOfInc>CANADA (FEDERAL LEVEL)</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2022</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Timothy</firstName>
+                <lastName>Seto</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>91 Forest Heights Blvd.</street1>
+                <city>North York</city>
+                <stateOrCountry>A6</stateOrCountry>
+                <stateOrCountryDescription>ONTARIO, CANADA</stateOrCountryDescription>
+                <zipCode>M2L 2K7</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Walter</firstName>
+                <lastName>Raftus</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>91 Forest Heights Blvd.</street1>
+                <city>North York</city>
+                <stateOrCountry>A6</stateOrCountry>
+                <stateOrCountryDescription>ONTARIO, CANADA</stateOrCountryDescription>
+                <zipCode>M2L 2K7</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other Technology</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>$1 - $1,000,000</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2024-03-22</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isSecurityToBeAcquiredType>true</isSecurityToBeAcquiredType>
+            <isOtherType>true</isOtherType>
+            <descriptionOfOtherType>Simple Agreements for Future Equity (SAFEs) giving each holder the right to receive equity securities of the  company automatically upon the occurrence of certain events</descriptionOfOtherType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>135000</totalOfferingAmount>
+            <totalAmountSold>135000</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>2</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse>A portion of the net proceeds may be used for general working capital purposes, including for payments to officers and directors in the ordinary course, but proceeds are not earmarked for such payments</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Forge Automation Corp.</issuerName>
+                <signatureName>/s/ Timothy Seto</signatureName>
+                <nameOfSigner>Timothy Seto</nameOfSigner>
+                <signatureTitle>President</signatureTitle>
+                <signatureDate>2024-04-04</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001917205</cik>
+        <entityName>Senteon Inc.</entityName>
+        <issuerAddress>
+            <street1>253 MAIN STREET</street1>
+            <street2>SUITE 152</street2>
+            <city>MATAWAN</city>
+            <stateOrCountry>NJ</stateOrCountry>
+            <stateOrCountryDescription>NEW JERSEY</stateOrCountryDescription>
+            <zipCode>07747</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>732-737-4592</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2022</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Henry</firstName>
+                <lastName>Zhang</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>253 Main Street</street1>
+                <street2>Suite 152</street2>
+                <city>Matawan</city>
+                <stateOrCountry>NJ</stateOrCountry>
+                <stateOrCountryDescription>NEW JERSEY</stateOrCountryDescription>
+                <zipCode>07747</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Chief Executive Officer</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Chris</firstName>
+                <lastName>Harris</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>253 Main Street</street1>
+                <street2>Suite 152</street2>
+                <city>Matawan</city>
+                <stateOrCountry>NJ</stateOrCountry>
+                <stateOrCountryDescription>NEW JERSEY</stateOrCountryDescription>
+                <zipCode>07747</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Chief Operating Officer</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Ron</firstName>
+                <lastName>Gula</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>253 Main Street</street1>
+                <street2>Suite 152</street2>
+                <city>Matawan</city>
+                <stateOrCountry>NJ</stateOrCountry>
+                <stateOrCountryDescription>NEW JERSEY</stateOrCountryDescription>
+                <zipCode>07747</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other Technology</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2024-11-27</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>50000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>2067395</totalOfferingAmount>
+            <totalAmountSold>2067395</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>6</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Senteon Inc.</issuerName>
+                <signatureName>/s/ Henry Zhang</signatureName>
+                <nameOfSigner>Henry Zhang</nameOfSigner>
+                <signatureTitle>Chief Executive Officer</signatureTitle>
+                <signatureDate>2024-12-10</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

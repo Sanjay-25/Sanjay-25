@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001879293</cik>
+        <entityName>Mag Mile Capital, Inc.</entityName>
+        <issuerAddress>
+            <street1>1141 W. RANDOLPH ST.</street1>
+            <street2>SUITE 200</street2>
+            <city>CHICAGO</city>
+            <stateOrCountry>IL</stateOrCountry>
+            <stateOrCountryDescription>ILLINOIS</stateOrCountryDescription>
+            <zipCode>60607</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>(312) 642-0100</issuerPhoneNumber>
+        <jurisdictionOfInc>OKLAHOMA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <previousName>Lewis Resources, Inc.</previousName>
+            <previousName>Vangusrd Mining Corporation</previousName>
+            <previousName>Myson Group, Inc.</previousName>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <previousName>Myson, Inc.</previousName>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Rushi</firstName>
+                <lastName>Shah</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1141 W. Randolph St.</street1>
+                <street2>Suite 200</street2>
+                <city>Chicago</city>
+                <stateOrCountry>IL</stateOrCountry>
+                <stateOrCountryDescription>ILLINOIS</stateOrCountryDescription>
+                <zipCode>60607</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Commercial</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>$1,000,001 - $5,000,000</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-06-29</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>10000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>Indefinite</totalOfferingAmount>
+            <totalAmountSold>170000</totalAmountSold>
+            <totalRemaining>Indefinite</totalRemaining>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>4</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>10000</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Mag Mile Capital, Inc.</issuerName>
+                <signatureName>/s/ Rushi Shah</signatureName>
+                <nameOfSigner>Rushi Shah</nameOfSigner>
+                <signatureTitle>President and CEO</signatureTitle>
+                <signatureDate>2024-09-11</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

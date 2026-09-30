@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001935410</cik>
+        <entityName>Boost Wealth Fund LLC</entityName>
+        <issuerAddress>
+            <street1>1441 WOODMONT LANE, NW</street1>
+            <street2>SUITE 3002</street2>
+            <city>ATLANTA</city>
+            <stateOrCountry>GA</stateOrCountry>
+            <stateOrCountryDescription>GEORGIA</stateOrCountryDescription>
+            <zipCode>30318</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>877-395-3610</issuerPhoneNumber>
+        <jurisdictionOfInc>WYOMING</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2022</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Philippe</firstName>
+                <lastName>Schulligen</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>2000 Satellite Pte</street1>
+                <street2>#7108</street2>
+                <city>Duluth</city>
+                <stateOrCountry>GA</stateOrCountry>
+                <stateOrCountryDescription>GEORGIA</stateOrCountryDescription>
+                <zipCode>30096</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>William</firstName>
+                <middleName>Jefferson</middleName>
+                <lastName>Rodriguez</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>11220 Brassica Land</street1>
+                <city>King George</city>
+                <stateOrCountry>VA</stateOrCountry>
+                <stateOrCountryDescription>VIRGINIA</stateOrCountryDescription>
+                <zipCode>22485</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Christopher</firstName>
+                <lastName>Price</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>177 Davis Ave</street1>
+                <city>White Plains</city>
+                <stateOrCountry>NY</stateOrCountry>
+                <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+                <zipCode>10605</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Commercial</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06c</item>
+            <item>3C</item>
+            <item>3C.1</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001935410-22-000003</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <yetToOccur>true</yetToOccur>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>15000000</totalOfferingAmount>
+            <totalAmountSold>1900000</totalAmountSold>
+            <totalRemaining>13100000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>17</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Boost Wealth Fund LLC</issuerName>
+                <signatureName>Philippe Schulligen</signatureName>
+                <nameOfSigner>Philippe Schulligen</nameOfSigner>
+                <signatureTitle>Co-Founder</signatureTitle>
+                <signatureDate>2025-11-24</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>
