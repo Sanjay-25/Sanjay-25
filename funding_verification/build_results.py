@@ -87,7 +87,10 @@ BANKISH = re.compile(r"\b(bancorp|bancshares|bank|financial|credit union|trust|r
                      r"therapeutics|biosciences|pharma\w*|energy|mining|metals|gold|minerals)\b", re.I)
 # Approximate first CIK assigned in each year; a company new enough for its batch has a CIK above the
 # cutoff for the year before its batch started.
-CIK_BY_YEAR = {2019: 1_760_000, 2020: 1_800_000, 2021: 1_840_000, 2022: 1_890_000, 2023: 1_940_000,
+CIK_BY_YEAR = {2004: 1_290_000, 2005: 1_320_000, 2006: 1_350_000, 2007: 1_390_000, 2008: 1_420_000,
+               2009: 1_455_000, 2010: 1_480_000, 2011: 1_510_000, 2012: 1_540_000, 2013: 1_570_000,
+               2014: 1_600_000, 2015: 1_630_000, 2016: 1_660_000, 2017: 1_695_000, 2018: 1_725_000,
+               2019: 1_760_000, 2020: 1_800_000, 2021: 1_840_000, 2022: 1_890_000, 2023: 1_940_000,
                2024: 1_980_000, 2025: 2_030_000, 2026: 2_080_000}
 
 
