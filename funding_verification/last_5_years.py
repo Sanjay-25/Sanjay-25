@@ -1,8 +1,8 @@
-"""Combine every batch group into one list of YC companies that raised since 1 Oct 2023.
+"""Combine every batch group into one list of YC companies that raised since 1 Oct 2021 (last 5 years).
 
 Inputs: results_expanded.csv in this folder (Fall 2024 to Summer 2026), batch_2020_2024/ and batch_pre2020/,
 plus the date checks in batch_pre2020/review/date_batch*_results.jsonl.
-Output: last_3_years.csv.
+Output: last_5_years.csv.
 """
 import csv
 import glob
@@ -10,7 +10,7 @@ import json
 import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-CUTOFF = "2023-10-01"
+CUTOFF = "2021-10-01"
 GROUPS = [
     ("2005 to Summer 2019", os.path.join(HERE, "batch_pre2020")),
     ("Winter 2020 to Summer 2024", os.path.join(HERE, "batch_2020_2024")),
@@ -74,7 +74,7 @@ def main():
                 "job_titles_sample": r["job_titles_sample"], "industry": r["industry"], "notes": notes,
             })
     out.sort(key=lambda x: x["latest_round_date"] or "", reverse=True)
-    with open(os.path.join(HERE, "last_3_years.csv"), "w", newline="") as f:
+    with open(os.path.join(HERE, "last_5_years.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=COLS)
         w.writeheader()
         w.writerows(out)
