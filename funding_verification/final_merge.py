@@ -86,6 +86,41 @@ def main():
             excluded.append(row)
         else:
             out.append(row)
+    # Rechecked companies (recheck/batch*_results.jsonl): add those with a confirmed round since Oct 2021.
+    import glob
+    seen = {dom(r["website"]) for r in out} | {dom(r["website"]) for r in excluded}
+    comps = {}
+    for folder in ["batch_2020_2024", "batch_pre2020"]:
+        for c in csv.DictReader(open(os.path.join(HERE, folder, "companies.csv"))):
+            comps[c["company_id"]] = c
+    for p in glob.glob(os.path.join(HERE, "recheck", "batch*_results.jsonl")):
+        for line in open(p):
+            if not line.strip():
+                continue
+            d = json.loads(line)
+            c = comps.get(d["company_id"])
+            if not c or not d.get("raised_since_2021_10") or dom(c["website"]) in seen:
+                continue
+            date = (d.get("round_date") or "")[:10]
+            if date and len(date) == 7:
+                date += "-01"
+            if date and date < "2021-10-01":
+                continue
+            m = meta.get(dom(c["website"])) or {}
+            row = build(None, {"company": c["company"], "website": c["website"], "batch": c["batch"],
+                               "one_liner": c["one_liner"], "latest_round_date": date,
+                               "latest_round_amount_usd": d.get("amount_usd") or "", "round_type": d.get("round_type") or "",
+                               "lead_investors": d.get("lead_investors") or "", "source_url": d.get("source_url") or "",
+                               "total_raised_known_usd": d.get("total_raised_usd") or "",
+                               "date_basis": "recheck web search, tier " + str(d.get("source_tier") or "")},
+                        ycd.get(dom(c["website"])), meta, unmatched)
+            row["source"] = "Verified only"
+            if d.get("over_200m") is True:
+                row["exclusion_reason"] = "Total raised over $200M (recheck)"
+                excluded.append(row)
+            else:
+                out.append(row)
+            seen.add(dom(c["website"]))
     out.sort(key=lambda r: r["latest_round_date"] or "", reverse=True)
     cols = list(out[0].keys())
     for name, rows in [("final_5y_under_200m.csv", out), ("final_excluded.csv", excluded)]:
