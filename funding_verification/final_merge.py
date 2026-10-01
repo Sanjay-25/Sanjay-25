@@ -128,6 +128,28 @@ def main():
             else:
                 out.append(row)
             seen.add(dom(c["website"]))
+    # One row per YC company: Tracxn can list a renamed company under its old domain.
+    def key(r):
+        h = ycd.get(dom(r["website"])) or ycn.get(norm(r["company"]))
+        return h["slug"] if h else "site:" + dom(r["website"])
+    merged = {}
+    for r in out:
+        k = key(r)
+        if k not in merged:
+            merged[k] = r
+            continue
+        a, b = merged[k], r
+        keep, other = (a, b) if (a["latest_round_date"] or "") >= (b["latest_round_date"] or "") else (b, a)
+        if a["source"] != b["source"] or "Both" in (a["source"], b["source"]):
+            keep["source"] = "Both"
+        for f in ("verified_source_url", "lead_investors", "open_positions", "eng_jobs", "ml_jobs", "careers_url",
+                  "job_titles_sample", "team_size", "total_funding_usd"):
+            if not keep.get(f) and other.get(f):
+                keep[f] = other[f]
+        if dom(keep["website"]) != dom(other["website"]):
+            keep["website"] = a["website"] if a["source"] != "Tracxn only" else b["website"]
+        merged[k] = keep
+    out = list(merged.values())
     out.sort(key=lambda r: r["latest_round_date"] or "", reverse=True)
     cols = list(out[0].keys())
     for name, rows in [("final_5y_under_200m.csv", out), ("final_excluded.csv", excluded)]:
