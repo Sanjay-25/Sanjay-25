@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001834452</cik>
+        <entityName>Seaya Ventures III Fondo De Capital Riesgo, FCRE</entityName>
+        <issuerAddress>
+            <street1>CALLE ALCALA 54, 1 DERECHA</street1>
+            <city>MADRID</city>
+            <stateOrCountry>U3</stateOrCountry>
+            <stateOrCountryDescription>SPAIN</stateOrCountryDescription>
+            <zipCode>28014</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>34 91 110 86 97</issuerPhoneNumber>
+        <jurisdictionOfInc>SPAIN</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Other</entityType>
+        <entityTypeOtherDesc>European Venture Capital Fund (EuVECA).</entityTypeOtherDesc>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2020</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Juan</firstName>
+                <lastName>Gonzalez del Castillo Burgos</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Calle Alcala 54, 1 derecha</street1>
+                <city>Madrid</city>
+                <stateOrCountry>U3</stateOrCountry>
+                <stateOrCountryDescription>SPAIN</stateOrCountryDescription>
+                <zipCode>28014</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>S.A.U.</firstName>
+                <lastName>Seaya Capital Gestion, SGEIC,</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Calle Alcala 54, 1 derecha</street1>
+                <city>Madrid</city>
+                <stateOrCountry>U3</stateOrCountry>
+                <stateOrCountryDescription>SPAIN</stateOrCountryDescription>
+                <zipCode>28014</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Management Company of the Issuer</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Private Equity Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.7</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2020-11-19</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>Indefinite</totalOfferingAmount>
+            <totalAmountSold>562600</totalAmountSold>
+            <totalRemaining>Indefinite</totalRemaining>
+            <clarificationOfResponse>Includes only securities sold to US investors by the issuer in reliance on Reg. D (excludes securities sold to non-US Investors in reliance on Reg. S).</clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Seaya Ventures III Fondo De Capital Riesgo, FCRE</issuerName>
+                <signatureName>/s/Juan Gonzalez del Castillo</signatureName>
+                <nameOfSigner>Juan Gonzalez del Castillo Burgos</nameOfSigner>
+                <signatureTitle>CFO of the Management Company of the Issuer</signatureTitle>
+                <signatureDate>2021-01-11</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

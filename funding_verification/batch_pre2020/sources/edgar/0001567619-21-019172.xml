@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001890733</cik>
+        <entityName>Bird Buddy, Inc.</entityName>
+        <issuerAddress>
+            <street1>JAMNIKARJEVA 33</street1>
+            <city>LJUBLJANA</city>
+            <stateOrCountry>2A</stateOrCountry>
+            <stateOrCountryDescription>SLOVENIA</stateOrCountryDescription>
+            <zipCode>1000</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>831.207.4066</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2020</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Franci</firstName>
+                <lastName>Zidar</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Jamnikarjeva 33</street1>
+                <city>Ljubljana</city>
+                <stateOrCountry>2A</stateOrCountry>
+                <stateOrCountryDescription>SLOVENIA</stateOrCountryDescription>
+                <zipCode>1000</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Ziga</firstName>
+                <lastName>Vrtacic</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Jamnikarjeva 33</street1>
+                <city>Ljubljana</city>
+                <stateOrCountry>2A</stateOrCountry>
+                <stateOrCountryDescription>SLOVENIA</stateOrCountryDescription>
+                <zipCode>1000</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Andre</firstName>
+                <lastName>de Haes</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Jamnikarjeva 33</street1>
+                <city>Ljubljana</city>
+                <stateOrCountry>2A</stateOrCountry>
+                <stateOrCountryDescription>SLOVENIA</stateOrCountryDescription>
+                <zipCode>1000</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Kyle</firstName>
+                <lastName>Buzzard</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Jamnikarjeva 33</street1>
+                <city>Ljubljana</city>
+                <stateOrCountry>2A</stateOrCountry>
+                <stateOrCountryDescription>SLOVENIA</stateOrCountryDescription>
+                <zipCode>1000</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2021-10-18</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>8619983</totalOfferingAmount>
+            <totalAmountSold>8619983</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>15</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Bird Buddy, Inc.</issuerName>
+                <signatureName>Franci Zidar</signatureName>
+                <nameOfSigner>Franci Zidar</nameOfSigner>
+                <signatureTitle>President</signatureTitle>
+                <signatureDate>2021-11-02</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

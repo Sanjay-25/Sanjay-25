@@ -22,6 +22,11 @@ COLS = ["batch_group", "company_id", "company", "batch", "website", "one_liner",
         "open_positions", "eng_jobs", "ml_jobs", "ats", "careers_url", "job_titles_sample", "industry", "notes"]
 
 
+def batch_start(batch):
+    season, year = batch.split()
+    return f"{year}-{dict(Winter='01', Spring='04', Summer='06', Fall='09')[season]}-01"
+
+
 def norm_date(s):
     s = (s or "").strip()
     return s + "-01" if len(s) == 7 else s[:10]
@@ -55,8 +60,8 @@ def main():
                 if d.get("over_200m") is not None:
                     over = "Yes" if d["over_200m"] else "No"
                 notes = ("Date check: " + (d.get("notes") or "")[:300] + " " + notes)[:1500]
-            # Batches from Fall 2024 on started after the cutoff, so any post-YC raise is inside the window.
-            recent_batch = label.startswith("Fall 2024")
+            # Batches that started after the cutoff: any post-YC raise is inside the window, dated or not.
+            recent_batch = batch_start(r["batch"]) >= CUTOFF
             if not (recent_batch or (date and date >= CUTOFF)):
                 continue
             seen.add(r["company_id"])
