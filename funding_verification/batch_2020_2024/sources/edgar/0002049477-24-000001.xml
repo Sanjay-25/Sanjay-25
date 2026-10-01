@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002049477</cik>
+        <entityName>Bluestem Home at Queens Court, LLC</entityName>
+        <issuerAddress>
+            <street1>497 BRAMSON COURT</street1>
+            <street2>SUITE 102</street2>
+            <city>MOUNT PLEASANT</city>
+            <stateOrCountry>SC</stateOrCountry>
+            <stateOrCountryDescription>SOUTH CAROLINA</stateOrCountryDescription>
+            <zipCode>29464</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>8433032829</issuerPhoneNumber>
+        <jurisdictionOfInc>SOUTH CAROLINA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2024</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Robert</firstName>
+                <middleName>Matthew</middleName>
+                <lastName>Jones</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>179 Wentworth Street</street1>
+                <city>Charleston</city>
+                <stateOrCountry>SC</stateOrCountry>
+                <stateOrCountryDescription>SOUTH CAROLINA</stateOrCountryDescription>
+                <zipCode>29401</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Robert Jones is the manager of BLUESTEM HOLDINGS LLC, which is the manager of Issuer</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>William</firstName>
+                <middleName>Todd</middleName>
+                <lastName>Ussery</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>329 Tidal Place Circle</street1>
+                <city>Mount Pleasant</city>
+                <stateOrCountry>SC</stateOrCountry>
+                <stateOrCountryDescription>SOUTH CAROLINA</stateOrCountryDescription>
+                <zipCode>29464</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Residential</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>No Revenues</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>04</item>
+            <item>06b</item>
+            <item>4a5</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2024-12-05</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>500000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>8000000</totalOfferingAmount>
+            <totalAmountSold>8000000</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>4</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Bluestem Home at Queens Court, LLC</issuerName>
+                <signatureName>/s/Robert Matthew Jones</signatureName>
+                <nameOfSigner>Robert Matthew Jones</nameOfSigner>
+                <signatureTitle>Manager BLUESTEM HOLDINGS LLC, Manager of Issuer</signatureTitle>
+                <signatureDate>2024-12-20</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

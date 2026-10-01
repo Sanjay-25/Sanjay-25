@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001976884</cik>
+        <entityName>Infinity Square Digital LLC</entityName>
+        <issuerAddress>
+            <street1>59 MEADOW PARK AVE</street1>
+            <street2>#1042</street2>
+            <city>LEWIS CENTER</city>
+            <stateOrCountry>OH</stateOrCountry>
+            <stateOrCountryDescription>OHIO</stateOrCountryDescription>
+            <zipCode>43035</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>614.467.0397</issuerPhoneNumber>
+        <jurisdictionOfInc>OHIO</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Daniel</firstName>
+                <middleName>Abraham</middleName>
+                <lastName>Nixon</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>59 Meadow Park Ave</street1>
+                <street2>#1042</street2>
+                <city>Lewis Center</city>
+                <stateOrCountry>OH</stateOrCountry>
+                <stateOrCountryDescription>OHIO</stateOrCountryDescription>
+                <zipCode>43035</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Robert</firstName>
+                <lastName>Lindeman</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>59 Meadow Park Ave</street1>
+                <street2>#1042</street2>
+                <city>Lewis Center</city>
+                <stateOrCountry>OH</stateOrCountry>
+                <stateOrCountryDescription>OHIO</stateOrCountryDescription>
+                <zipCode>43035</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001976884-23-000001</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-06-14</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>1</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>100000000</totalOfferingAmount>
+            <totalAmountSold>986996</totalAmountSold>
+            <totalRemaining>99013004</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>9</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>19739</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse>As consideration for the performance of asset management to the issuer, the related persons are entitled to a pro rata share of an annual fee in an amount equal to 2.0% of net asset value. Estimate is based on current amount of gross offering proceeds.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Infinity Square Digital LLC</issuerName>
+                <signatureName>/s/ Daniel Abraham Nixon</signatureName>
+                <nameOfSigner>Daniel Abraham Nixon</nameOfSigner>
+                <signatureTitle>President</signatureTitle>
+                <signatureDate>2024-07-23</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

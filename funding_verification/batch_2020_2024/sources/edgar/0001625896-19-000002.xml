@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001625896</cik>
+        <entityName>Nectar Foods, Inc.</entityName>
+        <issuerAddress>
+            <street1>2030 N WILLIAMS AVENUE</street1>
+            <city>PORTLAND</city>
+            <stateOrCountry>OR</stateOrCountry>
+            <stateOrCountryDescription>OREGON</stateOrCountryDescription>
+            <zipCode>97227</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>5037991780</issuerPhoneNumber>
+        <jurisdictionOfInc>OREGON</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Christy</firstName>
+                <lastName>Goldsby</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>2030 N WILLIAMS AVENUE</street1>
+                <city>Portland</city>
+                <stateOrCountry>OR</stateOrCountry>
+                <stateOrCountryDescription>OREGON</stateOrCountryDescription>
+                <zipCode>97227</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Jon</firstName>
+                <middleName>J</middleName>
+                <lastName>Maroney</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>2030 N WILLIAMS AVENUE</street1>
+                <city>Portland</city>
+                <stateOrCountry>OR</stateOrCountry>
+                <stateOrCountryDescription>OREGON</stateOrCountryDescription>
+                <zipCode>97227</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Jared</firstName>
+                <lastName>Schwartz</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>2030 N WILLIAMS AVENUE</street1>
+                <city>Portland</city>
+                <stateOrCountry>OR</stateOrCountry>
+                <stateOrCountryDescription>OREGON</stateOrCountryDescription>
+                <zipCode>97227</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001625896-18-000001</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2018-04-25</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isDebtType>true</isDebtType>
+            <isOptionToAcquireType>true</isOptionToAcquireType>
+            <isSecurityToBeAcquiredType>true</isSecurityToBeAcquiredType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>10000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>1100000</totalOfferingAmount>
+            <totalAmountSold>600000</totalAmountSold>
+            <totalRemaining>500000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>15</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse>Excluding compensation paid to executive officers in the ordinary course of business</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Nectar Foods, Inc.</issuerName>
+                <signatureName>/s/ Jared Schwartz</signatureName>
+                <nameOfSigner>Jared Schwartz</nameOfSigner>
+                <signatureTitle>Chief Executive Officer</signatureTitle>
+                <signatureDate>2019-04-02</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

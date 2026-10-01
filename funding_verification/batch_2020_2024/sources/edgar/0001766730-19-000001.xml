@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001766730</cik>
+        <entityName>Fathom CC, LLC</entityName>
+        <issuerAddress>
+            <street1>80 EXCHANGE STREET</street1>
+            <street2>SUITE 400</street2>
+            <city>PORTLAND</city>
+            <stateOrCountry>ME</stateOrCountry>
+            <stateOrCountryDescription>MAINE</stateOrCountryDescription>
+            <zipCode>04101</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>207-808-8787</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2018</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>James</firstName>
+                <lastName>Brady</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>80 Exchange Street</street1>
+                <street2>Suite 400</street2>
+                <city>Portland</city>
+                <stateOrCountry>ME</stateOrCountry>
+                <stateOrCountryDescription>MAINE</stateOrCountryDescription>
+                <zipCode>04101</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>President of the manager of the Issuer.</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Dennis</firstName>
+                <lastName>Ruppel</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>80 Exchange Street</street1>
+                <street2>Suite 400</street2>
+                <city>Portland</city>
+                <stateOrCountry>ME</stateOrCountry>
+                <stateOrCountryDescription>MAINE</stateOrCountryDescription>
+                <zipCode>04101</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Treasurer and Secretary of the manager of the Issuer.</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Chris</firstName>
+                <lastName>Ruppel</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>80 Exchange Street</street1>
+                <street2>Suite 400</street2>
+                <city>Portland</city>
+                <stateOrCountry>ME</stateOrCountry>
+                <stateOrCountryDescription>MAINE</stateOrCountryDescription>
+                <zipCode>04101</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Vice President of the manager of the Issuer.</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Commercial</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.1</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2018-12-31</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>100000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>17500000</totalOfferingAmount>
+            <totalAmountSold>2700000</totalAmountSold>
+            <totalRemaining>14800000</totalRemaining>
+            <clarificationOfResponse>A total of up to $17,500,000 may be sold together with an affiliated fund.</clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Fathom CC, LLC</issuerName>
+                <signatureName>/s/James H. Brady</signatureName>
+                <nameOfSigner>James H. Brady</nameOfSigner>
+                <signatureTitle>Manager</signatureTitle>
+                <signatureDate>2019-02-12</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001463459</cik>
+        <entityName>Emergent Health Corp.</entityName>
+        <issuerAddress>
+            <street1>10120 VALLEY FORGE CIRCLE</street1>
+            <city>KING OF PRUSSIA</city>
+            <stateOrCountry>PA</stateOrCountry>
+            <stateOrCountryDescription>PENNSYLVANIA</stateOrCountryDescription>
+            <zipCode>19406</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>484-518-9000</issuerPhoneNumber>
+        <jurisdictionOfInc>WYOMING</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <previousName>Rolling Stone Retirement Community, Inc.</previousName>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>John</firstName>
+                <middleName>Vincent</middleName>
+                <lastName>Cappello</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>10120 Valley Forge Circle</street1>
+                <city>King of Prussia</city>
+                <stateOrCountry>PA</stateOrCountry>
+                <stateOrCountryDescription>PENNSYLVANIA</stateOrCountryDescription>
+                <zipCode>19406</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other Health Care</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>$1 - $1,000,000</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001553350-15-001089</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2015-10-08</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>10000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>300000</totalOfferingAmount>
+            <totalAmountSold>150000</totalAmountSold>
+            <totalRemaining>150000</totalRemaining>
+            <clarificationOfResponse>Offering is closed. First sale $35,000 10-15-2015; Last sale total $115,000 1-21-2016; Based upon information supplied by past CFO Chris Swenson. This is an Amendment being filed late as past CFO did not file in 2016.</clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>11</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>30000</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Emergent Health Corp.</issuerName>
+                <signatureName>/s/ John V. Cappello</signatureName>
+                <nameOfSigner>John V. Cappello</nameOfSigner>
+                <signatureTitle>President</signatureTitle>
+                <signatureDate>2019-06-10</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001778692</cik>
+        <entityName>Elevate Ventures NSG Investment Fund, LLC</entityName>
+        <issuerAddress>
+            <street1>313 CHAMBERS AVENUE, SUITE D</street1>
+            <street2>x3609</street2>
+            <city>EAGLE</city>
+            <stateOrCountry>CO</stateOrCountry>
+            <stateOrCountryDescription>COLORADO</stateOrCountryDescription>
+            <zipCode>81631</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>9703287526</issuerPhoneNumber>
+        <jurisdictionOfInc>COLORADO</jurisdictionOfInc>
+        <edgarPreviousNameList>
+            <previousName>Elevate Ventures NSG Convert 2, LLC</previousName>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2019</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Kenneth</firstName>
+                <middleName>A</middleName>
+                <lastName>Armstrong</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>313 Chambers Avenue, Suite D</street1>
+                <street2>PO Box 3609</street2>
+                <city>Eagle</city>
+                <stateOrCountry>CO</stateOrCountry>
+                <stateOrCountryDescription>COLORADO</stateOrCountryDescription>
+                <zipCode>81631</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Venture Capital Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2020-02-25</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>50000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>15000000</totalOfferingAmount>
+            <totalAmountSold>50000</totalAmountSold>
+            <totalRemaining>14950000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>1000</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse>used for reimbursement of expenses</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Elevate Ventures NSG Investment Fund, LLC</issuerName>
+                <signatureName>Kenneth A Armstrong</signatureName>
+                <nameOfSigner>Kenneth A Armstrong</nameOfSigner>
+                <signatureTitle>General Manager of Elevate Ventures, LLC (a general manager)</signatureTitle>
+                <signatureDate>2020-02-28</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

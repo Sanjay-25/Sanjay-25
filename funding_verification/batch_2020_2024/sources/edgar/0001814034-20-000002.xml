@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001814034</cik>
+        <entityName>Campfire Investments, LLC</entityName>
+        <issuerAddress>
+            <street1>1077 CELESTIAL STREET</street1>
+            <street2>BUILDING 1</street2>
+            <city>CINCINNATI</city>
+            <stateOrCountry>OH</stateOrCountry>
+            <stateOrCountryDescription>OHIO</stateOrCountryDescription>
+            <zipCode>45202</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>5133715533</issuerPhoneNumber>
+        <jurisdictionOfInc>OHIO</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2019</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Brent</firstName>
+                <middleName>C</middleName>
+                <lastName>Rippe</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1077 Celestial Street</street1>
+                <street2>Building 1</street2>
+                <city>Cincinnati</city>
+                <stateOrCountry>OH</stateOrCountry>
+                <stateOrCountryDescription>OHIO</stateOrCountryDescription>
+                <zipCode>45202</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Manager</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Investing</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>No Revenues</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001814034-20-000001</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2020-06-11</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>true</isBusinessCombinationTransaction>
+            <clarificationOfResponse>The company is the using the proceeds received by investors to purchase stock from existing shareholders of Campfire, Inc.</clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>25000</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>RKCA, Inc.</recipientName>
+                <recipientCRDNumber>17655</recipientCRDNumber>
+                <associatedBDName>RKCA, Inc.</associatedBDName>
+                <associatedBDCRDNumber>17655</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>1077 Celestial Street</street1>
+                    <street2>Building 1</street2>
+                    <city>Cincinnati</city>
+                    <stateOrCountry>OH</stateOrCountry>
+                    <stateOrCountryDescription>OHIO</stateOrCountryDescription>
+                    <zipCode>45202</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <state>CA</state>
+                    <description>CALIFORNIA</description>
+                    <state>IN</state>
+                    <description>INDIANA</description>
+                    <state>KY</state>
+                    <description>KENTUCKY</description>
+                    <state>OH</state>
+                    <description>OHIO</description>
+                </statesOfSolicitationList>
+                <foreignSolicitation>false</foreignSolicitation>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>21021000</totalOfferingAmount>
+            <totalAmountSold>6155400</totalAmountSold>
+            <totalRemaining>14865600</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>28</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse>No sales commission but there is a prorated closing fee of $450,0000 plus an ongoing management fee and carried interest fee as outlined in the PPM</clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Campfire Investments, LLC</issuerName>
+                <signatureName>Brent C. Rippe</signatureName>
+                <nameOfSigner>Brent C. Rippe</nameOfSigner>
+                <signatureTitle>Manager</signatureTitle>
+                <signatureDate>2020-06-25</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001988330</cik>
+        <entityName>Pure Oil &amp; Gas - MC 1 LP</entityName>
+        <issuerAddress>
+            <street1>13001 N. 73rd Street St.</street1>
+            <street2>Ste. 204</street2>
+            <city>Scottsdale</city>
+            <stateOrCountry>AZ</stateOrCountry>
+            <stateOrCountryDescription>ARIZONA</stateOrCountryDescription>
+            <zipCode>85260</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>319-239-0440</issuerPhoneNumber>
+        <jurisdictionOfInc>TEXAS</jurisdictionOfInc>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Partnership</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Jeremy</firstName>
+                <lastName>Larsen</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>13001 N. 73rd Street St.</street1>
+                <street2>Ste. 204</street2>
+                <city>Scottsdale</city>
+                <stateOrCountry>AZ</stateOrCountry>
+                <stateOrCountryDescription>ARIZONA</stateOrCountryDescription>
+                <zipCode>85260</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Pres. &amp; Director of Pure Oil &amp; Gas, Inc.,The General Partner</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Oil and Gas</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>No Revenues</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-07-20</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>11000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>350000</totalOfferingAmount>
+            <totalAmountSold>175000</totalAmountSold>
+            <totalRemaining>175000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <numberNonAccreditedInvestors>0</numberNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>14</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>PURE OIL &amp; GAS - MC 1 LP</issuerName>
+                <signatureName>/s/ Jeremy Larsen</signatureName>
+                <nameOfSigner>Jeremy Larsen</nameOfSigner>
+                <signatureTitle>Pres. &amp; Director of Pure Oil &amp; Gas, Inc.,The General Partner</signatureTitle>
+                <signatureDate>2023-08-02</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001917237</cik>
+        <entityName>Pillar Software, Inc.</entityName>
+        <issuerAddress>
+            <street1>830 MASSACHUSETTS AVE</street1>
+            <street2>SUITE 1500, FL 3</street2>
+            <city>INDIANAPOLIS</city>
+            <stateOrCountry>IN</stateOrCountry>
+            <stateOrCountryDescription>INDIANA</stateOrCountryDescription>
+            <zipCode>46204</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>317-777-6760</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <previousName>Dovetail Software, Inc.</previousName>
+            <previousName>Luma Software, Inc.</previousName>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2020</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Mark</firstName>
+                <lastName>Simpson</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>830 Massachusetts Ave, Suite 1500, Fl 3</street1>
+                <city>Indianapolis</city>
+                <stateOrCountry>IN</stateOrCountry>
+                <stateOrCountryDescription>INDIANA</stateOrCountryDescription>
+                <zipCode>46204</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Scott</firstName>
+                <lastName>Dorsey</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>830 Massachusetts Ave, Suite 1500, Fl 4</street1>
+                <city>Indianapolis</city>
+                <stateOrCountry>IN</stateOrCountry>
+                <stateOrCountryDescription>INDIANA</stateOrCountryDescription>
+                <zipCode>46204</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Eric</firstName>
+                <lastName>Tobias</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>830 Massachusetts Ave, Suite 1500, Fl 4</street1>
+                <city>Indianapolis</city>
+                <stateOrCountry>IN</stateOrCountry>
+                <stateOrCountryDescription>INDIANA</stateOrCountryDescription>
+                <zipCode>46204</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other Technology</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2022-02-25</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isDebtType>true</isDebtType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>2825000</totalOfferingAmount>
+            <totalAmountSold>2725000</totalAmountSold>
+            <totalRemaining>100000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>29</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Pillar Software, Inc.</issuerName>
+                <signatureName>/s/ Mark Simpson</signatureName>
+                <nameOfSigner>Mark Simpson</nameOfSigner>
+                <signatureTitle>Chief Executive Officer</signatureTitle>
+                <signatureDate>2022-03-15</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

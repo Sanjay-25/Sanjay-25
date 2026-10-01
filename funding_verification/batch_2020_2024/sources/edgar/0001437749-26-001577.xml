@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002106283</cik>
+        <entityName>Flint Ridge Plaza LLC</entityName>
+        <issuerAddress>
+            <street1>4123 26th Street NW</street1>
+            <city>Rochester</city>
+            <stateOrCountry>MN</stateOrCountry>
+            <stateOrCountryDescription>MINNESOTA</stateOrCountryDescription>
+            <zipCode>55901</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>507-246-0036</issuerPhoneNumber>
+        <jurisdictionOfInc>MINNESOTA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2025</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>n/a</firstName>
+                <lastName>Legacy Capital Partners LLC</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>4123 26th Street NW</street1>
+                <city>Rochester</city>
+                <stateOrCountry>MN</stateOrCountry>
+                <stateOrCountryDescription>MINNESOTA</stateOrCountryDescription>
+                <zipCode>55901</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Manager of the Issuer</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Ben</firstName>
+                <lastName>Kall</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>4123 26th Street NW</street1>
+                <city>Rochester</city>
+                <stateOrCountry>MN</stateOrCountry>
+                <stateOrCountryDescription>MINNESOTA</stateOrCountryDescription>
+                <zipCode>55901</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Co-Managing Member of the Manager</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Jonah</firstName>
+                <middleName>D.</middleName>
+                <lastName>Waxman</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>4123 26th Street NW</street1>
+                <city>Rochester</city>
+                <stateOrCountry>MN</stateOrCountry>
+                <stateOrCountryDescription>MINNESOTA</stateOrCountryDescription>
+                <zipCode>55901</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Co-Managing Member of the Manager</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Commercial</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2025-11-26</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>25000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>2360000</totalOfferingAmount>
+            <totalAmountSold>2360000</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>34</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Flint Ridge Plaza LLC</issuerName>
+                <signatureName>/s/ Jonah D. Waxman</signatureName>
+                <nameOfSigner>Jonah D. Waxman</nameOfSigner>
+                <signatureTitle>Co-Managing Member of the Manager</signatureTitle>
+                <signatureDate>2026-01-20</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001876787</cik>
+        <entityName>Bamboo Oberlin, LLC</entityName>
+        <issuerAddress>
+            <street1>16150 SW UPPER BOONES FERRY ROAD</street1>
+            <city>PORTLAND</city>
+            <stateOrCountry>OR</stateOrCountry>
+            <stateOrCountryDescription>OREGON</stateOrCountryDescription>
+            <zipCode>97224</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>503-464-6787</issuerPhoneNumber>
+        <jurisdictionOfInc>MISSOURI</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2021</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Matthew</firstName>
+                <lastName>Burk</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>16150 SW UPPER BOONES FERRY ROAD</street1>
+                <city>PORTLAND</city>
+                <stateOrCountry>OR</stateOrCountry>
+                <stateOrCountryDescription>OREGON</stateOrCountryDescription>
+                <zipCode>97224</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>N/A</firstName>
+                <lastName>Fairway America Management Group IV LLC</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>16150 SW UPPER BOONES FERRY ROAD</street1>
+                <city>PORTLAND</city>
+                <stateOrCountry>OR</stateOrCountry>
+                <stateOrCountryDescription>OREGON</stateOrCountryDescription>
+                <zipCode>97224</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>N/A</firstName>
+                <lastName>Fairway Bamboo GP Fund LLC</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>16150 SW UPPER BOONES FERRY ROAD</street1>
+                <city>PORTLAND</city>
+                <stateOrCountry>OR</stateOrCountry>
+                <stateOrCountryDescription>OREGON</stateOrCountryDescription>
+                <zipCode>97224</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Commercial</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06c</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <yetToOccur>true</yetToOccur>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>50000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>4000000</totalOfferingAmount>
+            <totalAmountSold>0</totalAmountSold>
+            <totalRemaining>4000000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>0</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse>The Manager of the Issuer and certain affiliates thereof will receive asset management, acquisition, and administrative fees. These fees, which cannot be reasonably estimated at this time, may be deemed to have been paid from the offering proceeds.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Bamboo Oberlin, LLC</issuerName>
+                <signatureName>/s/ Matthew Burk</signatureName>
+                <nameOfSigner>Matthew Burk</nameOfSigner>
+                <signatureTitle>Manager of Co-Manager of Manager of Issuer</signatureTitle>
+                <signatureDate>2021-08-04</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

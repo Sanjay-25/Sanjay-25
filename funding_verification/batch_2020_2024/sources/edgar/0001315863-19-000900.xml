@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001460380</cik>
+        <entityName>DOUBLE EAGLE OFFSHORE CAPITAL ACE FUND LTD</entityName>
+        <issuerAddress>
+            <street1>C/O STUARTS CORPORATE SERVICE LTD</street1>
+            <street2>KENSINGTON HOUSE, 69 DR. ROY'S DRIVE</street2>
+            <city>GEORGE TOWN</city>
+            <stateOrCountry>E9</stateOrCountry>
+            <stateOrCountryDescription>CAYMAN ISLANDS</stateOrCountryDescription>
+            <zipCode>KY1-1104</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>972-869-6880</issuerPhoneNumber>
+        <jurisdictionOfInc>CAYMAN ISLANDS</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Other</entityType>
+        <entityTypeOtherDesc>Cayman Islands exempted company</entityTypeOtherDesc>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Ernest</firstName>
+                <middleName>W.</middleName>
+                <lastName>Kuehne, III</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1301 Solana Boulevard</street1>
+                <street2>Building One, Suite 1480</street2>
+                <city>Westlake</city>
+                <stateOrCountry>TX</stateOrCountry>
+                <stateOrCountryDescription>TEXAS</stateOrCountryDescription>
+                <zipCode>76262</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Ernest W. Kuehne, III is the manager of Double Eagle Capital LLC.  Double Eagle Capital LLC is the general partner of Double Eagle Capital Management LP.  Double Eagle Capital Management LP is the investment manager of the Issuer.</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Hedge Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <aggregateNetAssetValueRange>Decline to Disclose</aggregateNetAssetValueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.1</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001315863-18-000864</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2007-12-03</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>250000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>Indefinite</totalOfferingAmount>
+            <totalAmountSold>2506885</totalAmountSold>
+            <totalRemaining>Indefinite</totalRemaining>
+            <clarificationOfResponse>The total amount sold reflects the sale of Opportunity Fund Class C Shares and the Opportunity Fund Legacy Class C Shares.</clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>7</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse>The investment manager is entitled to a performance fee and a management fee.  The performance fee and management fee are fully discussed in the Issuer's confidential offering materials.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>DOUBLE EAGLE OFFSHORE CAPITAL ACE FUND LTD</issuerName>
+                <signatureName>/s/ Ernest W. Kuehne, III</signatureName>
+                <nameOfSigner>Ernest W. Kuehne, III</nameOfSigner>
+                <signatureTitle>Manager of Double Eagle Capital LLC</signatureTitle>
+                <signatureDate>2019-11-06</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

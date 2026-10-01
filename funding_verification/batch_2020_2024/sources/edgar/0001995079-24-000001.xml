@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001995079</cik>
+        <entityName>Daedalus Investment Holdings Ltd</entityName>
+        <issuerAddress>
+            <street1>UNIT 601, 6/F, HOSEINEE HOUSE</street1>
+            <street2>69 WYNDHAM STREET</street2>
+            <city>CENTRAL</city>
+            <stateOrCountry>K3</stateOrCountry>
+            <stateOrCountryDescription>HONG KONG</stateOrCountryDescription>
+            <zipCode>999077</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>852 3628 2233</issuerPhoneNumber>
+        <jurisdictionOfInc>VIRGIN ISLANDS, BRITISH</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Jinkyu</firstName>
+                <lastName>Hong</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Unit 601, 6/F, Hoseinee House</street1>
+                <street2>69 Wyndham Street</street2>
+                <city>Central</city>
+                <stateOrCountry>K3</stateOrCountry>
+                <stateOrCountryDescription>HONG KONG</stateOrCountryDescription>
+                <zipCode>999077</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Director of the Issuer</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Other Investment Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <aggregateNetAssetValueRange>Decline to Disclose</aggregateNetAssetValueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.1</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001995079-23-000002</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-09-12</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>4000</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>BCW Securities LLC</recipientName>
+                <recipientCRDNumber>144930</recipientCRDNumber>
+                <associatedBDName>None</associatedBDName>
+                <associatedBDCRDNumber>None</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>55 Post Road West, Suite 200</street1>
+                    <city>Westport</city>
+                    <stateOrCountry>CT</stateOrCountry>
+                    <stateOrCountryDescription>CONNECTICUT</stateOrCountryDescription>
+                    <zipCode>06880</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <state>CA</state>
+                    <description>CALIFORNIA</description>
+                    <state>CO</state>
+                    <description>COLORADO</description>
+                    <state>CT</state>
+                    <description>CONNECTICUT</description>
+                    <state>DE</state>
+                    <description>DELAWARE</description>
+                    <state>FL</state>
+                    <description>FLORIDA</description>
+                    <state>NJ</state>
+                    <description>NEW JERSEY</description>
+                    <state>NY</state>
+                    <description>NEW YORK</description>
+                    <state>OH</state>
+                    <description>OHIO</description>
+                    <state>PA</state>
+                    <description>PENNSYLVANIA</description>
+                    <state>WA</state>
+                    <description>WASHINGTON</description>
+                </statesOfSolicitationList>
+                <foreignSolicitation>true</foreignSolicitation>
+            </recipient>
+            <recipient>
+                <recipientName>Ascent Capital Advisors Limited</recipientName>
+                <recipientCRDNumber>None</recipientCRDNumber>
+                <associatedBDName>None</associatedBDName>
+                <associatedBDCRDNumber>None</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>601 Hoseinee House</street1>
+                    <street2>69 Wyndham Street</street2>
+                    <city>Central</city>
+                    <stateOrCountry>K3</stateOrCountry>
+                    <stateOrCountryDescription>HONG KONG</stateOrCountryDescription>
+                    <zipCode>999077</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList></statesOfSolicitationList>
+                <foreignSolicitation>true</foreignSolicitation>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>6060000</totalOfferingAmount>
+            <totalAmountSold>6060000</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>39</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>212100</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Daedalus Investment Holdings Ltd</issuerName>
+                <signatureName>/s/ Jinkyu Hong</signatureName>
+                <nameOfSigner>Jinkyu Hong</nameOfSigner>
+                <signatureTitle>Director of Issuer</signatureTitle>
+                <signatureDate>2024-03-01</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

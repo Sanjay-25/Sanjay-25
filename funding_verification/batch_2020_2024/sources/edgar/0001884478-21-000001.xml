@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001884478</cik>
+        <entityName>Anchor Capital 12, a Series of Anchor Capital GP I, LLC</entityName>
+        <issuerAddress>
+            <street1>2830 Jackson Avenue</street1>
+            <street2>Apt 15E</street2>
+            <city>Long Island City</city>
+            <stateOrCountry>NY</stateOrCountry>
+            <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+            <zipCode>11101</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>(631) 334-4222</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2021</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>LLC</firstName>
+                <lastName>Anchor Capital GP I</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>2830 Jackson Avenue</street1>
+                <street2>Apt 15E</street2>
+                <city>Long Island City</city>
+                <stateOrCountry>NY</stateOrCountry>
+                <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+                <zipCode>11101</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Issuer's Manager</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Richard</firstName>
+                <lastName>Thoms</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>PO Box 171305</street1>
+                <city>Salt Lake City</city>
+                <stateOrCountry>UT</stateOrCountry>
+                <stateOrCountryDescription>UTAH</stateOrCountryDescription>
+                <zipCode>84117</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Officer of the Issuer's Administrative Manager</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>LLC</firstName>
+                <lastName>Assure Fund Management II</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>PO Box 171305</street1>
+                <city>Salt Lake City</city>
+                <stateOrCountry>UT</stateOrCountry>
+                <stateOrCountryDescription>UTAH</stateOrCountryDescription>
+                <zipCode>84117</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Issuer's Administrative Manager</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Other Investment Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <aggregateNetAssetValueRange>Decline to Disclose</aggregateNetAssetValueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C.1</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2021-09-27</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>25000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>1660000</totalOfferingAmount>
+            <totalAmountSold>1660000</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>15</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>13500</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse>This amount represents a one-time cost to cover fund organizational and operating expenses.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <signature>
+                <issuerName>Anchor  Capital 12, a Series of Anchor Capital GP I, LLC</issuerName>
+                <signatureName>Richard Thoms</signatureName>
+                <nameOfSigner>Richard Thoms</nameOfSigner>
+                <signatureTitle>Officer of the Issuer's Administrative Manager</signatureTitle>
+                <signatureDate>2021-09-27</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

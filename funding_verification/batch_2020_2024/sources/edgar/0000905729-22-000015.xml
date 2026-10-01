@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001557827</cik>
+        <entityName>Atomic Object LLC</entityName>
+        <issuerAddress>
+            <street1>1034 WEALTHY S.E.</street1>
+            <city>GRAND RAPIDS</city>
+            <stateOrCountry>MI</stateOrCountry>
+            <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+            <zipCode>49506</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>616-776-6020</issuerPhoneNumber>
+        <jurisdictionOfInc>MICHIGAN</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Carl</firstName>
+                <middleName>B.</middleName>
+                <lastName>Erickson</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1034 Wealthy S.E.</street1>
+                <city>Grand Rapids</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>49506</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Shawn</firstName>
+                <middleName>P.</middleName>
+                <lastName>Crowley</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1034 Wealthy S.E.</street1>
+                <city>Grand Rapids</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>49506</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Michael</firstName>
+                <middleName>J.</middleName>
+                <lastName>Marsiglia</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1034 Wealthy S.E.</street1>
+                <city>Grand Rapids</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>49506</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Computers</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>04</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2022-01-01</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>5000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>2222000</totalOfferingAmount>
+            <totalAmountSold>1574510</totalAmountSold>
+            <totalRemaining>647490</totalRemaining>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>true</hasNonAccreditedInvestors>
+            <numberNonAccreditedInvestors>13</numberNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>15</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>1574510</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Atomic Object LLC</issuerName>
+                <signatureName>/s/ Carl B. Erickson</signatureName>
+                <nameOfSigner>Carl B. Erickson</nameOfSigner>
+                <signatureTitle>Executive Chairman</signatureTitle>
+                <signatureDate>2022-01-14</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

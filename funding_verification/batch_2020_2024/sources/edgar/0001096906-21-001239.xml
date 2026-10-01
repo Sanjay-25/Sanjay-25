@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001863486</cik>
+        <entityName>SPARK CC LLC</entityName>
+        <issuerAddress>
+            <street1>223 RANDALL ST.</street1>
+            <city>GREENVILLE</city>
+            <stateOrCountry>SC</stateOrCountry>
+            <stateOrCountryDescription>SOUTH CAROLINA</stateOrCountryDescription>
+            <zipCode>29609</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>650-575-6114</issuerPhoneNumber>
+        <jurisdictionOfInc>SOUTH CAROLINA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2021</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Arn</firstName>
+                <lastName>Cenedella</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>223 Randall St.</street1>
+                <city>Greenville</city>
+                <stateOrCountry>SC</stateOrCountry>
+                <stateOrCountryDescription>SOUTH CAROLINA</stateOrCountryDescription>
+                <zipCode>29609</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Brian</firstName>
+                <lastName>Walsh</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>223 Randall St.</street1>
+                <city>Greenville</city>
+                <stateOrCountry>SC</stateOrCountry>
+                <stateOrCountryDescription>SOUTH CAROLINA</stateOrCountryDescription>
+                <zipCode>29609</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Reed</firstName>
+                <lastName>Goosens</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>223 Randall St.</street1>
+                <city>Greenville</city>
+                <stateOrCountry>SC</stateOrCountry>
+                <stateOrCountryDescription>SOUTH CAROLINA</stateOrCountryDescription>
+                <zipCode>29609</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Residential</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>No Revenues</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2021-05-14</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>25000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>1500000</totalOfferingAmount>
+            <totalAmountSold>1486000</totalAmountSold>
+            <totalRemaining>14000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>true</hasNonAccreditedInvestors>
+            <numberNonAccreditedInvestors>13</numberNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>28</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>30000</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>SPARK CC LLC</issuerName>
+                <signatureName>/s/ Arn Cenedella</signatureName>
+                <nameOfSigner>Arn Cenedella</nameOfSigner>
+                <signatureTitle>Manager of Issuer's Manager</signatureTitle>
+                <signatureDate>2021-05-17</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

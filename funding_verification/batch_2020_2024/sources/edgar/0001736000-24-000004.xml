@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001736000</cik>
+        <entityName>GenoPalate, Inc.</entityName>
+        <issuerAddress>
+            <street1>10437 W INNOVATION DR</street1>
+            <street2>STE 465</street2>
+            <city>MILWAUKEE</city>
+            <stateOrCountry>WI</stateOrCountry>
+            <stateOrCountryDescription>WISCONSIN</stateOrCountryDescription>
+            <zipCode>53226</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>414-801-6686</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Yi</firstName>
+                <lastName>Zhang</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>10437 W Innovation Dr</street1>
+                <street2>Ste 465</street2>
+                <city>Milwaukee</city>
+                <stateOrCountry>WI</stateOrCountry>
+                <stateOrCountryDescription>WISCONSIN</stateOrCountryDescription>
+                <zipCode>53226</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Founder</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>John</firstName>
+                <lastName>Byrnes</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>10437 W Innovation Dr</street1>
+                <street2>Ste 465</street2>
+                <city>Milwaukee</city>
+                <stateOrCountry>WI</stateOrCountry>
+                <stateOrCountryDescription>WISCONSIN</stateOrCountryDescription>
+                <zipCode>53226</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Asif</firstName>
+                <lastName>Naseem</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>10437 W Innovation Dr</street1>
+                <street2>Ste 465</street2>
+                <city>Milwaukee</city>
+                <stateOrCountry>WI</stateOrCountry>
+                <stateOrCountryDescription>WISCONSIN</stateOrCountryDescription>
+                <zipCode>53226</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Biotechnology</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>$1,000,001 - $5,000,000</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2024-10-03</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>50000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>10000000</totalOfferingAmount>
+            <totalAmountSold>3000000</totalAmountSold>
+            <totalRemaining>7000000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>4</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>40000</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>GenoPalate, Inc.</issuerName>
+                <signatureName>Michael D McNally</signatureName>
+                <nameOfSigner>Michael D McNally</nameOfSigner>
+                <signatureTitle>CFO</signatureTitle>
+                <signatureDate>2024-12-10</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

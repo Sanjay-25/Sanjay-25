@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001994056</cik>
+        <entityName>Grain Communications Opportunity Fund IV-B (TPA), L.P.</entityName>
+        <issuerAddress>
+            <street1>1900 K STREET, NW</street1>
+            <street2>SUITE 650</street2>
+            <city>WASHINGTON</city>
+            <stateOrCountry>DC</stateOrCountry>
+            <stateOrCountryDescription>DISTRICT OF COLUMBIA</stateOrCountryDescription>
+            <zipCode>20006</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>(202) 779-9055</issuerPhoneNumber>
+        <jurisdictionOfInc>CAYMAN ISLANDS</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Other</entityType>
+        <entityTypeOtherDesc>Exempted Limited Partnership</entityTypeOtherDesc>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>David</firstName>
+                <middleName>J.</middleName>
+                <lastName>Grain</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1900 K Street, NW</street1>
+                <street2>Suite 650</street2>
+                <city>Washington</city>
+                <stateOrCountry>DC</stateOrCountry>
+                <stateOrCountryDescription>DISTRICT OF COLUMBIA</stateOrCountryDescription>
+                <zipCode>20006</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>President of the Managing Member of the General Partner of the General Partner of the Issuer</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Other Investment Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <aggregateNetAssetValueRange>Decline to Disclose</aggregateNetAssetValueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.7</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-10-20</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>1</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>4500000000</totalOfferingAmount>
+            <totalAmountSold>1063875000</totalAmountSold>
+            <totalRemaining>3436125000</totalRemaining>
+            <clarificationOfResponse>The Total Offering Amount, Total Amount Sold and Total Remaining to be Sold is for the Issuer and its parallel vehicles.</clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse>The Issuer will pay a management fee to GCOF IV Management, L.P., which is the management company of the Issuer.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Grain Communications Opportunity Fund IV-B (TPA), L.P.</issuerName>
+                <signatureName>/s/ David J. Grain</signatureName>
+                <nameOfSigner>David J. Grain</nameOfSigner>
+                <signatureTitle>CEO of the Managing Member of the GP of the GP of the Issuer</signatureTitle>
+                <signatureDate>2023-10-30</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

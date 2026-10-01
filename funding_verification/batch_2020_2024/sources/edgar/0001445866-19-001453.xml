@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001796679</cik>
+        <entityName>Clear Springs Resort, LLC</entityName>
+        <issuerAddress>
+            <street1>1366 E. 15TH STREET</street1>
+            <city>EDMOND</city>
+            <stateOrCountry>OK</stateOrCountry>
+            <stateOrCountryDescription>OKLAHOMA</stateOrCountryDescription>
+            <zipCode>73013</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>405-340-1717</issuerPhoneNumber>
+        <jurisdictionOfInc>OKLAHOMA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2018</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Gregory</firstName>
+                <middleName>Kent</middleName>
+                <lastName>Womack</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1366 E. 15TH STREET</street1>
+                <city>EDMOND</city>
+                <stateOrCountry>OK</stateOrCountry>
+                <stateOrCountryDescription>OKLAHOMA</stateOrCountryDescription>
+                <zipCode>73013</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Manager</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Commercial</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>$5,000,001 - $25,000,000</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06c</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <yetToOccur>true</yetToOccur>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>25000</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>Ricardo Gonzalez</recipientName>
+                <recipientCRDNumber>2139772</recipientCRDNumber>
+                <associatedBDName>Exemplar Capital , LLC</associatedBDName>
+                <associatedBDCRDNumber>155786</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>Ten Post Office Square</street1>
+                    <street2>8th Floor</street2>
+                    <city>Boston</city>
+                    <stateOrCountry>MA</stateOrCountry>
+                    <stateOrCountryDescription>MASSACHUSETTS</stateOrCountryDescription>
+                    <zipCode>90290</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <value>All States</value>
+                </statesOfSolicitationList>
+                <foreignSolicitation>false</foreignSolicitation>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>6136000</totalOfferingAmount>
+            <totalAmountSold>6136000</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>0</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Clear Springs Resort, LLC</issuerName>
+                <signatureName>/s/ Greg Womack</signatureName>
+                <nameOfSigner>Greg Womack</nameOfSigner>
+                <signatureTitle>Manager</signatureTitle>
+                <signatureDate>2019-12-10</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

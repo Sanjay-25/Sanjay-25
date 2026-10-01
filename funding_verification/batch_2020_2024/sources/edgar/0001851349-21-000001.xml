@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001851349</cik>
+        <entityName>Ping An Voyager Partners, LP</entityName>
+        <issuerAddress>
+            <street1>C/O OGIER GLOBAL (CAYMAN) LIMITED</street1>
+            <street2>89 NEXUS WAY, CAMANA BAY</street2>
+            <city>GRAND CAYMAN</city>
+            <stateOrCountry>E9</stateOrCountry>
+            <stateOrCountryDescription>CAYMAN ISLANDS</stateOrCountryDescription>
+            <zipCode>KY1-9009</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>185296837212</issuerPhoneNumber>
+        <jurisdictionOfInc>CAYMAN ISLANDS</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Other</entityType>
+        <entityTypeOtherDesc>Cayman Islands exempted limited partnership</entityTypeOtherDesc>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2020</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>[none]</firstName>
+                <lastName>Ping An Voyager Partners GP Company Limited</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>c/o Ogier Global (Cayman) Limited</street1>
+                <street2>89 Nexus Way, Camana Bay</street2>
+                <city>Grand Cayman</city>
+                <stateOrCountry>E9</stateOrCountry>
+                <stateOrCountryDescription>CAYMAN ISLANDS</stateOrCountryDescription>
+                <zipCode>KY1-9009</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>General Partner of the Issuer.</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>[none]</firstName>
+                <lastName>Global Voyager Fund (HK) Company Limited</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Two International Finance Centre</street1>
+                <street2>8 Finance Street, Central, Suite 2301</street2>
+                <city>Hong Kong SAR</city>
+                <stateOrCountry>F4</stateOrCountry>
+                <stateOrCountryDescription>CHINA</stateOrCountryDescription>
+                <zipCode>999077</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Investment Manager of the Issuer.</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Other Investment Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <aggregateNetAssetValueRange>Decline to Disclose</aggregateNetAssetValueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.7</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2021-05-04</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>1000000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>475000000</totalOfferingAmount>
+            <totalAmountSold>196500000</totalAmountSold>
+            <totalRemaining>278500000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Ping An Voyager Partners, LP</issuerName>
+                <signatureName>/s/ Jonathan Larsen</signatureName>
+                <nameOfSigner>Jonathan Larsen</nameOfSigner>
+                <signatureTitle>Director of the General Partner of the Issuer</signatureTitle>
+                <signatureDate>2021-05-11</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

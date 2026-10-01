@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001974487</cik>
+        <entityName>Brickstone at Woodlawn, LLC</entityName>
+        <issuerAddress>
+            <street1>51 PENNWOOD PLACE</street1>
+            <street2>SUITE 200</street2>
+            <city>WARRENDALE</city>
+            <stateOrCountry>PA</stateOrCountry>
+            <stateOrCountryDescription>PENNSYLVANIA</stateOrCountryDescription>
+            <zipCode>15086</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>724 772-9020</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>John</firstName>
+                <middleName>M</middleName>
+                <lastName>Hess</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>51 Pennwood Place</street1>
+                <street2>Suite 200</street2>
+                <city>Warrendale</city>
+                <stateOrCountry>PA</stateOrCountry>
+                <stateOrCountryDescription>PENNSYLVANIA</stateOrCountryDescription>
+                <zipCode>15086</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Michael</firstName>
+                <lastName>Hess</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>51 Pennwood Place</street1>
+                <street2>Suite 200</street2>
+                <city>Warrendale</city>
+                <stateOrCountry>PA</stateOrCountry>
+                <stateOrCountryDescription>PENNSYLVANIA</stateOrCountryDescription>
+                <zipCode>15086</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>John</firstName>
+                <middleName>R</middleName>
+                <lastName>Hess</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>51 Pennwood Place</street1>
+                <street2>Suite 200</street2>
+                <city>Warrendale</city>
+                <stateOrCountry>PA</stateOrCountry>
+                <stateOrCountryDescription>PENNSYLVANIA</stateOrCountryDescription>
+                <zipCode>15086</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Commercial</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-04-18</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>50000</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>J. Alden Associates</recipientName>
+                <recipientCRDNumber>40002</recipientCRDNumber>
+                <associatedBDName>Ken Smith</associatedBDName>
+                <associatedBDCRDNumber>2300203</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>37 West Ave.</street1>
+                    <street2>Suite 301</street2>
+                    <city>Wayne</city>
+                    <stateOrCountry>PA</stateOrCountry>
+                    <stateOrCountryDescription>PENNSYLVANIA</stateOrCountryDescription>
+                    <zipCode>19087</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <state>FL</state>
+                    <description>FLORIDA</description>
+                    <state>MA</state>
+                    <description>MASSACHUSETTS</description>
+                    <state>NJ</state>
+                    <description>NEW JERSEY</description>
+                    <state>PA</state>
+                    <description>PENNSYLVANIA</description>
+                </statesOfSolicitationList>
+                <foreignSolicitation>false</foreignSolicitation>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>10015000</totalOfferingAmount>
+            <totalAmountSold>8825400</totalAmountSold>
+            <totalRemaining>1189600</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>19</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>272500</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse>Fee equaling 1.5% of acquisition costs paid to affiliated entity of Issuer, which may distribute a potion of that fee to individual(s) identified in Item 3.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Brickstone at Woodlawn, LLC</issuerName>
+                <signatureName>John M. Hess</signatureName>
+                <nameOfSigner>John M. Hess</nameOfSigner>
+                <signatureTitle>Manager</signatureTitle>
+                <signatureDate>2023-07-31</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

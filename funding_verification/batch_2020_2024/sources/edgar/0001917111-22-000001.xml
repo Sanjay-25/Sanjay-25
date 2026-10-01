@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001917111</cik>
+        <entityName>Philippo Ltd.</entityName>
+        <issuerAddress>
+            <street1>CONCEPCION ARENAL 2B</street1>
+            <city>BUENOS AIRES</city>
+            <stateOrCountry>C1</stateOrCountry>
+            <stateOrCountryDescription>ARGENTINA</stateOrCountryDescription>
+            <zipCode>C1426DGC</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>5491140220044</issuerPhoneNumber>
+        <jurisdictionOfInc>CAYMAN ISLANDS</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Other</entityType>
+        <entityTypeOtherDesc>limited exempted company</entityTypeOtherDesc>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2021</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Nicolas</firstName>
+                <middleName>Martin</middleName>
+                <lastName>Piqueras</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Concepcion Arenal 2B</street1>
+                <city>Buenos Aires</city>
+                <stateOrCountry>C1</stateOrCountry>
+                <stateOrCountryDescription>ARGENTINA</stateOrCountryDescription>
+                <zipCode>C1426DGC</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Guido</firstName>
+                <middleName>Ezequiel</middleName>
+                <lastName>Galanter</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Ugarte 3260</street1>
+                <city>Buenos Aires</city>
+                <stateOrCountry>C1</stateOrCountry>
+                <stateOrCountryDescription>ARGENTINA</stateOrCountryDescription>
+                <zipCode>C1428BTB</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Tomas</firstName>
+                <lastName>Gropper</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Araoz 416, 38</street1>
+                <city>Buenos Aires</city>
+                <stateOrCountry>C1</stateOrCountry>
+                <stateOrCountryDescription>ARGENTINA</stateOrCountryDescription>
+                <zipCode>C1414DPJ</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Residential</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2021-09-30</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isOptionToAcquireType>true</isOptionToAcquireType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>10000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>3000000</totalOfferingAmount>
+            <totalAmountSold>1765000</totalAmountSold>
+            <totalRemaining>1235000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>13</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Philippo Ltd.</issuerName>
+                <signatureName>Nicolas Piqueras</signatureName>
+                <nameOfSigner>Nicolas Piqueras</nameOfSigner>
+                <signatureTitle>CFO</signatureTitle>
+                <signatureDate>2022-03-18</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

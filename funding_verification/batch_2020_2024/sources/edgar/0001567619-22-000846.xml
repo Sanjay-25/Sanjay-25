@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001903344</cik>
+        <entityName>Berry-Rock OK, LP</entityName>
+        <issuerAddress>
+            <street1>6915 N CLASSEN BOULEVARD</street1>
+            <street2>SUITE C</street2>
+            <city>OKLAHOMA CITY</city>
+            <stateOrCountry>OK</stateOrCountry>
+            <stateOrCountryDescription>OKLAHOMA</stateOrCountryDescription>
+            <zipCode>73116</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>4057083457</issuerPhoneNumber>
+        <jurisdictionOfInc>OKLAHOMA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Partnership</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2021</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Nicholas</firstName>
+                <lastName>Berry</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>6915 N Classen Boulevard</street1>
+                <street2>Suite C</street2>
+                <city>Oklahoma City</city>
+                <stateOrCountry>OK</stateOrCountry>
+                <stateOrCountryDescription>OKLAHOMA</stateOrCountryDescription>
+                <zipCode>73116</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Manager of General Partner</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Cameron</firstName>
+                <lastName>Rock</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>6915 N Classen Boulevard</street1>
+                <street2>Suite C</street2>
+                <city>Oklahoma City</city>
+                <stateOrCountry>OK</stateOrCountry>
+                <stateOrCountryDescription>OKLAHOMA</stateOrCountryDescription>
+                <zipCode>73116</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Manager of General Partner</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Residential</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2021-12-28</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>8000000</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>NA</recipientName>
+                <recipientCRDNumber>None</recipientCRDNumber>
+                <associatedBDName>None</associatedBDName>
+                <associatedBDCRDNumber>None</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>NA</street1>
+                    <street2>NA</street2>
+                    <city>NA</city>
+                    <stateOrCountry>OK</stateOrCountry>
+                    <stateOrCountryDescription>OKLAHOMA</stateOrCountryDescription>
+                    <zipCode>NA</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <state>OK</state>
+                    <description>OKLAHOMA</description>
+                </statesOfSolicitationList>
+                <foreignSolicitation>false</foreignSolicitation>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>8000000</totalOfferingAmount>
+            <totalAmountSold>8000000</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Berry-Rock OK, LP</issuerName>
+                <signatureName>Nicholas Berry</signatureName>
+                <nameOfSigner>Nicholas Berry</nameOfSigner>
+                <signatureTitle>Manager of General Partner</signatureTitle>
+                <signatureDate>2022-01-07</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

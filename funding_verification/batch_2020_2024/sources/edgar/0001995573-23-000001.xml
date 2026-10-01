@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001995573</cik>
+        <entityName>CEAI Park Edge Investor LLC</entityName>
+        <issuerAddress>
+            <street1>8500 SHAWNEE MISSION PKWY</street1>
+            <street2>SUITE 150</street2>
+            <city>MERRIAM</city>
+            <stateOrCountry>KS</stateOrCountry>
+            <stateOrCountryDescription>KANSAS</stateOrCountryDescription>
+            <zipCode>66202</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>9136713300</issuerPhoneNumber>
+        <jurisdictionOfInc>KANSAS</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Richard</firstName>
+                <middleName>Lee</middleName>
+                <lastName>Harris</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>8500 Shawnee Mission Parkway</street1>
+                <street2>Suite 150</street2>
+                <city>Merriam</city>
+                <stateOrCountry>KS</stateOrCountry>
+                <stateOrCountryDescription>KANSAS</stateOrCountryDescription>
+                <zipCode>66202</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Manager of the Issuer and Trustee of R. Lee Harris Revocable Trust, dated August 24, 2021 (owns 50% of the membership interests of the Issuer)</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Robert</firstName>
+                <middleName>E</middleName>
+                <lastName>Esrey</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>8500 Shawnee Mission Parkway</street1>
+                <street2>Suite 150</street2>
+                <city>Merriam</city>
+                <stateOrCountry>KS</stateOrCountry>
+                <stateOrCountryDescription>KANSAS</stateOrCountryDescription>
+                <zipCode>66202</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Trustee of the Robert E. Esrey Revocable Trust, dated September 24, 2007 (owns 50% of the membership interests of the Issuer)</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Residential</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06c</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-10-02</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>100000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>7480000</totalOfferingAmount>
+            <totalAmountSold>800000</totalAmountSold>
+            <totalRemaining>6680000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>5</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>7480000</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse>Issuer's Members (the &quot;Related Persons&quot;) funded a loan to the issuer that was then used to fund an affiliate company. Investor proceeds in this offering will be distributed to the Members as repayment for the loan to the Issuer.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>CEAI Park Edge Investor LLC</issuerName>
+                <signatureName>Richard Lee Harris</signatureName>
+                <nameOfSigner>Richard Lee Harris</nameOfSigner>
+                <signatureTitle>Manager</signatureTitle>
+                <signatureDate>2023-10-18</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001853518</cik>
+        <entityName>Elevate Missouri, LLC</entityName>
+        <issuerAddress>
+            <street1>6051 N. CHESTNUT AVENUE</street1>
+            <street2>SUITE B</street2>
+            <city>GLADSTONE</city>
+            <stateOrCountry>MO</stateOrCountry>
+            <stateOrCountryDescription>MISSOURI</stateOrCountryDescription>
+            <zipCode>64119</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>816-268-4493</issuerPhoneNumber>
+        <jurisdictionOfInc>MISSOURI</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2019</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Charles</firstName>
+                <middleName>V.</middleName>
+                <lastName>Cuda</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>6051 N. Chestnut Avenue</street1>
+                <street2>Suite B</street2>
+                <city>Gladstone</city>
+                <stateOrCountry>MO</stateOrCountry>
+                <stateOrCountryDescription>MISSOURI</stateOrCountryDescription>
+                <zipCode>64119</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Paul</firstName>
+                <middleName>J.</middleName>
+                <lastName>Guastello</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>6051 N. Chestnut Avenue</street1>
+                <street2>Suite B</street2>
+                <city>Gladstone</city>
+                <stateOrCountry>MO</stateOrCountry>
+                <stateOrCountryDescription>MISSOURI</stateOrCountryDescription>
+                <zipCode>64119</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other Health Care</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2021-03-15</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>20000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>9000000</totalOfferingAmount>
+            <totalAmountSold>9000000</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>true</hasNonAccreditedInvestors>
+            <numberNonAccreditedInvestors>14</numberNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>24</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>1460000</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse>Amounts advanced by promoters prior to offering on behalf of Issuer.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Elevate Missouri, LLC</issuerName>
+                <signatureName>/s/Charles V. Cuda</signatureName>
+                <nameOfSigner>Charles V. Cuda</nameOfSigner>
+                <signatureTitle>Manager, OPES Capital, LLC, its Manager</signatureTitle>
+                <signatureDate>2021-03-23</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001829334</cik>
+        <entityName>Supabase, Inc.</entityName>
+        <issuerAddress>
+            <street1>1 CLAYMORE DRIVE</street1>
+            <street2>#25-02 ROOM 1</street2>
+            <city>ORCHARD</city>
+            <stateOrCountry>U0</stateOrCountry>
+            <stateOrCountryDescription>SINGAPORE</stateOrCountryDescription>
+            <zipCode>229594</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>469-317-3436</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2020</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Paul</firstName>
+                <middleName>S.</middleName>
+                <lastName>Copplestone</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1 Claymore Drive</street1>
+                <street2>#25-02 Room 1</street2>
+                <city>Orchard</city>
+                <stateOrCountry>U0</stateOrCountry>
+                <stateOrCountryDescription>SINGAPORE</stateOrCountryDescription>
+                <zipCode>229594</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>CEO, President, Treasurer, and Secretary</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Anthony</firstName>
+                <lastName>Wilson</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1 Claymore Drive</street1>
+                <street2>#25-02 Room 1</street2>
+                <city>Orchard</city>
+                <stateOrCountry>U0</stateOrCountry>
+                <stateOrCountryDescription>SINGAPORE</stateOrCountryDescription>
+                <zipCode>229594</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Chief Technology Officer</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001829334-20-000001</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2020-10-09</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>6764997</totalOfferingAmount>
+            <totalAmountSold>5005000</totalAmountSold>
+            <totalRemaining>1759997</totalRemaining>
+            <clarificationOfResponse>$765,000 of the Total Amount Sold includes principle due on certain instruments convertible or exercisable into equity of the Issuer.</clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>13</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse>The Issuer will use the proceeds for working capital and other general corporate purposes.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Supabase, Inc.</issuerName>
+                <signatureName>Paul S. Coppleston</signatureName>
+                <nameOfSigner>Paul S. Copplestone</nameOfSigner>
+                <signatureTitle>CEO</signatureTitle>
+                <signatureDate>2020-10-23</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

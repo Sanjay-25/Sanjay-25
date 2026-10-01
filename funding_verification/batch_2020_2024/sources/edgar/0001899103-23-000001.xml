@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001899103</cik>
+        <entityName>Berry Capital Management, LLC</entityName>
+        <issuerAddress>
+            <street1>100 ELKS CLUB ROAD</street1>
+            <city>BREVARD</city>
+            <stateOrCountry>NC</stateOrCountry>
+            <stateOrCountryDescription>NORTH CAROLINA</stateOrCountryDescription>
+            <zipCode>28712</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>828-393-0088</issuerPhoneNumber>
+        <jurisdictionOfInc>NORTH CAROLINA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2021</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Bruce</firstName>
+                <middleName>V</middleName>
+                <lastName>Roberts</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>100 Elks Club Road</street1>
+                <city>Brevard</city>
+                <stateOrCountry>NC</stateOrCountry>
+                <stateOrCountryDescription>NORTH CAROLINA</stateOrCountryDescription>
+                <zipCode>28712</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Agriculture</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06c</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-02-09</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>30000</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>Joshua R Greene</recipientName>
+                <recipientCRDNumber>5690935</recipientCRDNumber>
+                <associatedBDName>Carofin, LLC</associatedBDName>
+                <associatedBDCRDNumber>298717</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>100 Darlington Street</street1>
+                    <city>Columbia</city>
+                    <stateOrCountry>SC</stateOrCountry>
+                    <stateOrCountryDescription>SOUTH CAROLINA</stateOrCountryDescription>
+                    <zipCode>29201</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <state>GA</state>
+                    <description>GEORGIA</description>
+                </statesOfSolicitationList>
+                <foreignSolicitation>false</foreignSolicitation>
+            </recipient>
+            <recipient>
+                <recipientName>Garrick G Ruiz</recipientName>
+                <recipientCRDNumber>5584980</recipientCRDNumber>
+                <associatedBDName>Carofin, LLC</associatedBDName>
+                <associatedBDCRDNumber>298717</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>6 Stonewall Bend</street1>
+                    <city>San Antonio</city>
+                    <stateOrCountry>TX</stateOrCountry>
+                    <stateOrCountryDescription>TEXAS</stateOrCountryDescription>
+                    <zipCode>78256</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <state>IL</state>
+                    <description>ILLINOIS</description>
+                    <state>NC</state>
+                    <description>NORTH CAROLINA</description>
+                </statesOfSolicitationList>
+                <foreignSolicitation>false</foreignSolicitation>
+            </recipient>
+            <recipient>
+                <recipientName>Garrick G Ruiz</recipientName>
+                <recipientCRDNumber>5584980</recipientCRDNumber>
+                <associatedBDName>Carolina Financial Securities, LLC</associatedBDName>
+                <associatedBDCRDNumber>41970</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>6 Stonewall Bend</street1>
+                    <city>San Antonio</city>
+                    <stateOrCountry>TX</stateOrCountry>
+                    <stateOrCountryDescription>TEXAS</stateOrCountryDescription>
+                    <zipCode>78256</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <state>FL</state>
+                    <description>FLORIDA</description>
+                </statesOfSolicitationList>
+                <foreignSolicitation>false</foreignSolicitation>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>2500000</totalOfferingAmount>
+            <totalAmountSold>345000</totalAmountSold>
+            <totalRemaining>2155000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>6</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>125000</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse>The Issuer shall pay the placement agent a 5% cash placement fee based on the amount of capital raised in this offering.</clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Berry Capital Management, LLC</issuerName>
+                <signatureName>Bruce V Roberts</signatureName>
+                <nameOfSigner>Bruce V Roberts</nameOfSigner>
+                <signatureTitle>Manager</signatureTitle>
+                <signatureDate>2023-02-13</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

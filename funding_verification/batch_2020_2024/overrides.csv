@@ -1,0 +1,13 @@
+company_id,raised_post_yc,post_yc_amount_usd,round_type,round_date,lead_investors,source_tier,source_type,source_url,source_quote,confidence,notes
+getcrux,No evidence found,-,-,-,-,-,-,-,-,-,"Manual review: the only $ figure ($375M) is a customer's raise cited in a case study, not GetCrux's. No post-YC Form D or announcement found."
+alai,No evidence found,-,-,-,-,-,-,-,-,-,"Manual review: '$2B+' refers to pitch decks of other startups on Alai's blog, not a raise by Alai."
+governgpt,No evidence found,-,-,-,-,-,-,-,-,-,"Manual review: '$1.7 billion' is capital raised by a GovernGPT customer, not by GovernGPT."
+infer,Unclear,-,-,2021-08-24,,4,,,,Low,"Manual review: press says Synth (Infer's former name) raised $125,000 from Y Combinator, which is YC's standard deal for the batch, not a post-YC round."
+relevium-medical,Unclear,-,Non-dilutive grants,,,2,,,,Low,"Manual review: site says $3.7M in non-dilutive funding (grants), not a venture round."
+staffbar,Unclear,-,,,,2,,,,Low,"Manual review: the quoted $7.5M raise is by Superwall (which acquired Tangent); its link to Staffbar is unclear."
+ringmd,,10000000,Series A,,,,,,"$10 million in Series A financing at a valuation of US$85 million",,"Manual review: $85M was the valuation; the round was $10M."
+syntheticfi,,13000000,,,,,,,"SyntheticFi Raises $13M, Surpasses $2B in Regulatory AUM",,"Manual review: $2B is assets under management; the raise was $13M."
+motion,,75000000,,,,,,,"our total raised to $75M and a latest valuation of $550M",,"Manual review: $550M is the valuation; total raised is $75M."
+botcity,,2500000,Seed,2021-12-16,SoftBank,,,,,,"Manual review: '$2,5 million' is $2.5M (European decimal comma)."
+conta-simples,,-,Series A,2021-12-16,,,,,"Startup Conta Simples raises R$121.4 million in new Series A",,"Manual review: R$121.4M is Brazilian reais (roughly $22M), not USD."
+slash,,-,Series C,,,,,,,Medium,"Manual review: $1.4B is the valuation after a Series C; round amount not on the source page. Total raised needs checking against the $200M cap."

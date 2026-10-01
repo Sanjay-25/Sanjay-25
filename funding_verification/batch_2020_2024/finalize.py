@@ -8,6 +8,7 @@ import csv
 import glob
 import json
 import os
+import re
 import sys
 from datetime import date
 
@@ -41,6 +42,40 @@ def iso(s):
         return date.fromisoformat(s[:10])
     except ValueError:
         return None
+
+
+MONTHS = "jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec"
+DATE_RX = [
+    (re.compile(r"\b(\d{4})-(\d{2})-(\d{2})\b"), lambda m: (int(m[1]), int(m[2]), int(m[3]))),
+    (re.compile(r"\b(" + MONTHS + r")[a-z]*\.? (\d{1,2}),? (20\d{2})\b", re.I),
+     lambda m: (int(m[3]), MONTHS.split("|").index(m[1].lower()[:4] if m[1].lower().startswith("sept") else m[1].lower()[:3]) + 1 - (1 if m[1].lower().startswith("sept") else 0), int(m[2]))),
+    (re.compile(r"\b(\d{1,2}) (" + MONTHS + r")[a-z]* (20\d{2})\b", re.I),
+     lambda m: (int(m[3]), MONTHS.split("|").index(m[2].lower()[:3]) + 1, int(m[1]))),
+]
+
+
+def date_near_quote(cid, quote, start):
+    """Find a date printed within ~250 characters of the quote in the saved company pages."""
+    key = " ".join(quote.split()[:6])
+    best = None
+    for p in glob.glob(os.path.join(HERE, "sources", "web", cid, "page*.txt")):
+        text = open(p).read()
+        i = text.find(key)
+        if i < 0:
+            continue
+        window = text[max(0, i - 250): i + len(quote) + 250]
+        for rx, conv in DATE_RX:
+            for m in rx.finditer(window):
+                try:
+                    y, mo, d = conv(m)
+                    dt = date(y, mo, d)
+                except (ValueError, IndexError):
+                    continue
+                if start <= dt <= date.today():
+                    dist = abs(m.start() - (i - max(0, i - 250)))
+                    if best is None or dist < best[0]:
+                        best = (dist, dt)
+    return best[1] if best else None
 
 
 def main():
@@ -87,6 +122,10 @@ def main():
         rv = review.get(cid)
         if rv and rv.get("found") and rv.get("post_yc") and iso(rv.get("round_date")):
             rounds.append((iso(rv["round_date"]), rv.get("amount_usd"), rv.get("source_url") or "web search review"))
+        if r["raised_post_yc"] == "Yes" and not any(x[0] for x in rounds) and r["source_quote"]:
+            d = date_near_quote(cid, r["source_quote"], start)
+            if d:
+                rounds.append((d, b.num(r["post_yc_amount_usd"]), (r["source_url"] or "company page") + " (date printed near the quote)"))
         dated = [x for x in rounds if x[0]]
         latest = max(dated, key=lambda x: x[0]) if dated else None
 
@@ -98,6 +137,8 @@ def main():
         total = max(amounts) if any(amounts) else None
         if r["raised_post_yc"] != "Yes":
             cap = ""
+        elif rv and rv.get("over_200m") is True:
+            cap = "No"
         elif total is None:
             cap = "Unknown"
         else:

@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001787926</cik>
+        <entityName>10408875 Canada Inc.</entityName>
+        <issuerAddress>
+            <street1>51 SHERBROOKE WEST, SUITE 106</street1>
+            <city>MONTREAL</city>
+            <stateOrCountry>A8</stateOrCountry>
+            <stateOrCountryDescription>QUEBEC, CANADA</stateOrCountryDescription>
+            <zipCode>H2X 1X2</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>514-659-8820</issuerPhoneNumber>
+        <jurisdictionOfInc>QUEBEC, CANADA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2019</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Milad</firstName>
+                <lastName>Dagher</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>51 Sherbrooke West, Suite 106</street1>
+                <city>Montreal</city>
+                <stateOrCountry>A8</stateOrCountry>
+                <stateOrCountryDescription>QUEBEC, CANADA</stateOrCountryDescription>
+                <zipCode>H2X 1X2</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Arya</firstName>
+                <lastName>Tavakoli</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>51 Sherbrooke West, Suite 106</street1>
+                <city>Montreal</city>
+                <stateOrCountry>A8</stateOrCountry>
+                <stateOrCountryDescription>QUEBEC, CANADA</stateOrCountryDescription>
+                <zipCode>H2X 1X2</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Biotechnology</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2019-07-16</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isDebtType>true</isDebtType>
+            <isSecurityToBeAcquiredType>true</isSecurityToBeAcquiredType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>1225920</totalOfferingAmount>
+            <totalAmountSold>402255</totalAmountSold>
+            <totalRemaining>823665</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>10408875 Canada Inc.</issuerName>
+                <signatureName>/s/ Milad Dagher</signatureName>
+                <nameOfSigner>Milad Dagher</nameOfSigner>
+                <signatureTitle>President</signatureTitle>
+                <signatureDate>2019-09-12</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>
