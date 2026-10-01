@@ -71,6 +71,8 @@ def main():
     final = {r["website"]: r for r in csv.DictReader(open(os.path.join(ROOT, "final_5y_under_200m.csv")))}
     prev = load_psv(os.path.join(ROOT, "pools", "assignments.psv"), rename_voice=True)
     voice_prev = set(open(os.path.join(ROOT, "pools", "excluded_voice.txt")).read().split())
+    closed = set(open(os.path.join(HERE, "closed_companies.txt")).read().split())
+    comp = {k: v for k, v in comp.items() if k not in closed}  # closed per homepage, found during pooling
     assign = {k: v for k, v in prev.items() if k in comp}
     for k in voice_prev & set(comp):
         assign[k][1], assign[k][3], assign[k][2] = "VOICE_EXCLUDED", "None", ""

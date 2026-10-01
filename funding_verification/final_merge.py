@@ -149,6 +149,12 @@ def main():
         if dom(keep["website"]) != dom(other["website"]):
             keep["website"] = a["website"] if a["source"] != "Tracxn only" else b["website"]
         merged[k] = keep
+    closed = set(open(os.path.join(HERE, "pools_v2", "closed_companies.txt")).read().split())
+    for k, r in list(merged.items()):
+        if k in closed:
+            r["exclusion_reason"] = "Company has closed (per its homepage)"
+            excluded.append(r)
+            del merged[k]
     out = list(merged.values())
     out.sort(key=lambda r: r["latest_round_date"] or "", reverse=True)
     cols = list(out[0].keys())
