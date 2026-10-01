@@ -12,12 +12,24 @@ import re
 import sys
 from datetime import date
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+# Run on another folder (e.g. the first run's) by passing it as the first argument.
+HERE = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else os.path.dirname(os.path.abspath(__file__))
 os.environ["FV_DIR"] = HERE
-sys.path.insert(0, os.path.dirname(HERE))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import build_results as b  # noqa: E402
 
 CAP = 200_000_000
+# Manual decisions from the cap review (review/cap_batch*_results.jsonl).
+FORMD_EXCLUDE = {"legion-health"}  # matched Form D belongs to a different company
+CAP_OVERRIDE = {
+    "legion-health": (8_300_000, "Yes"),
+    "gilgamesh-pharmaceuticals": (None, "Unknown"),  # spinout raised $60M; original company ~$150M per aggregator only
+    "tractian": (None, "Unknown"),  # "over $180M" (Crunchbase News); Forbes snippet says $200M; plus a debt facility
+    "happyrobot": (None, "Unknown"),  # company says "around $200 million"
+    # Only non-USD amounts known, all far below $200M.
+    "bitstack": (None, "Yes"), "heycharge": (None, "Yes"), "invitris": (None, "Yes"),
+    "revenir": (None, "Yes"), "autone": (None, "Yes"),
+}
 EXTRA = ["latest_round_date", "latest_round_amount_usd", "latest_round_source", "total_raised_known_usd",
          "within_200m_cap", "website", "industry", "yc_stage", "team_size", "yc_is_hiring", "yc_open_jobs",
          "ats", "ats_open_jobs", "open_positions", "eng_jobs", "ml_jobs", "careers_url", "job_titles_sample"]
@@ -99,7 +111,7 @@ def main():
         rounds = []  # (date, amount or None, source)
         formd_total = 0.0
         ed = edgar.get(cid)
-        if ed:
+        if ed and cid not in FORMD_EXCLUDE:
             filings = [f for f in ed.get("matched", []) if b.plausible_issuer(f, row["company"], start)]
             offerings = {}
             for f in sorted(filings, key=lambda x: (x["file_date"], x["adsh"])):
@@ -144,6 +156,10 @@ def main():
         else:
             cap = "Yes" if total <= CAP else "No"
 
+        if cid in CAP_OVERRIDE and r["raised_post_yc"] == "Yes":
+            total, cap = CAP_OVERRIDE[cid][0] or total, CAP_OVERRIDE[cid][1]
+            if CAP_OVERRIDE[cid][0]:
+                total = CAP_OVERRIDE[cid][0]
         h = hiring.get(cid, {})
         yc_jobs = int(row.get("yc_open_jobs") or 0)
         ats_jobs = h.get("ats_open_jobs")
