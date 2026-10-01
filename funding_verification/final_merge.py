@@ -63,11 +63,11 @@ def main():
         if o:
             used.add(o["company_id"])
         reason = ""
+        # Removal rules: inactive, acquired, over $200M, or missing from YC's directory.
         if not h and not o:
             u = unmatched.get(t["tracxn_id"], {})
-            if not u.get("yc_batch"):
-                reason = "YC fund investment, no YC batch on record"
-        elif h and h["status"] != "Active" and not o:
+            reason = "Missing from YC directory" + ("" if u.get("yc_batch") else " (YC fund investment, no YC batch on record)")
+        elif h and h["status"] in ("Inactive", "Acquired"):
             reason = f"YC lists the company as {h['status']}"
         if o and o.get("over_200m") == "Yes":
             reason = "Our verified total is over $200M (Tracxn equity total is lower)"
@@ -80,9 +80,13 @@ def main():
     for o in ours:
         if o["company_id"] in used:
             continue
-        row = build(None, o, ycd.get(dom(o["website"])), meta, unmatched)
+        h = ycd.get(dom(o["website"]))
+        row = build(None, o, h, meta, unmatched)
         if o.get("over_200m") == "Yes":
             row["exclusion_reason"] = "Total raised over $200M"
+            excluded.append(row)
+        elif h and h["status"] in ("Inactive", "Acquired"):
+            row["exclusion_reason"] = f"YC lists the company as {h['status']}"
             excluded.append(row)
         else:
             out.append(row)
