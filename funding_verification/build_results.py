@@ -15,7 +15,8 @@ import sys
 import urllib.parse
 from datetime import date, timedelta
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+# FV_DIR points a run at another working folder (companies.csv in, results out).
+HERE = os.environ.get("FV_DIR") or os.path.dirname(os.path.abspath(__file__))
 COLS = open(os.path.join(HERE, "output_template.csv")).readline().strip().split(",")
 YC_DEAL = 500_000
 BATCH_MONTH = {"Winter": 1, "Spring": 4, "Summer": 6, "Fall": 9}
@@ -62,6 +63,11 @@ def words(s):
 
 # ---------------------------------------------------------------- tier 1: EDGAR
 
+def yc_deal_cap(start):
+    """Largest Form D that can still be YC's own standard deal ($125K before Winter 2022, $500K after)."""
+    return 200_000 if start < date(2022, 1, 1) else 600_000
+
+
 def classify_offering(f, start):
     """Return (label, first_sale_date) for the latest filing of one offering."""
     fs = to_date(f["date_first_sale"]) or to_date(f["file_date"])
@@ -70,7 +76,7 @@ def classify_offering(f, start):
         return "unknown", fs
     if fs < start - timedelta(days=45):
         return "pre_yc", fs
-    if sold <= 600_000 and fs <= start + timedelta(days=150):
+    if sold <= yc_deal_cap(start) and fs <= start + timedelta(days=150):
         return "yc_deal_like", fs
     if sold < 100_000:
         return "unsold" if sold == 0 else "small", fs
@@ -79,7 +85,14 @@ def classify_offering(f, start):
 
 BANKISH = re.compile(r"\b(bancorp|bancshares|bank|financial|credit union|trust|reit|properties|realty|homes|"
                      r"therapeutics|biosciences|pharma\w*|energy|mining|metals|gold|minerals)\b", re.I)
-NEW_CIK = 1_980_000  # CIKs assigned from about early 2024 onwards
+# Approximate first CIK assigned in each year; a company new enough for its batch has a CIK above the
+# cutoff for the year before its batch started.
+CIK_BY_YEAR = {2019: 1_760_000, 2020: 1_800_000, 2021: 1_840_000, 2022: 1_890_000, 2023: 1_940_000,
+               2024: 1_980_000, 2025: 2_030_000, 2026: 2_080_000}
+
+
+def new_cik(start):
+    return CIK_BY_YEAR.get(start.year - 1, 1_760_000) if start.year < 2025 else 1_980_000
 SHARED_ADSH = {}  # accession -> company_ids it matched on founder names (filled in main)
 
 
@@ -103,7 +116,7 @@ def plausible_issuer(f, company, start):
     if fs and fs < start - timedelta(days=365):
         return False
     # Different legal name: need two listed founders on the filing and a recently assigned CIK.
-    return len(f["matched_founders"]) >= 2 and int(f["cik"] or 0) >= NEW_CIK
+    return len(f["matched_founders"]) >= 2 and int(f["cik"] or 0) >= new_cik(start)
 
 
 def weak_candidates(ed, company, start):
@@ -116,7 +129,7 @@ def weak_candidates(ed, company, start):
         if FUNDISH.search(name) or BANKISH.search(name) or len(SHARED_ADSH.get(f["adsh"], ())) > 1:
             continue
         fs = to_date(f["date_first_sale"]) or to_date(f["file_date"])
-        if int(f["cik"] or 0) >= NEW_CIK and fs and fs >= start - timedelta(days=45):
+        if int(f["cik"] or 0) >= new_cik(start) and fs and fs >= start - timedelta(days=45):
             out.append(f"Unverified Form D by same-named person: {name} {f['adsh']} sold {f['total_amount_sold']} "
                        f"(first sale {f['date_first_sale']}, {f['city'].title()}); likely a different person.")
     return out

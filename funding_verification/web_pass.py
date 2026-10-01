@@ -20,7 +20,8 @@ import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+# FV_DIR points a run at another working folder (companies.csv in, results out).
+HERE = os.environ.get("FV_DIR") or os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "web_pass.jsonl")
 SRC = os.path.join(HERE, "sources", "web")
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
@@ -86,7 +87,11 @@ def same_site(u, domain):
 
 def yc_page(row):
     found = []
-    page, _ = fetch(row["yc_page"]) if row["yc_page"] else (None, None)
+    cached = os.path.join(HERE, "yc_pages", row["company_id"] + ".html")
+    if os.path.exists(cached):
+        page = open(cached).read()
+    else:
+        page, _ = fetch(row["yc_page"]) if row["yc_page"] else (None, None)
     if not page:
         return found, []
     m = re.search(r'data-page="([^"]+)"', page)

@@ -20,11 +20,12 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+# FV_DIR points a run at another working folder (companies.csv in, results out).
+HERE = os.environ.get("FV_DIR") or os.path.dirname(os.path.abspath(__file__))
 UA = "Fast Code AI research sanjay@fastcode.ai"
 SRC_DIR = os.path.join(HERE, "sources", "edgar")
 OUT = os.path.join(HERE, "edgar_pass.jsonl")
-STARTDT = "2024-01-01"
+STARTDT = os.environ.get("EDGAR_STARTDT", "2024-01-01")
 ENDDT = time.strftime("%Y-%m-%d")
 os.makedirs(SRC_DIR, exist_ok=True)
 
