@@ -99,7 +99,10 @@ def main():
                 continue
             d = json.loads(line)
             c = comps.get(d["company_id"])
-            if not c or not d.get("raised_since_2021_10") or dom(c["website"]) in seen:
+            dec = json.load(open(os.path.join(HERE, "recheck", "decisions.json")))
+            if not c or dom(c["website"]) in seen:
+                continue
+            if d["company_id"] not in dec["include"] and d["company_id"] not in dec["exclude"]:
                 continue
             date = (d.get("round_date") or "")[:10]
             if date and len(date) == 7:
@@ -115,8 +118,8 @@ def main():
                                "date_basis": "recheck web search, tier " + str(d.get("source_tier") or "")},
                         ycd.get(dom(c["website"])), meta, unmatched)
             row["source"] = "Verified only"
-            if d.get("over_200m") is True:
-                row["exclusion_reason"] = "Total raised over $200M (recheck)"
+            if d["company_id"] in dec["exclude"]:
+                row["exclusion_reason"] = dec["exclude"][d["company_id"]] + " (recheck)"
                 excluded.append(row)
             else:
                 out.append(row)
