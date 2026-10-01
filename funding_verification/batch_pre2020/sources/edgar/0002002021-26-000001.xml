@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002002021</cik>
+        <entityName>CLIVE CAPITAL FUND 1B LLC</entityName>
+        <issuerAddress>
+            <street1>650 W 42nd St Apt 3611</street1>
+            <city>NEW YORK</city>
+            <stateOrCountry>NY</stateOrCountry>
+            <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+            <zipCode>10036</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>401-241-9632</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Keshav</firstName>
+                <lastName>Kolur</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>650 W 42nd St Apt 3611</street1>
+                <city>New York</city>
+                <stateOrCountry>NY</stateOrCountry>
+                <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+                <zipCode>10036</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Commercial</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.1</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0002002021-23-000001</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2024-02-09</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>50000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>10000000</totalOfferingAmount>
+            <totalAmountSold>430000</totalAmountSold>
+            <totalRemaining>9570000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>true</hasNonAccreditedInvestors>
+            <numberNonAccreditedInvestors>9</numberNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>12</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>CLIVE CAPITAL FUND 1B LLC</issuerName>
+                <signatureName>John Lai</signatureName>
+                <nameOfSigner>John Lai</nameOfSigner>
+                <signatureTitle>Principal</signatureTitle>
+                <signatureDate>2026-02-02</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

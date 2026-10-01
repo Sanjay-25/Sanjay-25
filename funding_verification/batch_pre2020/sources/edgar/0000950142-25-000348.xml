@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001908892</cik>
+        <entityName>Apollo Total Return Fund - Investment Grade (Offshore), SPC</entityName>
+        <issuerAddress>
+            <street1>9 WEST 57TH STREET</street1>
+            <street2>41ST FLOOR</street2>
+            <city>NEW YORK</city>
+            <stateOrCountry>NY</stateOrCountry>
+            <stateOrCountryDescription>NEW YORK</stateOrCountryDescription>
+            <zipCode>10019</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>212-515-3200</issuerPhoneNumber>
+        <jurisdictionOfInc>CAYMAN ISLANDS</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2021</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Kimberly</firstName>
+                <lastName>Melen</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>POB 1093, Boundary Hall</street1>
+                <street2>Cricket Square</street2>
+                <city>Grand Cayman</city>
+                <stateOrCountry>E9</stateOrCountry>
+                <stateOrCountryDescription>CAYMAN ISLANDS</stateOrCountryDescription>
+                <zipCode>KY1-1102</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Director</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Sherri</firstName>
+                <lastName>Fleming</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>c/o Maples Corporate Services Limited</street1>
+                <street2>Ugland House, South Church Street</street2>
+                <city>George Town, Grand Cayman</city>
+                <stateOrCountry>E9</stateOrCountry>
+                <stateOrCountryDescription>CAYMAN ISLANDS</stateOrCountryDescription>
+                <zipCode>-</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Director</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Hedge Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <aggregateNetAssetValueRange>Decline to Disclose</aggregateNetAssetValueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.7</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0000950142-22-000708</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2022-02-01</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>100000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>Indefinite</totalOfferingAmount>
+            <totalAmountSold>1442219713</totalAmountSold>
+            <totalRemaining>Indefinite</totalRemaining>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>9</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse>The Issuer's confidential offering materials discuss management fees due to the investment adviser, which is an affiliate of the Issuer.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Apollo Total Return Fund - Investment Grade (Offshore), SPC</issuerName>
+                <signatureName>/s/ Sherri Fleming</signatureName>
+                <nameOfSigner>Sherri Fleming</nameOfSigner>
+                <signatureTitle>Director</signatureTitle>
+                <signatureDate>2025-02-13</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

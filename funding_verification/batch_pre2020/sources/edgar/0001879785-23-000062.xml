@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002003730</cik>
+        <entityName>Seaya Andromeda Sustainable Tech Fund I, FCR</entityName>
+        <issuerAddress>
+            <street1>CALLE ALCALA 54, 1 DERECHA</street1>
+            <city>MADRID</city>
+            <stateOrCountry>U3</stateOrCountry>
+            <stateOrCountryDescription>SPAIN</stateOrCountryDescription>
+            <zipCode>28014</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>34 91 110 86 97</issuerPhoneNumber>
+        <jurisdictionOfInc>SPAIN</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Other</entityType>
+        <entityTypeOtherDesc>A Spanish regulated private fund</entityTypeOtherDesc>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2022</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Juan</firstName>
+                <middleName>Gonzalez</middleName>
+                <lastName>Del Castillo Burgos</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>CALLE ALCALA 54, 1 DERECHA</street1>
+                <city>MADRID</city>
+                <stateOrCountry>U3</stateOrCountry>
+                <stateOrCountryDescription>SPAIN</stateOrCountryDescription>
+                <zipCode>28013</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>CFO of the Management Company of the Issuer</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>-</firstName>
+                <lastName>Seaya Capital Gestion, SGEIC, S.A.</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>CALLE ALCALA 54, 1 DERECHA</street1>
+                <city>MADRID</city>
+                <stateOrCountry>U3</stateOrCountry>
+                <stateOrCountryDescription>SPAIN</stateOrCountryDescription>
+                <zipCode>28014</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Management Company of the Issuer</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Private Equity Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.7</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-11-27</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>Indefinite</totalOfferingAmount>
+            <totalAmountSold>3281100</totalAmountSold>
+            <totalRemaining>Indefinite</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Seaya Andromeda Sustainable Tech Fund I, FCR</issuerName>
+                <signatureName>/s/ Juan Gonzalez del Castillo</signatureName>
+                <nameOfSigner>Juan Gonzalez del Castillo Burgos</nameOfSigner>
+                <signatureTitle>CFO of the Management Company of the Issuer</signatureTitle>
+                <signatureDate>2023-12-13</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

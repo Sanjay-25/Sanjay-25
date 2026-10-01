@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001819462</cik>
+        <entityName>Volley Boast, LLC</entityName>
+        <issuerAddress>
+            <street1>2000 NORTH LOOP WEST</street1>
+            <street2>SUITE120</street2>
+            <city>HOUSTON</city>
+            <stateOrCountry>TX</stateOrCountry>
+            <stateOrCountryDescription>TEXAS</stateOrCountryDescription>
+            <zipCode>77018</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>25041256679</issuerPhoneNumber>
+        <jurisdictionOfInc>TEXAS</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Peter</firstName>
+                <middleName>E.</middleName>
+                <lastName>Weidler</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>2000 North Loop West</street1>
+                <street2>Suite 120</street2>
+                <city>Houston</city>
+                <stateOrCountry>TX</stateOrCountry>
+                <stateOrCountryDescription>TEXAS</stateOrCountryDescription>
+                <zipCode>77018</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>John</firstName>
+                <lastName>Novak</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>2000 North Loop West</street1>
+                <street2>Suite 120</street2>
+                <city>Houston</city>
+                <stateOrCountry>TX</stateOrCountry>
+                <stateOrCountryDescription>TEXAS</stateOrCountryDescription>
+                <zipCode>77018</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other Technology</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>$1 - $1,000,000</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>04</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001819462-24-000001</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2020-06-14</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>2000000</totalOfferingAmount>
+            <totalAmountSold>958848</totalAmountSold>
+            <totalRemaining>1041152</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>true</hasNonAccreditedInvestors>
+            <numberNonAccreditedInvestors>4</numberNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>5</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Volley Boast, LLC</issuerName>
+                <signatureName>Peter E Weidler</signatureName>
+                <nameOfSigner>Peter E Weidler</nameOfSigner>
+                <signatureTitle>President &amp; CEO</signatureTitle>
+                <signatureDate>2025-06-10</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

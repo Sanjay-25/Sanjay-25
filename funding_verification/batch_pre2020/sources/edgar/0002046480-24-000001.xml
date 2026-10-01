@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002046480</cik>
+        <entityName>Alchemy Wealth Builders LLC</entityName>
+        <issuerAddress>
+            <street1>4543 RUTLEDGE</street1>
+            <city>PALM HARBOR</city>
+            <stateOrCountry>FL</stateOrCountry>
+            <stateOrCountryDescription>FLORIDA</stateOrCountryDescription>
+            <zipCode>64685</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>727-916-2732</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2024</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Ankit</firstName>
+                <lastName>Desai</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>4543 RUTLEDGE</street1>
+                <city>PALM HARBOR</city>
+                <stateOrCountry>FL</stateOrCountry>
+                <stateOrCountryDescription>FLORIDA</stateOrCountryDescription>
+                <zipCode>64685</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Manager of Manager</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Commercial</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>No Revenues</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06c</item>
+            <item>3C</item>
+            <item>3C.1</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <yetToOccur>true</yetToOccur>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>100000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>10000000</totalOfferingAmount>
+            <totalAmountSold>0</totalAmountSold>
+            <totalRemaining>10000000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>0</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Alchemy Wealth Builders LLC</issuerName>
+                <signatureName>Ankit Desai</signatureName>
+                <nameOfSigner>Ankit Desai</nameOfSigner>
+                <signatureTitle>Manager of Manager</signatureTitle>
+                <signatureDate>2024-12-11</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

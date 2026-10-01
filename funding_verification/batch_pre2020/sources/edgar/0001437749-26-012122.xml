@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001997452</cik>
+        <entityName>Hive Science, LLC</entityName>
+        <issuerAddress>
+            <street1>6463 Bluestem Road N.</street1>
+            <city>Corcoran</city>
+            <stateOrCountry>MN</stateOrCountry>
+            <stateOrCountryDescription>MINNESOTA</stateOrCountryDescription>
+            <zipCode>55340</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>612-281-1002</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Steve</firstName>
+                <lastName>Fogle</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>6463 Bluestem Road N.</street1>
+                <city>Corcoran</city>
+                <stateOrCountry>MN</stateOrCountry>
+                <stateOrCountryDescription>MINNESOTA</stateOrCountryDescription>
+                <zipCode>55340</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Julia</firstName>
+                <lastName>O'Brien</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>6463 Bluestem Road N.</street1>
+                <city>Corcoran</city>
+                <stateOrCountry>MN</stateOrCountry>
+                <stateOrCountryDescription>MINNESOTA</stateOrCountryDescription>
+                <zipCode>55340</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001437749-24-036938</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2024-11-11</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isSecurityToBeAcquiredType>true</isSecurityToBeAcquiredType>
+            <isOtherType>true</isOtherType>
+            <descriptionOfOtherType>Simple Agreement Future Equity (SAFE)</descriptionOfOtherType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>2500000</totalOfferingAmount>
+            <totalAmountSold>1900000</totalAmountSold>
+            <totalRemaining>600000</totalRemaining>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>11</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Hive Science, LLC</issuerName>
+                <signatureName>/s/ Steve Fogle</signatureName>
+                <nameOfSigner>Steve Fogle</nameOfSigner>
+                <signatureTitle>Chief Executive Officer</signatureTitle>
+                <signatureDate>2026-04-13</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

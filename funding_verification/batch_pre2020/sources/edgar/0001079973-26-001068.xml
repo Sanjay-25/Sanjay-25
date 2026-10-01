@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001937536</cik>
+        <entityName>Paladin Power Inc.</entityName>
+        <issuerAddress>
+            <street1>3883 TURQUOISE WAY, SUITE 2009</street1>
+            <city>OAKLAND</city>
+            <stateOrCountry>CA</stateOrCountry>
+            <stateOrCountryDescription>CALIFORNIA</stateOrCountryDescription>
+            <zipCode>94609</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>800-808-8829</issuerPhoneNumber>
+        <jurisdictionOfInc>NEVADA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2022</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Ted</firstName>
+                <middleName>W</middleName>
+                <lastName>Thomas</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>3883 Turquoise Way, Suite 2009</street1>
+                <city>Oakland</city>
+                <stateOrCountry>CA</stateOrCountry>
+                <stateOrCountryDescription>CALIFORNIA</stateOrCountryDescription>
+                <zipCode>94609</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Manufacturing</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06c</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <yetToOccur>true</yetToOccur>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isDebtType>true</isDebtType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>10000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>15000000</totalOfferingAmount>
+            <totalAmountSold>0</totalAmountSold>
+            <totalRemaining>15000000</totalRemaining>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>0</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Paladin Power Inc.</issuerName>
+                <signatureName>/s/ Ted Thomas</signatureName>
+                <nameOfSigner>Ted Thomas</nameOfSigner>
+                <signatureTitle>CEO</signatureTitle>
+                <signatureDate>2026-08-12</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

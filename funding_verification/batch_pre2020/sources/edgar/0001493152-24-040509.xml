@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002022364</cik>
+        <entityName>Magic Internet Corp</entityName>
+        <issuerAddress>
+            <street1>1443 S 190TH PLZ</street1>
+            <city>OMAHA</city>
+            <stateOrCountry>NE</stateOrCountry>
+            <stateOrCountryDescription>NEBRASKA</stateOrCountryDescription>
+            <zipCode>68130</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>(213) 642-5213</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Ehud</firstName>
+                <lastName>Wertheimer</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>C/O Magic Internet Corp</street1>
+                <street2>1443 S 190th Plz</street2>
+                <city>Omaha</city>
+                <stateOrCountry>NE</stateOrCountry>
+                <stateOrCountryDescription>NEBRASKA</stateOrCountryDescription>
+                <zipCode>68130</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Eric</firstName>
+                <lastName>Wall</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>C/O Magic Internet Corp</street1>
+                <street2>1443 S 190th Plz</street2>
+                <city>Omaha</city>
+                <stateOrCountry>NE</stateOrCountry>
+                <stateOrCountryDescription>NEBRASKA</stateOrCountryDescription>
+                <zipCode>68130</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Alexander</firstName>
+                <lastName>Schoof</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>C/O Magic Internet Corp</street1>
+                <street2>1443 S 190th Plz</street2>
+                <city>Omaha</city>
+                <stateOrCountry>NE</stateOrCountry>
+                <stateOrCountryDescription>NEBRASKA</stateOrCountryDescription>
+                <zipCode>68130</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other Technology</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-08-24</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isOtherType>true</isOtherType>
+            <descriptionOfOtherType>Token Warrant. A Token Warrant is an instrument commonly used in the blockchain space to purchase tokens in the future.</descriptionOfOtherType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>7587500</totalOfferingAmount>
+            <totalAmountSold>7587500</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>25</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Magic Internet Corp</issuerName>
+                <signatureName>/s/ Ehud Wertheimer</signatureName>
+                <nameOfSigner>Ehud Wertheimer</nameOfSigner>
+                <signatureTitle>CEO</signatureTitle>
+                <signatureDate>2024-10-09</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

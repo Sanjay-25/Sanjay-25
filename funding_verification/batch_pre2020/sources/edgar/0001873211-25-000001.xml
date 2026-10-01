@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001873211</cik>
+        <entityName>BRIGHT NEBULA, L.P.</entityName>
+        <issuerAddress>
+            <street1>INTERSTELLAR INVESTMENTS LLC</street1>
+            <street2>16192 COASTAL HIGHWAY LEWES</street2>
+            <city>LEWES</city>
+            <stateOrCountry>DE</stateOrCountry>
+            <stateOrCountryDescription>DELAWARE</stateOrCountryDescription>
+            <zipCode>19958</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>312-493-3083</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <edgarPreviousNameList>
+            <previousName>BRIGHT NEBULA FUND, L.P.</previousName>
+        </edgarPreviousNameList>
+        <entityType>Limited Partnership</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2021</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>-</firstName>
+                <lastName>Interstelar Investments LLC</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>16192 COASTAL HIGHWAY</street1>
+                <city>LEWES</city>
+                <stateOrCountry>DE</stateOrCountry>
+                <stateOrCountryDescription>DELAWARE</stateOrCountryDescription>
+                <zipCode>19958</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>General Partner</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Lin</firstName>
+                <lastName>Shaoying</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1925 S Lee pkwy unit C-1</street1>
+                <city>Chicago</city>
+                <stateOrCountry>IL</stateOrCountry>
+                <stateOrCountryDescription>ILLINOIS</stateOrCountryDescription>
+                <zipCode>60616</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Venture Capital Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>$5,000,001 - $25,000,000</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.1</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001873211-24-000001</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2021-07-09</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>Indefinite</totalOfferingAmount>
+            <totalAmountSold>11778894</totalAmountSold>
+            <totalRemaining>Indefinite</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse>Interstellar Investments LLC, and its affiliates, receive customary management fees based on net asset value, and performance fees and/or allocations, based on Limited Partners investments in the issuer.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>BRIGHT NEBULA, L.P.</issuerName>
+                <signatureName>Shaoying Lin</signatureName>
+                <nameOfSigner>Shaoying Lin</nameOfSigner>
+                <signatureTitle>Director of Interstellar Investments LLC the GP</signatureTitle>
+                <signatureDate>2025-07-07</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

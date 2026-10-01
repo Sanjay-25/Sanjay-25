@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002108308</cik>
+        <entityName>LOB, LLC</entityName>
+        <issuerAddress>
+            <street1>813B NORTH NEW RIVER DR</street1>
+            <city>SURF CITY</city>
+            <stateOrCountry>NC</stateOrCountry>
+            <stateOrCountryDescription>NORTH CAROLINA</stateOrCountryDescription>
+            <zipCode>28445</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>2486334414</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2024</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Donnell</firstName>
+                <lastName>Vanker</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>813B North New River Dr</street1>
+                <city>Surf City</city>
+                <stateOrCountry>NC</stateOrCountry>
+                <stateOrCountryDescription>NORTH CAROLINA</stateOrCountryDescription>
+                <zipCode>28445</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Eduardo</firstName>
+                <lastName>Browne</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>813B North New River Dr</street1>
+                <city>Surf City</city>
+                <stateOrCountry>NC</stateOrCountry>
+                <stateOrCountryDescription>NORTH CAROLINA</stateOrCountryDescription>
+                <zipCode>28445</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Pablo</firstName>
+                <lastName>Stefanini</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>813B North New River Dr</street1>
+                <city>Surf City</city>
+                <stateOrCountry>NC</stateOrCountry>
+                <stateOrCountryDescription>NORTH CAROLINA</stateOrCountryDescription>
+                <zipCode>28445</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other Technology</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2026-01-14</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isDebtType>true</isDebtType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>1000000</totalOfferingAmount>
+            <totalAmountSold>200000</totalAmountSold>
+            <totalRemaining>800000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>250000</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse>A portion of the proceeds may be used to pay certain related persons for documented services, reimbursements, or bona fide loan repayments, and potentially for a strategic investment that supports the Company's business.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>LOB, LLC</issuerName>
+                <signatureName>/s/ Donnell Vanker</signatureName>
+                <nameOfSigner>Donnell Vanker</nameOfSigner>
+                <signatureTitle>CEO</signatureTitle>
+                <signatureDate>2026-01-20</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001957729</cik>
+        <entityName>Oplign, LLC</entityName>
+        <issuerAddress>
+            <street1>500 E. MAIN STREET</street1>
+            <street2>SUITE 1600</street2>
+            <city>NORFOLK</city>
+            <stateOrCountry>VA</stateOrCountry>
+            <stateOrCountryDescription>VIRGINIA</stateOrCountryDescription>
+            <zipCode>23510</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>252-548-0851</issuerPhoneNumber>
+        <jurisdictionOfInc>VIRGINIA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Jeff</firstName>
+                <lastName>Gibson</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>500 E. Main Street</street1>
+                <street2>Suite 1600</street2>
+                <city>Norfolk</city>
+                <stateOrCountry>VA</stateOrCountry>
+                <stateOrCountryDescription>VIRGINIA</stateOrCountryDescription>
+                <zipCode>23510</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other Technology</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001957729-25-000002</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2025-03-24</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>2000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>2000000</totalOfferingAmount>
+            <totalAmountSold>254579</totalAmountSold>
+            <totalRemaining>1745421</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>true</hasNonAccreditedInvestors>
+            <numberNonAccreditedInvestors>5</numberNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>15</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse>Correcting original submission. No sales commissions.</clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Oplign, LLC</issuerName>
+                <signatureName>Jeff Gibson</signatureName>
+                <nameOfSigner>Jeff Gibson</nameOfSigner>
+                <signatureTitle>President</signatureTitle>
+                <signatureDate>2025-04-24</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001964742</cik>
+        <entityName>EDEN BIOSCIENCES I LP</entityName>
+        <issuerAddress>
+            <street1>CONCESSION 10 NORTH</street1>
+            <street2>NO 1026</street2>
+            <city>DUNTROON</city>
+            <stateOrCountry>A6</stateOrCountry>
+            <stateOrCountryDescription>ONTARIO, CANADA</stateOrCountryDescription>
+            <zipCode>L0M1H0</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>6479492663</issuerPhoneNumber>
+        <jurisdictionOfInc>ONTARIO, CANADA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Partnership</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Michael</firstName>
+                <lastName>Franks</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Concession 10 North</street1>
+                <street2>No 1026</street2>
+                <city>Duntroon</city>
+                <stateOrCountry>A6</stateOrCountry>
+                <stateOrCountryDescription>ONTARIO, CANADA</stateOrCountryDescription>
+                <zipCode>L0M1H0</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Venture Capital Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>No Revenues</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <yetToOccur>true</yetToOccur>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isOtherType>true</isOtherType>
+            <descriptionOfOtherType>limited partnership units</descriptionOfOtherType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>5000</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>michael franks</recipientName>
+                <recipientCRDNumber>None</recipientCRDNumber>
+                <associatedBDName>None</associatedBDName>
+                <associatedBDCRDNumber>None</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>Concession 10 North</street1>
+                    <street2>No 1026</street2>
+                    <city>Duntroon</city>
+                    <stateOrCountry>A6</stateOrCountry>
+                    <stateOrCountryDescription>ONTARIO, CANADA</stateOrCountryDescription>
+                    <zipCode>L0M1H0</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <value>All States</value>
+                </statesOfSolicitationList>
+                <foreignSolicitation>true</foreignSolicitation>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>Indefinite</totalOfferingAmount>
+            <totalAmountSold>0</totalAmountSold>
+            <totalRemaining>Indefinite</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>0</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>EDEN BIOSCIENCES I LP</issuerName>
+                <signatureName>Michael Franks</signatureName>
+                <nameOfSigner>Michael Franks</nameOfSigner>
+                <signatureTitle>Managing Partner</signatureTitle>
+                <signatureDate>2023-02-06</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

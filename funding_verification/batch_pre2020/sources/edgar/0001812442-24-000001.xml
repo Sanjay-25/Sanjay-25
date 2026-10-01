@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001812442</cik>
+        <entityName>Titan Legacy Credit &amp; Distressed LP</entityName>
+        <issuerAddress>
+            <street1>750 WASHINGTON BLVD.</street1>
+            <street2>FLOOR 10</street2>
+            <city>STAMFORD</city>
+            <stateOrCountry>CT</stateOrCountry>
+            <stateOrCountryDescription>CONNECTICUT</stateOrCountryDescription>
+            <zipCode>06901</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>(203) 327-8600</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <edgarPreviousNameList>
+            <previousName>Titan Legacy Credit &amp; Distressed Fund LP</previousName>
+        </edgarPreviousNameList>
+        <entityType>Limited Partnership</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2019</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>N/A</firstName>
+                <lastName>Titan Advisors, LLC</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>750 Washington Blvd.</street1>
+                <street2>Floor 10</street2>
+                <city>Stamford</city>
+                <stateOrCountry>CT</stateOrCountry>
+                <stateOrCountryDescription>CONNECTICUT</stateOrCountryDescription>
+                <zipCode>06901</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>The Investment Manager of the Issuer</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>George</firstName>
+                <lastName>Fox</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>750 Washington Blvd.</street1>
+                <street2>Floor 10</street2>
+                <city>Stamford</city>
+                <stateOrCountry>CT</stateOrCountry>
+                <stateOrCountryDescription>CONNECTICUT</stateOrCountryDescription>
+                <zipCode>06901</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Hedge Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <aggregateNetAssetValueRange>Decline to Disclose</aggregateNetAssetValueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.1</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001812442-23-000002</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2019-09-01</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+            <isOtherType>true</isOtherType>
+            <descriptionOfOtherType>LP interests. The minimum investment amount of $1,000,000 may be changed at the discretion of the General Partner.</descriptionOfOtherType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>50000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>Indefinite</totalOfferingAmount>
+            <totalAmountSold>152065905</totalAmountSold>
+            <totalRemaining>Indefinite</totalRemaining>
+            <clarificationOfResponse>The total amount sold and the number of investors reflected in Items 13 and 14 do not take redemptions and/or withdrawals into consideration.</clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>4</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Titan Legacy Credit &amp; Distressed LP</issuerName>
+                <signatureName>/s/ George J. Fox</signatureName>
+                <nameOfSigner>George J. Fox</nameOfSigner>
+                <signatureTitle>Manager of the Issuer's General Partner</signatureTitle>
+                <signatureDate>2024-05-10</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

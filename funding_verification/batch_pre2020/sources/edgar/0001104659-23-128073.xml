@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002004729</cik>
+        <entityName>Mason Buligo LP</entityName>
+        <issuerAddress>
+            <street1>1201 NORTH ORANGE STREET, SUITE 7494</street1>
+            <city>WILMINGTON</city>
+            <stateOrCountry>DE</stateOrCountry>
+            <stateOrCountryDescription>DELAWARE</stateOrCountryDescription>
+            <zipCode>19801</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>972-3-575-5406</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Partnership</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Itay</firstName>
+                <lastName>Goren</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1201 North Orange Street, Suite 7494</street1>
+                <city>Wilmington</city>
+                <stateOrCountry>DE</stateOrCountry>
+                <stateOrCountryDescription>DELAWARE</stateOrCountryDescription>
+                <zipCode>19801-1168</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Residential</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>No Revenues</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-09-12</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>35000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>16582760</totalOfferingAmount>
+            <totalAmountSold>16582760</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>45</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Mason Buligo LP</issuerName>
+                <signatureName>/s/ Itay Goren</signatureName>
+                <nameOfSigner>Itay Goren</nameOfSigner>
+                <signatureTitle>Promoter, Managing Member</signatureTitle>
+                <signatureDate>2023-12-08</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002153133</cik>
+        <entityName>Castle Rock Energy Fund V, LP</entityName>
+        <issuerAddress>
+            <street1>1914 SKILLMAN STREET</street1>
+            <street2>SUITE 110-165</street2>
+            <city>DALLAS</city>
+            <stateOrCountry>TX</stateOrCountry>
+            <stateOrCountryDescription>TEXAS</stateOrCountryDescription>
+            <zipCode>75206</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>(405) 819-9931</issuerPhoneNumber>
+        <jurisdictionOfInc>TEXAS</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Partnership</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2026</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Andrew</firstName>
+                <middleName>Bao</middleName>
+                <lastName>Hoang</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1914 Skillman Street</street1>
+                <street2>Suite 110-165</street2>
+                <city>Dallas</city>
+                <stateOrCountry>TX</stateOrCountry>
+                <stateOrCountryDescription>TEXAS</stateOrCountryDescription>
+                <zipCode>75206</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Manager of the general partner of the issuer</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Ryan</firstName>
+                <middleName>Marshall</middleName>
+                <lastName>Wilson</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1914 Skillman Street</street1>
+                <street2>Suite 110-165</street2>
+                <city>Dallas</city>
+                <stateOrCountry>TX</stateOrCountry>
+                <stateOrCountryDescription>TEXAS</stateOrCountryDescription>
+                <zipCode>75206</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Manager of general partner of issuer</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Oil and Gas</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>$1 - $1,000,000</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2026-07-01</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isMineralPropertyType>true</isMineralPropertyType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>38000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>1178000</totalOfferingAmount>
+            <totalAmountSold>1178000</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>true</hasNonAccreditedInvestors>
+            <numberNonAccreditedInvestors>0</numberNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>5000</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse>For services rendered to be rendered to the issuer, not expected to exceed $10,000</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>true</authorizedRepresentative>
+            <signature>
+                <issuerName>Castle Rock Energy Fund V, LP</issuerName>
+                <signatureName>/s/ Andrew Hoang</signatureName>
+                <nameOfSigner>Andrew Hoang</nameOfSigner>
+                <signatureTitle>Manager of Castle Rock Energy Holdings LLC</signatureTitle>
+                <signatureDate>2026-09-08</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

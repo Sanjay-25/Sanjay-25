@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002080949</cik>
+        <entityName>Wave Bye by Play Money a Series of Clutch Capital LLC</entityName>
+        <issuerAddress>
+            <street1>8 THE GREEN</street1>
+            <street2>STE A</street2>
+            <city>DOVER</city>
+            <stateOrCountry>DE</stateOrCountry>
+            <stateOrCountryDescription>DELAWARE</stateOrCountryDescription>
+            <zipCode>19901</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>720-432-0608</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2025</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>N/A</firstName>
+                <lastName>N/A</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Not Applicable</street1>
+                <city>Not Applicable</city>
+                <stateOrCountry>XX</stateOrCountry>
+                <stateOrCountryDescription>Unknown</stateOrCountryDescription>
+                <zipCode>00000</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Venture Capital Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>No Revenues</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C.1</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2025-08-08</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>1000</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>None</recipientName>
+                <recipientCRDNumber>00000000</recipientCRDNumber>
+                <associatedBDName>Not Applicable</associatedBDName>
+                <associatedBDCRDNumber>00000000</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>N/A</street1>
+                    <city>N/A</city>
+                    <stateOrCountry>XX</stateOrCountry>
+                    <stateOrCountryDescription>Unknown</stateOrCountryDescription>
+                    <zipCode>00000</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <value>All States</value>
+                </statesOfSolicitationList>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>250000</totalOfferingAmount>
+            <totalAmountSold>0</totalAmountSold>
+            <totalRemaining>250000</totalRemaining>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <numberNonAccreditedInvestors>0</numberNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>0</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Wave Bye by Play Money a Series of Clutch Capital LLC</issuerName>
+                <signatureName>Cheryl Kellond</signatureName>
+                <nameOfSigner>Cheryl Kellond</nameOfSigner>
+                <signatureTitle>Authorized Signatory</signatureTitle>
+                <signatureDate>2025-08-13</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

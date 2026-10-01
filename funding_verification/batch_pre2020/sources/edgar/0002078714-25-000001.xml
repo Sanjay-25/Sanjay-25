@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002078714</cik>
+        <entityName>Mason Group One LLC</entityName>
+        <issuerAddress>
+            <street1>8617 W POINT DOUGLAS RD S SUITE 150</street1>
+            <city>COTTAGE GROVE</city>
+            <stateOrCountry>MN</stateOrCountry>
+            <stateOrCountryDescription>MINNESOTA</stateOrCountryDescription>
+            <zipCode>55016</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>6512053510</issuerPhoneNumber>
+        <jurisdictionOfInc>MINNESOTA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2025</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Guillermo</firstName>
+                <middleName>Israel</middleName>
+                <lastName>Garavito</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>4882 Sunflower Alcove</street1>
+                <city>Woodbury</city>
+                <stateOrCountry>MN</stateOrCountry>
+                <stateOrCountryDescription>MINNESOTA</stateOrCountryDescription>
+                <zipCode>55129</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Commercial</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>$1 - $1,000,000</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2025-07-08</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>10000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>1200000</totalOfferingAmount>
+            <totalAmountSold>1180000</totalAmountSold>
+            <totalRemaining>20000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>true</hasNonAccreditedInvestors>
+            <numberNonAccreditedInvestors>5</numberNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>9</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Mason Group One LLC</issuerName>
+                <signatureName>G. Israel Garavito</signatureName>
+                <nameOfSigner>G. Israel Garavito</nameOfSigner>
+                <signatureTitle>Manager</signatureTitle>
+                <signatureDate>2025-07-28</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

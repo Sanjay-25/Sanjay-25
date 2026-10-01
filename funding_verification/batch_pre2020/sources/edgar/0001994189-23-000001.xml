@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001994189</cik>
+        <entityName>Sarah Smith Fund QP, LP - A4</entityName>
+        <issuerAddress>
+            <street1>119 SOUTH MAIN STREET, SUITE 220</street1>
+            <city>SEATTLE</city>
+            <stateOrCountry>WA</stateOrCountry>
+            <stateOrCountryDescription>WASHINGTON</stateOrCountryDescription>
+            <zipCode>98104</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>2068016359</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Partnership</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>LLC</firstName>
+                <lastName>Fund GP,</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>PO Box 3217</street1>
+                <city>Seattle</city>
+                <stateOrCountry>WA</stateOrCountry>
+                <stateOrCountryDescription>WASHINGTON</stateOrCountryDescription>
+                <zipCode>98114</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>General partner of the Issuer</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Ltd.</firstName>
+                <lastName>Belltower Fund Group,</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>119 South Main St, Suite 220</street1>
+                <city>Seattle</city>
+                <stateOrCountry>WA</stateOrCountry>
+                <stateOrCountryDescription>WASHINGTON</stateOrCountryDescription>
+                <zipCode>98104</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Agent of the general partner of the Issuer</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Venture Capital Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06c</item>
+            <item>3C</item>
+            <item>3C.1</item>
+            <item>3C.7</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-10-02</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>8500</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>581404</totalOfferingAmount>
+            <totalAmountSold>581404</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>11</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>16721</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse>This amount represents the dollar value of a one-time fee and an annual fee paid to the fund administrator and/or its affiliates to cover administrative expenses for the life of the fund.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Sarah Smith Fund QP, LP - A4</issuerName>
+                <signatureName>/s/ Abraham Wilson</signatureName>
+                <nameOfSigner>Abraham Wilson</nameOfSigner>
+                <signatureTitle>Authorized Officer of the Agent of Issuer's GP</signatureTitle>
+                <signatureDate>2023-10-11</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

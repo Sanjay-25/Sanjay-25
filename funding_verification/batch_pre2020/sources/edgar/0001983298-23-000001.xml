@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001983298</cik>
+        <entityName>NESTOR EHR, LLC</entityName>
+        <issuerAddress>
+            <street1>180 SANDPIPER STREET</street1>
+            <city>SUNSET</city>
+            <stateOrCountry>LA</stateOrCountry>
+            <stateOrCountryDescription>LOUISIANA</stateOrCountryDescription>
+            <zipCode>70584</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>469-980-6172</issuerPhoneNumber>
+        <jurisdictionOfInc>LOUISIANA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Jordan</firstName>
+                <lastName>Davidson</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>180 Sandpiper Street</street1>
+                <city>Sunset</city>
+                <stateOrCountry>LA</stateOrCountry>
+                <stateOrCountryDescription>LOUISIANA</stateOrCountryDescription>
+                <zipCode>70584</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Shawn</firstName>
+                <lastName>Johnston</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>105 East Lake Drive</street1>
+                <city>Sunset</city>
+                <stateOrCountry>LA</stateOrCountry>
+                <stateOrCountryDescription>LOUISIANA</stateOrCountryDescription>
+                <zipCode>70584</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other Technology</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-06-15</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>NONE</recipientName>
+                <recipientCRDNumber>None</recipientCRDNumber>
+                <associatedBDName>None</associatedBDName>
+                <associatedBDCRDNumber>None</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>NONE</street1>
+                    <street2>NONE</street2>
+                    <city>NONE</city>
+                    <stateOrCountry>LA</stateOrCountry>
+                    <stateOrCountryDescription>LOUISIANA</stateOrCountryDescription>
+                    <zipCode>NONE</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <state>LA</state>
+                    <description>LOUISIANA</description>
+                    <state>OK</state>
+                    <description>OKLAHOMA</description>
+                </statesOfSolicitationList>
+                <foreignSolicitation>false</foreignSolicitation>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>1000000</totalOfferingAmount>
+            <totalAmountSold>330000</totalAmountSold>
+            <totalRemaining>670000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>6</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>NESTOR EHR, LLC</issuerName>
+                <signatureName>Jordan Davidson</signatureName>
+                <nameOfSigner>Jordan Davidson</nameOfSigner>
+                <signatureTitle>Manager</signatureTitle>
+                <signatureDate>2023-06-28</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

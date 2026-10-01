@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002055197</cik>
+        <entityName>H Investment Fund LLC</entityName>
+        <issuerAddress>
+            <street1>C/O H INVESTMENT MANAGEMENT LLC</street1>
+            <street2>1300 ROCK AVE, A4</street2>
+            <city>NORTH PLAINFIELD</city>
+            <stateOrCountry>NJ</stateOrCountry>
+            <stateOrCountryDescription>NEW JERSEY</stateOrCountryDescription>
+            <zipCode>07060</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>949-296-7502</issuerPhoneNumber>
+        <jurisdictionOfInc>NEW JERSEY</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2025</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Randeep</firstName>
+                <lastName>Singh</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>C/O H INVESTMENT MANAGEMENT LLC</street1>
+                <street2>1300 Rock Ave, A4</street2>
+                <city>North Plainfield</city>
+                <stateOrCountry>NJ</stateOrCountry>
+                <stateOrCountryDescription>NEW JERSEY</stateOrCountryDescription>
+                <zipCode>07060</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Manager of Manager</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>No Revenues</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06c</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0002055197-25-000001</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <yetToOccur>true</yetToOccur>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>50000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>10000000</totalOfferingAmount>
+            <totalAmountSold>0</totalAmountSold>
+            <totalRemaining>10000000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>0</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>H Investment Fund LLC</issuerName>
+                <signatureName>Randeep Singh</signatureName>
+                <nameOfSigner>Randeep Singh</nameOfSigner>
+                <signatureTitle>Manager of Manager</signatureTitle>
+                <signatureDate>2025-02-06</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

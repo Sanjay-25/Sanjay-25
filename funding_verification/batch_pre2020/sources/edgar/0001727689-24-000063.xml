@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002021989</cik>
+        <entityName>Super Copper Corp.</entityName>
+        <issuerAddress>
+            <street1>SUITE 1000, 409 GRANVILLE ST</street1>
+            <city>VANCOUVER</city>
+            <stateOrCountry>A1</stateOrCountry>
+            <stateOrCountryDescription>BRITISH COLUMBIA, CANADA</stateOrCountryDescription>
+            <zipCode>V6C 1T2</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>(778) 858-5476</issuerPhoneNumber>
+        <jurisdictionOfInc>BRITISH COLUMBIA, CANADA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <previousName>Kepler Private Equity Ltd.</previousName>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Zachary</firstName>
+                <lastName>Dymala-Dolesky</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Suite 1000, 409 Granville Street</street1>
+                <city>Vancouver</city>
+                <stateOrCountry>A1</stateOrCountry>
+                <stateOrCountryDescription>BRITISH COLUMBIA, CANADA</stateOrCountryDescription>
+                <zipCode>V6C 1T2</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Natasha</firstName>
+                <lastName>Tsai</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>Suite 1000, 409 Granville Street</street1>
+                <city>Vancouver</city>
+                <stateOrCountry>A1</stateOrCountry>
+                <stateOrCountryDescription>BRITISH COLUMBIA, CANADA</stateOrCountryDescription>
+                <zipCode>V6C 1T2</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>No Revenues</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2024-04-26</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isOptionToAcquireType>true</isOptionToAcquireType>
+            <isSecurityToBeAcquiredType>true</isSecurityToBeAcquiredType>
+            <isOtherType>true</isOtherType>
+            <descriptionOfOtherType>Subscription receipts, each entitling the subscriber to receive, without any further action and for no additional consideration, one common share of the issuer</descriptionOfOtherType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>99498</totalOfferingAmount>
+            <totalAmountSold>99498</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+            <clarificationOfResponse>Amounts have been converted from Canadian dollars based on the 0.7316 Bank of Canada daily exchange rate on 4-26-24.</clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse>A portion of the net proceeds may be used for general working capital purposes, including for payments to officers and directors in the ordinary course, but proceeds are not earmarked for such payments</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Super Copper Corp.</issuerName>
+                <signatureName>/s/ Zachary Dymala-Dolesky</signatureName>
+                <nameOfSigner>Zachary Dymala-Dolesky</nameOfSigner>
+                <signatureTitle>Director</signatureTitle>
+                <signatureDate>2024-05-09</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001938324</cik>
+        <entityName>Fondo Eguia CRL</entityName>
+        <issuerAddress>
+            <street1>500 CALLE TANCA, SUITE 201</street1>
+            <city>San Juan</city>
+            <stateOrCountry>PR</stateOrCountry>
+            <stateOrCountryDescription>PUERTO RICO</stateOrCountryDescription>
+            <zipCode>00901</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>787-977-3772</issuerPhoneNumber>
+        <jurisdictionOfInc>PUERTO RICO</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <previousName>REVELLIN LLC</previousName>
+            <previousName>SERIES I REVELLIN LLC</previousName>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2018</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Mikel</firstName>
+                <lastName>Eguia</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>500 CALLE TANCA, SUITE 201</street1>
+                <city>San Juan</city>
+                <stateOrCountry>PR</stateOrCountry>
+                <stateOrCountryDescription>PUERTO RICO</stateOrCountryDescription>
+                <zipCode>00901</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Maria</firstName>
+                <lastName>Eguia</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>500 CALLE TANCA, SUITE 201</street1>
+                <city>San Juan</city>
+                <stateOrCountry>PR</stateOrCountry>
+                <stateOrCountryDescription>PUERTO RICO</stateOrCountryDescription>
+                <zipCode>00901</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Private Equity Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2018-12-29</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>10000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>15000000</totalOfferingAmount>
+            <totalAmountSold>12351746</totalAmountSold>
+            <totalRemaining>2648254</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>48</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Fondo Eguia CRL</issuerName>
+                <signatureName>Mikel Eguia</signatureName>
+                <nameOfSigner>Mikel Eguia</nameOfSigner>
+                <signatureTitle>Managing Member</signatureTitle>
+                <signatureDate>2023-08-17</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

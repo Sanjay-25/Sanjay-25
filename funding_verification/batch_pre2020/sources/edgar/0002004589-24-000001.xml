@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001837862</cik>
+        <entityName>Hive Brands Holdings, Inc.</entityName>
+        <issuerAddress>
+            <street1>183 THREE BROOKS ROAD</street1>
+            <city>FREEHOLD</city>
+            <stateOrCountry>NJ</stateOrCountry>
+            <stateOrCountryDescription>NEW JERSEY</stateOrCountryDescription>
+            <zipCode>07728</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>888-862-8022</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2020</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Scott</firstName>
+                <lastName>Morris</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>c/o Hive Brands Holdings, Inc.</street1>
+                <street2>183 Three Brooks Road</street2>
+                <city>Freehold</city>
+                <stateOrCountry>NJ</stateOrCountry>
+                <stateOrCountryDescription>NEW JERSEY</stateOrCountryDescription>
+                <zipCode>07728</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Katie</firstName>
+                <lastName>Tyson</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>c/o Hive Brands Holdings, Inc.</street1>
+                <street2>183 Three Brooks Road</street2>
+                <city>Freehold</city>
+                <stateOrCountry>NJ</stateOrCountry>
+                <stateOrCountryDescription>NEW JERSEY</stateOrCountryDescription>
+                <zipCode>07728</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Retailing</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-12-13</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>5000000</totalOfferingAmount>
+            <totalAmountSold>3337923</totalAmountSold>
+            <totalRemaining>1662077</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>19</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Hive Brands Holdings, Inc.</issuerName>
+                <signatureName>/s/ Katie Tyson</signatureName>
+                <nameOfSigner>Katie Tyson</nameOfSigner>
+                <signatureTitle>President</signatureTitle>
+                <signatureDate>2024-01-02</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

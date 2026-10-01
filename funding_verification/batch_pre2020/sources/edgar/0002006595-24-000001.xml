@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002006595</cik>
+        <entityName>JOY HOLDINGS LLC</entityName>
+        <issuerAddress>
+            <street1>9650 STRICKLAND ROAD</street1>
+            <street2>STE 103111</street2>
+            <city>RALEIGH</city>
+            <stateOrCountry>NC</stateOrCountry>
+            <stateOrCountryDescription>NORTH CAROLINA</stateOrCountryDescription>
+            <zipCode>27615</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>919-741-4959</issuerPhoneNumber>
+        <jurisdictionOfInc>NORTH CAROLINA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Timothy</firstName>
+                <middleName>Caroll</middleName>
+                <lastName>Sauve</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>9650 Strickland Road</street1>
+                <street2>Ste 103111</street2>
+                <city>Raleigh</city>
+                <stateOrCountry>NC</stateOrCountry>
+                <stateOrCountryDescription>NORTH CAROLINA</stateOrCountryDescription>
+                <zipCode>27615</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>No Revenues</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-12-18</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>10000</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>Tim Sauve</recipientName>
+                <recipientCRDNumber>None</recipientCRDNumber>
+                <associatedBDName>None</associatedBDName>
+                <associatedBDCRDNumber>None</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>9650 Strickland Road</street1>
+                    <street2>Ste 103111</street2>
+                    <city>Raleigh</city>
+                    <stateOrCountry>NC</stateOrCountry>
+                    <stateOrCountryDescription>NORTH CAROLINA</stateOrCountryDescription>
+                    <zipCode>27615</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <state>NC</state>
+                    <description>NORTH CAROLINA</description>
+                    <state>TX</state>
+                    <description>TEXAS</description>
+                </statesOfSolicitationList>
+                <foreignSolicitation>false</foreignSolicitation>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>1000000</totalOfferingAmount>
+            <totalAmountSold>70000</totalAmountSold>
+            <totalRemaining>930000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>true</hasNonAccreditedInvestors>
+            <numberNonAccreditedInvestors>3</numberNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>5</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse>General working capital purposes, including paying the expenses of the offering</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>JOY HOLDINGS LLC</issuerName>
+                <signatureName>Tim Sauve</signatureName>
+                <nameOfSigner>Tim Sauve</nameOfSigner>
+                <signatureTitle>Director</signatureTitle>
+                <signatureDate>2024-01-02</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

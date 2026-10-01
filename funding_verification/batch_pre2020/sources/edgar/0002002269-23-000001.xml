@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002002269</cik>
+        <entityName>Crossings of Kenton SPE LLC</entityName>
+        <issuerAddress>
+            <street1>1830 EAST BROAD STREET</street1>
+            <city>COLUMBUS</city>
+            <stateOrCountry>OH</stateOrCountry>
+            <stateOrCountryDescription>OHIO</stateOrCountryDescription>
+            <zipCode>43203</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>(614) 462-0406</issuerPhoneNumber>
+        <jurisdictionOfInc>OHIO</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>JOSEPH</firstName>
+                <lastName>HUBER</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1830 EAST BROAD STREET</street1>
+                <city>COLUMBUS</city>
+                <stateOrCountry>OH</stateOrCountry>
+                <stateOrCountryDescription>OHIO</stateOrCountryDescription>
+                <zipCode>43203</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>DAN</firstName>
+                <lastName>HUNTER</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1830 EAST BROAD STREET</street1>
+                <city>COLUMBUS</city>
+                <stateOrCountry>OH</stateOrCountry>
+                <stateOrCountryDescription>OHIO</stateOrCountryDescription>
+                <zipCode>43203</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Residential</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <yetToOccur>true</yetToOccur>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>1000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>5800000</totalOfferingAmount>
+            <totalAmountSold>0</totalAmountSold>
+            <totalRemaining>5800000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>0</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>941000</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse>The related persons are entitled to an annual asset management fee equal to 1% of the gross offering proceeds ($58,000), plus one-time fees for services performed (e.g., acquisition, real estate brokerage, loan guaranty, etc.) up to a maximum $883,000.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Crossings of Kenton SPE LLC</issuerName>
+                <signatureName>/s/ Dan Hunter</signatureName>
+                <nameOfSigner>Dan Hunter</nameOfSigner>
+                <signatureTitle>Senior Director of Investments</signatureTitle>
+                <signatureDate>2023-11-28</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

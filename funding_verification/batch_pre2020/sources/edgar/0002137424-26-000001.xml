@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002137424</cik>
+        <entityName>1910 SE Stark LLC</entityName>
+        <issuerAddress>
+            <street1>7401 SW CAPITOL HWY</street1>
+            <city>PORTLAND</city>
+            <stateOrCountry>OR</stateOrCountry>
+            <stateOrCountryDescription>OREGON</stateOrCountryDescription>
+            <zipCode>97219</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>503.941.0276</issuerPhoneNumber>
+        <jurisdictionOfInc>OREGON</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2026</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Chris</firstName>
+                <middleName>J</middleName>
+                <lastName>Shepard</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>7401 SW Capitol Hwy</street1>
+                <city>Portland</city>
+                <stateOrCountry>X1</stateOrCountry>
+                <stateOrCountryDescription>UNITED STATES</stateOrCountryDescription>
+                <zipCode>97219</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Managing Partner</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Amos</firstName>
+                <middleName>J</middleName>
+                <lastName>Shepard</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>7401 SW Capitol Hwy</street1>
+                <city>Portland</city>
+                <stateOrCountry>OR</stateOrCountry>
+                <stateOrCountryDescription>OREGON</stateOrCountryDescription>
+                <zipCode>97219</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Managing Partner</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Commercial</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>$1 - $1,000,000</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <yetToOccur>true</yetToOccur>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>50000</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>Uptown Syndication LLC</recipientName>
+                <recipientCRDNumber>None</recipientCRDNumber>
+                <associatedBDName>None</associatedBDName>
+                <associatedBDCRDNumber>None</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>7401 SW Capitol Hwy</street1>
+                    <city>Portland</city>
+                    <stateOrCountry>OR</stateOrCountry>
+                    <stateOrCountryDescription>OREGON</stateOrCountryDescription>
+                    <zipCode>97219</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <state>OR</state>
+                    <description>OREGON</description>
+                </statesOfSolicitationList>
+                <foreignSolicitation>false</foreignSolicitation>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>450000</totalOfferingAmount>
+            <totalAmountSold>0</totalAmountSold>
+            <totalRemaining>450000</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>5</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>27500</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>1910 SE Stark LLC</issuerName>
+                <signatureName>Chris J Shepard</signatureName>
+                <nameOfSigner>Chris J Shepard</nameOfSigner>
+                <signatureTitle>Managing partner</signatureTitle>
+                <signatureDate>2026-06-04</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

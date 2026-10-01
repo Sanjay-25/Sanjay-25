@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001343806</cik>
+        <entityName>Eden Partners Absolute Growth Fund LP</entityName>
+        <issuerAddress>
+            <street1>58 BOSTON STREET</street1>
+            <city>GUILFORD</city>
+            <stateOrCountry>CT</stateOrCountry>
+            <stateOrCountryDescription>CONNECTICUT</stateOrCountryDescription>
+            <zipCode>06437</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>800-475-1088</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Partnership</entityType>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Elizabeth</firstName>
+                <lastName>Eden</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>58 Boston Street</street1>
+                <city>Guilford</city>
+                <stateOrCountry>CT</stateOrCountry>
+                <stateOrCountryDescription>CONNECTICUT</stateOrCountryDescription>
+                <zipCode>06437</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Elizabeth</firstName>
+                <lastName>Cook</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>58 Boston Street</street1>
+                <city>Guilford</city>
+                <stateOrCountry>CT</stateOrCountry>
+                <stateOrCountryDescription>CONNECTICUT</stateOrCountryDescription>
+                <zipCode>06437</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Other Investment Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <aggregateNetAssetValueRange>$5,000,001 - $25,000,000</aggregateNetAssetValueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.1</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001343806-16-000003</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2005-09-28</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse>A related investment fund, Steamboat Fund, LP (CIK #1476127), merged into the Issuer effective January 1, 2025, as a result of which the Issuer added three new limited partners. The Issuer has no present intention to continue this offering.</clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>250000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>Indefinite</totalOfferingAmount>
+            <totalAmountSold>63215200</totalAmountSold>
+            <totalRemaining>Indefinite</totalRemaining>
+            <clarificationOfResponse>Over the past several years, the Issuer has been winding down its operations through redemptions.</clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>80</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>4021231</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse>Amount in this box represents aggregate payments made by the Issuer to Diastole Wealth Management LLC.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Eden Partners Absolute Growth Fund LP</issuerName>
+                <signatureName>/s/Elizabeth Cook</signatureName>
+                <nameOfSigner>Elizabeth Cook</nameOfSigner>
+                <signatureTitle>Managing Director of General Partner</signatureTitle>
+                <signatureDate>2025-02-05</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

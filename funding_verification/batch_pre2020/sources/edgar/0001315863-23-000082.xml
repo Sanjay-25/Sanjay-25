@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001553303</cik>
+        <entityName>Flour Mill Fund, Ltd.</entityName>
+        <issuerAddress>
+            <street1>C/O THE ROCK CREEK GROUP</street1>
+            <street2>1133 CONNECTICUT AVENUE, N.W.</street2>
+            <city>WASHINGTON</city>
+            <stateOrCountry>DC</stateOrCountry>
+            <stateOrCountryDescription>DISTRICT OF COLUMBIA</stateOrCountryDescription>
+            <zipCode>20036</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>202-331-3400</issuerPhoneNumber>
+        <jurisdictionOfInc>CAYMAN ISLANDS</jurisdictionOfInc>
+        <edgarPreviousNameList>
+            <previousName>Rock Creek Whitehaven Fund, Ltd</previousName>
+        </edgarPreviousNameList>
+        <entityType>Other</entityType>
+        <entityTypeOtherDesc>an exempted limited company incorporated under the laws of the Cayman Islands</entityTypeOtherDesc>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Afsaneh</firstName>
+                <lastName>Beschloss</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>c/o The Rock Creek Group</street1>
+                <street2>1133 Connecticut Avenue N.W.</street2>
+                <city>Washington</city>
+                <stateOrCountry>DC</stateOrCountry>
+                <stateOrCountryDescription>DISTRICT OF COLUMBIA</stateOrCountryDescription>
+                <zipCode>20036</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Antonio</firstName>
+                <lastName>Sierra</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>c/o The Rock Creek Group</street1>
+                <street2>1133 Connecticut Avenue N.W.</street2>
+                <city>Washington</city>
+                <stateOrCountry>DC</stateOrCountry>
+                <stateOrCountryDescription>DISTRICT OF COLUMBIA</stateOrCountryDescription>
+                <zipCode>20036</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Hedge Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <aggregateNetAssetValueRange>Decline to Disclose</aggregateNetAssetValueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.7</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001315863-22-000076</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2012-06-26</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>250000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>Indefinite</totalOfferingAmount>
+            <totalAmountSold>30000000</totalAmountSold>
+            <totalRemaining>Indefinite</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse>The Issuer's confidential offering materials fulls discuss the annual fees the Investment Manager and any other parties are entitled to.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Flour Mill Fund, Ltd.</issuerName>
+                <signatureName>/s/ Antonio Sierra</signatureName>
+                <nameOfSigner>Antonio Sierra</nameOfSigner>
+                <signatureTitle>Director</signatureTitle>
+                <signatureDate>2023-01-31</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002039344</cik>
+        <entityName>Front Street Capital Lenders II, LLC</entityName>
+        <issuerAddress>
+            <street1>11 FRONT ST. S</street1>
+            <street2>STE.100</street2>
+            <city>ISSAQUAH</city>
+            <stateOrCountry>WA</stateOrCountry>
+            <stateOrCountryDescription>WASHINGTON</stateOrCountryDescription>
+            <zipCode>98027</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>425-677-8574</issuerPhoneNumber>
+        <jurisdictionOfInc>WASHINGTON</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2024</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Kurt</firstName>
+                <lastName>Ursich</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>11 Front St. S</street1>
+                <street2>Ste. 100</street2>
+                <city>Issaquah</city>
+                <stateOrCountry>WA</stateOrCountry>
+                <stateOrCountryDescription>WASHINGTON</stateOrCountryDescription>
+                <zipCode>98027</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Matthew</firstName>
+                <lastName>Akers</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>11 Front St. S</street1>
+                <street2>Ste. 100</street2>
+                <city>Issaquah</city>
+                <stateOrCountry>WA</stateOrCountry>
+                <stateOrCountryDescription>WASHINGTON</stateOrCountryDescription>
+                <zipCode>98027</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>REITS and Finance</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>$1 - $1,000,000</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2024-10-03</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isDebtType>true</isDebtType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>20000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>1000000</totalOfferingAmount>
+            <totalAmountSold>1000000</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>3</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>35000</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse>Loan origination fee paid by borrower</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Front Street Capital Lenders II, LLC</issuerName>
+                <signatureName>Matthew Akers</signatureName>
+                <nameOfSigner>Matthew Akers</nameOfSigner>
+                <signatureTitle>Attorney for issuer</signatureTitle>
+                <signatureDate>2024-10-04</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

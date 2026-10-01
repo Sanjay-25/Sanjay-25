@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002137952</cik>
+        <entityName>Radar Midtown LLC</entityName>
+        <issuerAddress>
+            <street1>12341 CLOVERDALE STREET</street1>
+            <city>DETROIT</city>
+            <stateOrCountry>MI</stateOrCountry>
+            <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+            <zipCode>48204</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>844-533-6686</issuerPhoneNumber>
+        <jurisdictionOfInc>MICHIGAN</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2023</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Darin</firstName>
+                <lastName>McLeskey</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>12341 Cloverdale Street</street1>
+                <city>Detroit</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48204</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Darin McLeskey is the primary owner of Detroit Denovo LLC, a Michigan limited liability company and the managing member of Radar Midtown LLC.  Detroit Denovo owns at least 47.5% of the issued and outstanding equity interests of Radar Midtown LLC.</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Randal</firstName>
+                <lastName>Lesson</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1365 Kessler Avenue</street1>
+                <city>Waterford</city>
+                <stateOrCountry>MI</stateOrCountry>
+                <stateOrCountryDescription>MICHIGAN</stateOrCountryDescription>
+                <zipCode>48328</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Randal Lesson is the primary owner of CJJ Group, L.L.C., a Michigan liability company.  CJJ Group owns at least 47.5% of the issued and outstanding equity interests of Radar Midtown LLC.</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Residential</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>No Revenues</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>04</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2026-06-01</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>1</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>156074</totalOfferingAmount>
+            <totalAmountSold>28093</totalAmountSold>
+            <totalRemaining>127981</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>true</hasNonAccreditedInvestors>
+            <numberNonAccreditedInvestors>1</numberNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Radar Midtown LLC</issuerName>
+                <signatureName>John Perkins</signatureName>
+                <nameOfSigner>John Perkins</nameOfSigner>
+                <signatureTitle>Corporate Counsel</signatureTitle>
+                <signatureDate>2026-06-02</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

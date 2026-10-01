@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002055338</cik>
+        <entityName>Mason Park Opportunity Fund, LP</entityName>
+        <issuerAddress>
+            <street1>119 WASHINGTON AVENUE</street1>
+            <street2>SUITE 600</street2>
+            <city>MIAMI BEACH</city>
+            <stateOrCountry>FL</stateOrCountry>
+            <stateOrCountryDescription>FLORIDA</stateOrCountryDescription>
+            <zipCode>33139</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>8004078146</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <edgarPreviousNameList>
+            <previousName>Solana Acquisition Partners LP</previousName>
+        </edgarPreviousNameList>
+        <entityType>Limited Partnership</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2024</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Theodore</firstName>
+                <lastName>Rosenthal</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>119 Washington Ave.</street1>
+                <street2>Suite 600</street2>
+                <city>Miami Beach</city>
+                <stateOrCountry>FL</stateOrCountry>
+                <stateOrCountryDescription>FLORIDA</stateOrCountryDescription>
+                <zipCode>33139</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Manager of the General Partner of the Issuer.</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>n/a</firstName>
+                <middleName>n/a</middleName>
+                <lastName>Mason Park Investments, LLC</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>119 Washington Ave.</street1>
+                <street2>Suite 600</street2>
+                <city>Miami Beach</city>
+                <stateOrCountry>FL</stateOrCountry>
+                <stateOrCountryDescription>FLORIDA</stateOrCountryDescription>
+                <zipCode>33139</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>General Partner of the Issuer.</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Hedge Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <aggregateNetAssetValueRange>Decline to Disclose</aggregateNetAssetValueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06c</item>
+            <item>3C</item>
+            <item>3C.1</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0002055595-25-000001</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2025-02-14</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>250000</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>Prometheus Financial, LLC</recipientName>
+                <recipientCRDNumber>313712</recipientCRDNumber>
+                <associatedBDName>None</associatedBDName>
+                <associatedBDCRDNumber>None</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>827 S. Delaware</street1>
+                    <city>Tampa</city>
+                    <stateOrCountry>FL</stateOrCountry>
+                    <stateOrCountryDescription>FLORIDA</stateOrCountryDescription>
+                    <zipCode>33606</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <state>CT</state>
+                    <description>CONNECTICUT</description>
+                    <state>IL</state>
+                    <description>ILLINOIS</description>
+                    <state>MA</state>
+                    <description>MASSACHUSETTS</description>
+                    <state>TX</state>
+                    <description>TEXAS</description>
+                    <state>NC</state>
+                    <description>NORTH CAROLINA</description>
+                    <state>FL</state>
+                    <description>FLORIDA</description>
+                    <state>AZ</state>
+                    <description>ARIZONA</description>
+                    <state>ID</state>
+                    <description>IDAHO</description>
+                    <state>CO</state>
+                    <description>COLORADO</description>
+                    <state>NJ</state>
+                    <description>NEW JERSEY</description>
+                    <state>CA</state>
+                    <description>CALIFORNIA</description>
+                    <state>UT</state>
+                    <description>UTAH</description>
+                </statesOfSolicitationList>
+                <foreignSolicitation>false</foreignSolicitation>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>Indefinite</totalOfferingAmount>
+            <totalAmountSold>250000</totalAmountSold>
+            <totalRemaining>Indefinite</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>5000</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse>Organizational Expenses will be reimbursed to the General Partner. A management fee will be paid to the General Partner in accordance with the issuer's offering documents</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Mason Park Opportunity Fund, LP</issuerName>
+                <signatureName>Theodore Rosenthal</signatureName>
+                <nameOfSigner>Theodore Rosenthal</nameOfSigner>
+                <signatureTitle>Manager</signatureTitle>
+                <signatureDate>2026-06-04</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

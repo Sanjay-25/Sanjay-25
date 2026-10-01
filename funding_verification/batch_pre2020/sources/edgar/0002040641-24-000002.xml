@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0002040641</cik>
+        <entityName>Zinc Properties LLC</entityName>
+        <issuerAddress>
+            <street1>C/O ANGLER FUND ADVISORS, LLC</street1>
+            <street2>675 SEMINOLE AVENUE SUITE 301</street2>
+            <city>ATLANTA</city>
+            <stateOrCountry>GA</stateOrCountry>
+            <stateOrCountryDescription>GEORGIA</stateOrCountryDescription>
+            <zipCode>30306</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>4048922599</issuerPhoneNumber>
+        <jurisdictionOfInc>GEORGIA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2024</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>John</firstName>
+                <lastName>Ayoub</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1553 Tamarack Trail</street1>
+                <city>Decatur</city>
+                <stateOrCountry>GA</stateOrCountry>
+                <stateOrCountryDescription>GEORGIA</stateOrCountryDescription>
+                <zipCode>30033</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Managing member of Manager.</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>John</firstName>
+                <lastName>Mansour</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>669 Atlanta Country Club Drive</street1>
+                <city>Marietta</city>
+                <stateOrCountry>GA</stateOrCountry>
+                <stateOrCountryDescription>GEORGIA</stateOrCountryDescription>
+                <zipCode>30067</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Managing member of Manager.</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Carolina</firstName>
+                <lastName>Dallal Bryant</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>1800 Lenox Rd NE</street1>
+                <city>Atlanta</city>
+                <stateOrCountry>GA</stateOrCountry>
+                <stateOrCountryDescription>GEORGIA</stateOrCountryDescription>
+                <zipCode>30306</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Managing member of Manager.</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other Real Estate</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>$1,000,001 - $5,000,000</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2024-11-05</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>10000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>2000000</totalOfferingAmount>
+            <totalAmountSold>1999100</totalAmountSold>
+            <totalRemaining>900</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>true</hasNonAccreditedInvestors>
+            <numberNonAccreditedInvestors>0</numberNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>28</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Zinc Properties LLC</issuerName>
+                <signatureName>Carolina D. Bryant</signatureName>
+                <nameOfSigner>Carolina D. Bryant</nameOfSigner>
+                <signatureTitle>Manager</signatureTitle>
+                <signatureDate>2024-11-18</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>

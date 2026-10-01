@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D/A</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001828781</cik>
+        <entityName>Carbon Reform Inc.</entityName>
+        <issuerAddress>
+            <street1>401 N BROAD ST.</street1>
+            <street2>SUITE 270</street2>
+            <city>PHILADELPHIA</city>
+            <stateOrCountry>PA</stateOrCountry>
+            <stateOrCountryDescription>PENNSYLVANIA</stateOrCountryDescription>
+            <zipCode>19108</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>781-626-3422</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Corporation</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2020</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Amy</firstName>
+                <lastName>Duffuor</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>401 N Broad St</street1>
+                <street2>Suite 270</street2>
+                <city>Philadelphia</city>
+                <stateOrCountry>PA</stateOrCountry>
+                <stateOrCountryDescription>PENNSYLVANIA</stateOrCountryDescription>
+                <zipCode>19108</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Joanne</firstName>
+                <lastName>Norris</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>401 N Broad St</street1>
+                <street2>Suite 270</street2>
+                <city>Philadelphia</city>
+                <stateOrCountry>PA</stateOrCountry>
+                <stateOrCountryDescription>PENNSYLVANIA</stateOrCountryDescription>
+                <zipCode>19108</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Nick</firstName>
+                <lastName>Martin</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>401 N Broad St</street1>
+                <street2>Suite 270</street2>
+                <city>Philadelphia</city>
+                <stateOrCountry>PA</stateOrCountry>
+                <stateOrCountryDescription>PENNSYLVANIA</stateOrCountryDescription>
+                <zipCode>19108</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Other</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>true</isAmendment>
+                <previousAccessionNumber>0001828781-25-000001</previousAccessionNumber>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2023-11-06</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isDebtType>true</isDebtType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>5470000</totalOfferingAmount>
+            <totalAmountSold>5470000</totalAmountSold>
+            <totalRemaining>0</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>12</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Carbon Reform Inc.</issuerName>
+                <signatureName>Nick Martin</signatureName>
+                <nameOfSigner>Nick Martin</nameOfSigner>
+                <signatureTitle>Chief Operating Officer</signatureTitle>
+                <signatureDate>2025-02-10</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>
