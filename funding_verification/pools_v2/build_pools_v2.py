@@ -15,12 +15,23 @@ ROOT = os.path.dirname(HERE)
 LEAD = "We are Fast Code AI, an applied ML lab, and we are currently working with startups and enterprises on "
 TAIL = ", which is very close to what {company} needs."
 POOLS = [  # pool_id, sheet name, pool_name, proof_points, sentence middle, nameable clients
-    ("PHYS", "P2 Physical AI", "Perception and physical AI", "P2",
-     "perception and vision-language models for vehicles and robots, including systems that run in production cars today",
+    # Physical AI is split by ordered rules, first match wins: (1) sells data, annotation, evals or training
+    # tooling for vision or robot models -> PHYS_EVAL; (2) drives a road vehicle or builds part of its driving
+    # stack -> PHYS_ADS; (3) builds a machine that moves or acts on the world, or its autonomy stack (robots,
+    # drones, autonomous aircraft, ships, subs) -> PHYS_ROBOT; (4) everything else in physical AI: perception
+    # only, from fixed cameras, sensors, imagery or wearables -> PHYS_VISION.
+    ("PHYS_ADS", "P2 Autonomous driving", "Autonomous driving and ADAS", "P2",
+     "perception and vision-language models for driver assistance and autonomous driving, including systems that run in production cars today",
      "Bosch; Mercedes-Benz (MBUX); CausalDriveBench (NeurIPS)"),
-    ("PHYS_EVAL", "P2+P3 Robot data & evals", "Physical AI data and evaluation", "P2 + P3",
+    ("PHYS_ROBOT", "P2 Robots", "Robots and autonomous machines", "P2",
+     "perception, vision-language and vision-language-action models for machines that act in the physical world, including systems that run in production cars today",
+     "Bosch; Mercedes-Benz (MBUX); CausalDriveBench (NeurIPS)"),
+    ("PHYS_EVAL", "P2+P3 Physical AI data & evals", "Physical AI data and evaluation", "P2 + P3",
      "perception models for physical AI and the evaluation systems that measure how well they work in the real world",
      "Bosch; Mercedes-Benz; CausalDriveBench (NeurIPS); ThoughtSpot; Entelligence; Tattvam AI"),
+    ("PHYS_VISION", "P2 Vision", "Vision on cameras and sensors", "P2",
+     "vision and vision-language models that understand real-world camera and sensor data, including systems that run in production cars today",
+     "Bosch; Mercedes-Benz (MBUX); CausalDriveBench (NeurIPS)"),
     ("AGENT_EVAL", "P3 Agent quality", "Agent quality and evaluation", "P3",
      "evaluation harnesses and quality systems that keep AI agents reliable in production",
      "ThoughtSpot; Entelligence; Tattvam AI"),
@@ -88,6 +99,15 @@ def main():
                 k, pool, sec, fit, runner, why = line.rstrip("\n").split("|")
                 if k in assign:
                     assign[k][1], assign[k][2], assign[k][3], assign[k][4], assign[k][6] = pool, sec, fit, runner, why
+    # Physical AI split (phys_split.psv: key|pool). Every former PHYS or PHYS_EVAL company must be listed.
+    for line in open(os.path.join(HERE, "phys_split.psv")):
+        if line.strip():
+            k, pool = line.split("|")
+            if k in assign:
+                assign[k][1] = pool.strip()
+    for v in assign.values():
+        if v[4] == "PHYS":
+            v[4] = "PHYS_VISION"
     # Validation
     problems = []
     missing = sorted(set(comp) - set(assign))
@@ -124,7 +144,7 @@ def main():
     rows.sort(key=lambda r: (ids.index(r["pool_id"]), order.get(r["fit_strength"], 3), -(float(r["total_funding_usd"] or 0))))
     cnt = Counter(r["pool_id"] for r in rows)
     for pid in ids:
-        if cnt[pid] < 3:
+        if cnt[pid] < 3 and pid != "PHYS_ADS":  # only two pure driving companies in the list
             problems.append(f"pool {pid} has {cnt[pid]} companies (<3)")
     with open(os.path.join(HERE, "pools.csv"), "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=COLS)
