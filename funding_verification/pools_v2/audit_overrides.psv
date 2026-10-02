@@ -1,0 +1,85 @@
+moonvalley|GENERIC||None|PHYS|generative video models, no physical-world perception -> no proof point
+tavus|GENERIC||None|PHYS|avatar video generation, no physical-world perception -> no proof point
+d-id|GENERIC||None|PHYS|avatar video generation, no physical-world perception -> no proof point
+lemonslice|GENERIC||None|PHYS|avatar video generation, no physical-world perception -> no proof point
+sync-2|GENERIC||None|PHYS|lipsync video generation, no physical-world perception -> no proof point
+codec|GENERIC||None|PHYS|video editing for creators, no physical-world perception -> no proof point
+craze|GENERIC||None|PHYS|video editing for marketing, no physical-world perception -> no proof point
+mosaic-2|GENERIC||None|PHYS|video editing agents, no physical-world perception -> no proof point
+photoroom|GENERIC||None|PHYS|generative product photography, no physical-world perception -> no proof point
+getcrux|GENERIC||None|PHYS|marketing creative analytics, no physical-world perception -> no proof point
+syncly|GENERIC||None|PHYS|social video listening for marketing, no physical-world perception -> no proof point
+taiv|GENERIC||None|PHYS|ad replacement on business TV, no physical-world perception -> no proof point
+veriff|GENERIC||None|PHYS|identity verification software, no physical-world perception -> no proof point
+reality-defender|GENERIC||None|PHYS|deepfake detection software, no physical-world perception -> no proof point
+neodocs|GENERIC||None|PHYS|phone-camera lab test reading, medical diagnostics rather than physical AI -> no proof point
+darmiyan|GENERIC||None|PHYS|MRI analysis, medical imaging rather than physical AI -> no proof point
+mecha-health|GENERIC||None|PHYS|x-ray foundation models, medical imaging rather than physical AI -> no proof point
+isono-health|GENERIC||None|PHYS|breast imaging device, medical diagnostics rather than physical AI -> no proof point
+digistain|GENERIC||None|PHYS|cancer diagnostics imaging, medical diagnostics rather than physical AI -> no proof point
+histowiz|GENERIC||None|PHYS|histopathology services, medical diagnostics rather than physical AI -> no proof point
+moichor|GENERIC||None|PHYS|animal blood diagnostics, medical diagnostics rather than physical AI -> no proof point
+cellchorus|GENERIC||None|PHYS|single-cell analysis, biology rather than physical AI -> no proof point
+eden-2|GENERIC||None|PHYS|clinical diagnostic software, medical rather than physical AI -> no proof point
+human-behavior|GENERIC||None|PHYS|web session analytics, no physical-world perception -> no proof point
+circuithub|GENERIC||None|PHYS|electronics manufacturing service, no perception problem -> no proof point
+oda|GENERIC||None|PHYS|home design software, no physical-world perception -> no proof point
+roofr|GENERIC||None|PHYS|roofing sales software, aerial measurement is a minor feature -> no proof point
+autarc|GENERIC||None|PHYS|workflow software for energy installers, perception is minor -> no proof point
+code-four|GENERIC||None|PHYS|bodycam transcription and report writing, text problem rather than physical AI -> no proof point
+snapcalorie|GENERIC||None|PHYS|consumer food photo app, no physical system -> no proof point
+mireye|GENERIC||None|PHYS|geospatial data search, no perception model at its core -> no proof point
+elodin|GENERIC||None|PHYS|flight software and simulation tooling, no perception problem -> no proof point
+segmed|GENERIC||None|PHYS|medical real-world data, not physical AI data -> no proof point
+redbrick-ai|GENERIC||None|PHYS|medical image annotation, not physical AI data -> no proof point
+datasuite|GENERIC||None|PHYS|dataset management for generative video, not physical AI data -> no proof point
+centaur|AGENT_EVAL||Moderate|PHYS_EVAL|human and LLM training and evaluation data -> P3 evals
+trm-labs|GENERIC||None|AGENT_EVAL|blockchain intelligence data platform, not an agent product -> no proof point
+motion|GENERIC||None|AGENT_EVAL|work management software for teams -> no proof point
+humanly|GENERIC||None|AGENT_EVAL|recruiting chatbot and screening software -> no proof point
+vahan|GENERIC||None|AGENT_EVAL|blue-collar recruiting marketplace with a chatbot -> no proof point
+talentropy-ai|GENERIC||None|AGENT_EVAL|recruiting screening software -> no proof point
+alex-com|GENERIC||None|AGENT_EVAL|AI interviewer product, recruiting workflow -> no proof point
+fleetworks|GENERIC||None|AGENT_EVAL|freight marketplace matching trucks to jobs -> no proof point
+flint-2|GENERIC||None|AGENT_EVAL|K-12 tutoring product -> no proof point
+mindset-health|GENERIC||None|AGENT_EVAL|digital therapeutics for gut conditions -> no proof point
+armilla-ai|GENERIC||None|AGENT_EVAL|insurance carrier for AI liability -> no proof point
+klaimee|GENERIC||None|AGENT_EVAL|insurance for companies deploying agents -> no proof point
+lingodotdev|GENERIC||None|AGENT_EVAL|localization tooling with LLM translation -> no proof point
+gauge|GENERIC||None|AGENT_EVAL|AI search visibility marketing tool -> no proof point
+lucent|GENERIC||None|AGENT_EVAL|session replay analytics for product teams -> no proof point
+chatfuel|GENERIC||None|AGENT_EVAL|messaging bot builder for marketing -> no proof point
+scape|GENERIC||None|AGENT_EVAL|email inbox app -> no proof point
+pally|GENERIC||None|AGENT_EVAL|consumer personal assistant app -> no proof point
+nowadays|GENERIC||None|AGENT_EVAL|corporate events booking platform -> no proof point
+prohostai|GENERIC||None|AGENT_EVAL|guest messaging for short-term rental hosts -> no proof point
+legion-health|GENERIC||None|AGENT_EVAL|psychiatry care provider -> no proof point
+akido-labs|GENERIC||None|AGENT_EVAL|clinic operator with an AI assistant -> no proof point
+mutiny|GENERIC||None|AGENT_EVAL|sales and marketing content tool -> no proof point
+conveo|GENERIC||None|AGENT_EVAL|AI-moderated consumer research interviews -> no proof point
+outset|GENERIC||None|AGENT_EVAL|AI-moderated user research interviews -> no proof point
+rallyuxr|GENERIC||None|AGENT_EVAL|user research participant recruiting -> no proof point
+simcare|GENERIC||None|AGENT_EVAL|avatar-based clinician training -> no proof point
+justai|GENERIC||None|AGENT_EVAL|marketing personalization platform -> no proof point
+quadrant-health|GENERIC||None|AGENT_EVAL|disease prediction from health records -> no proof point
+cinder-2|GENERIC||None|AGENT_EVAL|trust and safety operations software -> no proof point
+ohm|GENERIC||None|AGENT_EVAL|hardware test data analytics -> no proof point
+velt|GENERIC||None|AGENT_EVAL|collaboration and review SDK for apps -> no proof point
+mspilot|GENERIC||None|AGENT_EVAL|AI reseller tooling for managed service providers -> no proof point
+glass-health|RAG|P3|Moderate|AGENT_EVAL|clinical answers grounded in medical literature = retrieval -> P4
+reworkd|RAG||Moderate|CODE|web data extraction at scale, same family as Firecrawl -> P4
+happyrobot|VOICE_EXCLUDED||None||AI voice agents for logistics calls -> voice excluded
+casca|GENERIC||None|RAG|loan origination software for banks -> no proof point
+instrumentl|GENERIC||None|RAG|grant discovery and tracking SaaS -> no proof point
+depict|GENERIC||None|RAG|ecommerce merchandising -> no proof point
+govly|GENERIC||None|RAG|marketplace network for government contractors -> no proof point
+unravel-carbon|GENERIC||None|RAG|carbon accounting software -> no proof point
+inscribe|GENERIC||None|RAG|document fraud detection, a forensics problem -> no proof point
+spade|GENERIC||None|RAG|transaction enrichment data -> no proof point
+confido|GENERIC||None|RAG|cash application and deductions for CPG brands -> no proof point
+versable|GENERIC||None|RAG|auto parts product data enrichment -> no proof point
+retailready|GENERIC||None|RAG|warehouse compliance software -> no proof point
+platzi|GENERIC||None|RAG|online learning and training content -> no proof point
+marqvision|GENERIC||None|LEGAL|counterfeit listing detection for brands -> no proof point
+enhanced-radar|GENERIC||None|PHYS|air traffic control software, not perception -> no proof point
+hilstart|GENERIC||None|PHYS_EVAL|hardware test automation agents, not perception data -> no proof point

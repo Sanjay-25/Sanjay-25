@@ -80,6 +80,14 @@ def main():
         for k, v in load_psv(p).items():
             if k in comp and k not in prev:
                 assign[k] = v
+    # Manual audit overrides: key|pool|secondary|fit|runner_up|reason (replaces those fields, keeps the rest).
+    ap = os.path.join(HERE, "audit_overrides.psv")
+    if os.path.exists(ap):
+        for line in open(ap):
+            if line.strip():
+                k, pool, sec, fit, runner, why = line.rstrip("\n").split("|")
+                if k in assign:
+                    assign[k][1], assign[k][2], assign[k][3], assign[k][4], assign[k][6] = pool, sec, fit, runner, why
     # Validation
     problems = []
     missing = sorted(set(comp) - set(assign))
