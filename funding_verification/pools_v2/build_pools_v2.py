@@ -84,6 +84,8 @@ def main():
     voice_prev = set(open(os.path.join(ROOT, "pools", "excluded_voice.txt")).read().split())
     closed = set(open(os.path.join(HERE, "closed_companies.txt")).read().split())
     comp = {k: v for k, v in comp.items() if k not in closed}  # closed per homepage, found during pooling
+    removed = set(open(os.path.join(HERE, "user_removed.txt")).read().split())
+    comp = {k: v for k, v in comp.items() if k not in removed}  # dropped by the user from the master sheet
     assign = {k: v for k, v in prev.items() if k in comp}
     for k in voice_prev & set(comp):
         assign[k][1], assign[k][3], assign[k][2] = "VOICE_EXCLUDED", "None", ""
