@@ -1,0 +1,15 @@
+{
+  "template": "hey {first_name},\n\nWe're Fast Code AI, an applied ML lab working on {proof_phrase}, close to what you're doing with {company_clause} at {company}. We help startups publish original, peer-reviewed research that positions them as leaders in their space.\n\n{anchor_line} Original research behind your engineering could put {company} ahead of competitors, earning enterprise trust and press along the way. Worth a coffee?",
+  "subpools": {
+    "VERTICAL": {"name": "Generic agents", "proof_phrase": "eval and observability systems that monitor agent reliability in production", "anchor_line": "Companies like Sierra stand out with published research like τ-bench.", "status": "locked"},
+    "EVAL_OBS": {"name": "Eval & observability tools", "proof_phrase": "eval and observability systems that monitor agent reliability in production", "anchor_line": "Eval companies like Patronus AI and Galileo stand out with published research like FinanceBench and Luna.", "status": "locked"},
+    "MODEL_DATA": {"name": "Model data & reliability", "proof_phrase": "intricate evaluation frameworks for agent failures", "anchor_line": "Labs like AfterQuery and Guide Labs stand out with the benchmarks and papers they publish.", "status": "locked"},
+    "GENERAL": {"name": "General & autonomous agents", "proof_phrase": "eval and observability frameworks for long-running, complex autonomous agents", "anchor_line": "Companies like Sierra stand out with published research like τ-bench, now widely used to test agents.", "status": "locked"},
+    "DATA_ANALYTICS": {"name": "Data & analytics agents", "proof_phrase": "eval frameworks for agents that answer business questions over company data", "anchor_line": "In natural-language analytics, a published benchmark or method is one of the few things competitors can't copy.", "status": "draft"}
+  },
+  "exceptions": {
+    "dynamo-ai": "already publishes (PrimeGuard, Know Thy Judge); separate DM",
+    "afterquery": "already publishes (FinanceQA, VADER, UI-Bench); separate DM",
+    "guide-labs": "already publishes interpretable-model papers; separate DM"
+  }
+}
